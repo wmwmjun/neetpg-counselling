@@ -56,7 +56,7 @@ export default function ClosingRanks() {
             if (filters.quota !== 'Select...' && item.quota !== filters.quota) return false
             if (filters.category !== 'Select...' && item.category !== filters.category) return false
             if (filters.state !== 'Select...' && item.state !== filters.state) return false
-            if (filters.bondYears !== 'Select...' && item.bondYears !== filters.bondYears) return false
+            if (filters.bondYears !== 'Select...' && String(item.bondYears) !== filters.bondYears.split(' ')[0]) return false
             if (filters.course !== 'Select...' && item.course !== filters.course) return false
 
             return true
@@ -184,6 +184,7 @@ export default function ClosingRanks() {
                                     <option>0 Year</option>
                                     <option>1 Year</option>
                                     <option>2 Years</option>
+                                    <option>3 Years</option>
                                 </select>
                                 <ChevronDown size={14} className="select-icon" />
                             </div>
@@ -222,6 +223,17 @@ export default function ClosingRanks() {
                             </div>
                         </div>
 
+                        <div className="filter-group" style={{ justifyContent: 'flex-end', paddingTop: '1.5rem' }}>
+                            <button className="clear-filter" onClick={() => setFilters({
+                                rankFrom: '', rankTo: '', feeFrom: '', feeTo: '', stipendFrom: '', stipendTo: '',
+                                bondPenaltyFrom: '', bondPenaltyTo: '', bondYears: 'Select...',
+                                quota: 'Select...', category: 'Select...',
+                                institute: 'Select...', state: 'Select...', course: 'Select...'
+                            })}>
+                                <Download size={16} /> Clear Filters
+                            </button>
+                        </div>
+
                         <div className="filter-group full-width">
                             <label>Course</label>
                             <div className="select-wrapper">
@@ -232,17 +244,6 @@ export default function ClosingRanks() {
                                 <ChevronDown size={14} className="select-icon" />
                             </div>
                         </div>
-                    </div>
-
-                    <div className="filter-actions">
-                        <button className="clear-filter" onClick={() => setFilters({
-                            rankFrom: '', rankTo: '', feeFrom: '', feeTo: '', stipendFrom: '', stipendTo: '',
-                            bondPenaltyFrom: '', bondPenaltyTo: '', bondYears: 'Select...',
-                            quota: 'Select...', category: 'Select...',
-                            institute: 'Select...', state: 'Select...', course: 'Select...'
-                        })}>
-                            <Download size={16} /> Clear Filters
-                        </button>
                     </div>
 
 

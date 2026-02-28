@@ -76,35 +76,57 @@ def process_page_final(args):
                 try:
                     # Mapping based on Round ID
                     if round_id == "2025_R1":
-                        # R1 usually 8 cols: SNo, Rank, Quota, Inst, Course, AllottedCat, Cat, Remarks
+                        # R1 structure: SNo(0), Rank(1), Quota(2), Inst(3), Course(4), AllottedCat(5), Cat(6), Remarks(7)
                         if len(rec) >= 8:
-                            rank = int(clean_text(rec[1]))
+                            rank_str = clean_text(rec[1])
+                            if not rank_str.isdigit(): continue
+                            rank = int(rank_str)
                             quota = clean_text(rec[2])
                             inst = clean_text(rec[3])
                             course = clean_text(rec[4])
-                            cat = clean_text(rec[5])
+                            cat = clean_text(rec[6]) # Column 6 is typically the category
                             rows.append({"rank": rank, "quota": quota, "inst": inst, "course": course, "cat": cat, "round": round_id})
-                    else:
-                        # R2/R3/R4 are 12 cols
-                        remarks = clean_text(rec[11]).lower()
-                        rank_str = clean_text(rec[10])
+                    elif round_id == "2025_R2":
+                        # R2 structure: Rank(0), Quota(1), Inst(2), Course(3), AllottedStatus(4), 
+                        # NewQuota(5), NewInst(6), NewCourse(7), NewCat(8), ChoiceNo(10), Remarks(11)
+                        if len(rec) < 12: continue
+                        rank_str = clean_text(rec[0])
                         if not rank_str.isdigit(): continue
                         rank = int(rank_str)
+                        remarks = clean_text(rec[11]).lower()
 
-                        # Decision: Which columns have the LATEST allotment?
                         if "fresh allotted" in remarks or "upgraded" in remarks:
-                            # Use cols 5, 6, 7, 8
                             quota, inst, course, cat = clean_text(rec[5]), clean_text(rec[6]), clean_text(rec[7]), clean_text(rec[8])
                         elif any(x in remarks for x in ["no upgradation", "reported", "did not opt", "not allotted", "available"]):
-                            # Use cols 1, 2, 3, 8 (column 8 is usually the category)
                             quota, inst, course, cat = clean_text(rec[1]), clean_text(rec[2]), clean_text(rec[3]), clean_text(rec[8])
                         else:
-                            continue # Skip empty/not joined if no prior seat
+                            continue
 
                         if not inst or inst == "-": continue
                         rows.append({"rank": rank, "quota": quota, "inst": inst, "course": course, "cat": cat, "round": round_id})
-                except: continue
-    except: pass
+                    elif round_id == "2025_R3":
+                        # R3 structure: Rank(0), Quota(1), Inst(2), Course(3), Status(4), 
+                        # PrevQuota(5), PrevInst(6), PrevCourse(7), PrevCat(8), 
+                        # NewQuota(9), NewInst(10), NewCourse(11), NewCat(12), ChoiceNo(14), Remarks(15)
+                        if len(rec) < 16: continue
+                        rank_str = clean_text(rec[0])
+                        if not rank_str.isdigit(): continue
+                        rank = int(rank_str)
+                        remarks = clean_text(rec[15]).lower()
+
+                        if "fresh allotted" in remarks or "upgraded" in remarks:
+                            quota, inst, course, cat = clean_text(rec[9]), clean_text(rec[10]), clean_text(rec[11]), clean_text(rec[12])
+                        elif any(x in remarks for x in ["no upgradation", "reported", "did not opt", "not allotted", "available"]):
+                            quota, inst, course, cat = clean_text(rec[1]), clean_text(rec[2]), clean_text(rec[3]), clean_text(rec[12])
+                        else:
+                            continue
+
+                        if not inst or inst == "-": continue
+                        rows.append({"rank": rank, "quota": quota, "inst": inst, "course": course, "cat": cat, "round": round_id})
+                except Exception as e:
+                    continue
+    except Exception as e:
+        pass
     return rows
 
 def main():

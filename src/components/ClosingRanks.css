@@ -56,33 +56,35 @@
 
 .filter-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* 4 columns instead of 3 */
-    gap: 0.75rem 1.25rem;
-    /* Reduced vertical gap */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns for better balance */
+    gap: 1rem 1.5rem;
 }
 
 
 .filter-group {
     display: flex;
-    flex-direction: row;
-    /* Horizontal labels */
-    align-items: center;
-    gap: 0.75rem;
+    flex-direction: column;
+    /* Vertical stack for better alignment */
+    align-items: flex-start;
+    gap: 0.4rem;
 }
 
 .filter-group.full-width {
-    grid-column: span 4;
-    /* Spans 4 columns */
+    grid-column: span 3;
+}
+
+.filter-group.span-2 {
+    grid-column: span 2;
 }
 
 
 .filter-group label {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--text-muted);
-    min-width: 100px;
-    /* Consistent label width */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     white-space: nowrap;
 }
 
@@ -90,31 +92,36 @@
     display: grid;
     grid-template-columns: auto 1fr auto 1fr;
     align-items: center;
-    gap: 8px;
-    background: white;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    /* Darker, integrated bg */
     border-radius: 8px;
-    padding: 4px 12px;
-    border: 1px solid #e2e8f0;
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 
 .range-inputs span {
-    font-size: 0.75rem;
-    color: #64748b;
+    font-size: 0.7rem;
+    color: var(--text-muted);
 }
 
 .range-inputs input {
+    background: transparent;
     border: none;
     outline: none;
     font-size: 0.875rem;
     width: 100%;
-    color: #1e293b;
+    color: white;
 }
 
 .select-wrapper {
     position: relative;
-    background: white;
+    background: rgba(255, 255, 255, 0.05);
+    /* Darker, integrated bg */
     border-radius: 8px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 
 .select-wrapper select {
@@ -124,7 +131,7 @@
     background: transparent;
     outline: none;
     font-size: 0.875rem;
-    color: #64748b;
+    color: white;
     appearance: none;
 }
 
@@ -133,7 +140,7 @@
     right: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: #64748b;
+    color: var(--text-muted);
     pointer-events: none;
 }
 
@@ -159,20 +166,26 @@
     justify-content: space-between;
     align-items: center;
     font-size: 0.75rem;
-    /* Smaller text */
-    margin: 0.25rem 0;
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
 }
 
 
 .sort-btn {
-    background: white;
-    color: #1e293b;
-    border: 1px solid #e2e8f0;
-    padding: 4px 12px;
-    /* Smaller button */
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 16px;
     border-radius: 6px;
     font-weight: 600;
     font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sort-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 
