@@ -1,30 +1,49 @@
 """
-Add Round 4 (Stray Vacancy Round) data to closingRanks.json.
-
-Usage:
-  1. Download the NEET PG 2025 Stray Vacancy Round allotment PDF from:
-     https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260223177387794.pdf
-  2. Save it as: round4_2025.pdf  (in this directory)
-  3. Run: python3 add_round4.py
+add_round4.py — 完全自動: ダウンロード → 抽出 → 正規化 → マージ → 統計更新
+使い方: python3 add_round4.py   または   npm run update-r4
 """
 
 import json
 import re
 import os
+import sys
+import subprocess
 from collections import defaultdict
 
-try:
-    import pdfplumber
-except ImportError:
-    print("Installing pdfplumber...")
-    import subprocess
-    subprocess.check_call(["pip3", "install", "pdfplumber"])
-    import pdfplumber
+# ---------------------------------------------------------------------------
+# 依存パッケージの自動インストール
+# ---------------------------------------------------------------------------
 
-ROUND_ID = "2025_R4"
-PDF_PATH = "round4_2025.pdf"
-RANKS_FILE = "src/data/closingRanks.json"
-NAME_TO_CODE_FILE = "name_to_code.json"
+def ensure(pkg):
+    try:
+        __import__(pkg)
+    except ImportError:
+        print(f"Installing {pkg}...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", pkg, "-q"])
+
+ensure("cffi")
+ensure("pdfplumber")
+
+import pdfplumber  # noqa: E402
+
+# ---------------------------------------------------------------------------
+# 設定
+# ---------------------------------------------------------------------------
+
+ROUND_ID  = "2025_R4"
+PDF_URL   = (
+    "https://cdnbbsr.s3waas.gov.in"
+    "/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e"
+    "/uploads/2026/02/20260223177387794.pdf"
+)
+PDF_PATH      = "round4_2025.pdf"
+RANKS_FILE    = "src/data/closingRanks.json"
+
+# ---------------------------------------------------------------------------
+# 正規化マップ (normalize_data.py より import)
+# ---------------------------------------------------------------------------
+
+from normalize_data import COURSE_MAP, QUOTA_MAP_SIMPLE, CATEGORY_MAP, normalize_quota  # noqa: E402
 
 TARGET_STATES = [
     "Andaman and Nicobar Islands", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar",
@@ -35,11 +54,64 @@ TARGET_STATES = [
     "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
 ]
 
+# ---------------------------------------------------------------------------
+# ダウンロード
+# ---------------------------------------------------------------------------
+
+def download_pdf():
+    """PDF を直接ダウンロード (プロキシをバイパス)。既存ファイルはスキップ。"""
+    if os.path.exists(PDF_PATH):
+        print(f"  {PDF_PATH} already exists, skipping download.")
+        return True
+
+    import urllib.request
+    import urllib.error
+    import time
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+
+    # ProxyHandler({}) で環境変数プロキシを無視して直接接続
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    urllib.request.install_opener(opener)
+
+    for attempt in range(1, 5):
+        try:
+            print(f"  Downloading PDF (attempt {attempt})...")
+            req = urllib.request.Request(PDF_URL, headers=headers)
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                content_type = resp.info().get_content_type()
+                if content_type == "application/pdf":
+                    data = resp.read()
+                    with open(PDF_PATH, "wb") as f:
+                        f.write(data)
+                    print(f"  Saved {len(data):,} bytes → {PDF_PATH}")
+                    return True
+                else:
+                    body = resp.read().decode("utf-8", errors="ignore")[:300]
+                    print(f"  Unexpected content-type '{content_type}': {body}")
+                    return False
+        except Exception as e:
+            wait = 2 ** attempt
+            print(f"  Download failed ({e}), retrying in {wait}s...")
+            time.sleep(wait)
+
+    print("  All download attempts failed.")
+    return False
+
+# ---------------------------------------------------------------------------
+# テキストユーティリティ
+# ---------------------------------------------------------------------------
 
 def clean_text(text):
     if not text:
         return ""
-    return re.sub(r' +', ' ', str(text).replace('\n', ' ')).strip()
+    return re.sub(r" +", " ", str(text).replace("\n", " ")).strip()
 
 
 def get_state(text):
@@ -69,15 +141,18 @@ def get_state(text):
         return "Andaman and Nicobar Islands"
     return "Others"
 
+# ---------------------------------------------------------------------------
+# PDF パース
+# ---------------------------------------------------------------------------
 
 def parse_page(page):
-    """Extract allotment rows from a single PDF page."""
+    """1ページ分のテーブルから allotment 行を抽出する。"""
     rows = []
     table = page.extract_table()
     if not table:
         return rows
 
-    # Merge wrapped rows
+    # 複数行に分割されたセルを結合
     records = []
     current = None
     for row in table:
@@ -97,52 +172,46 @@ def parse_page(page):
 
     for rec in records:
         try:
-            # Probe column layout from number of columns
             ncols = len(rec)
 
-            # --- Layout A: Stray Vacancy simple (similar to R1) ---
+            # --- Layout A: Simple (R1 形式) 8 列 ---
             # SNo(0), Rank(1), Quota(2), Inst(3), Course(4), AllottedCat(5), Cat(6), Remarks(7)
             if ncols >= 7:
                 rank_str = clean_text(rec[1])
                 if rank_str.isdigit():
-                    rank = int(rank_str)
+                    rank  = int(rank_str)
                     quota = clean_text(rec[2])
-                    inst = clean_text(rec[3])
+                    inst  = clean_text(rec[3])
                     course = clean_text(rec[4])
-                    cat = clean_text(rec[6]) if ncols > 6 else clean_text(rec[5])
+                    cat   = clean_text(rec[6]) if ncols > 6 else clean_text(rec[5])
                     if inst and inst not in ("-", ""):
-                        rows.append({
-                            "rank": rank, "quota": quota,
-                            "inst": inst, "course": course, "cat": cat
-                        })
+                        rows.append({"rank": rank, "quota": quota,
+                                     "inst": inst, "course": course, "cat": cat})
                         continue
 
-            # --- Layout B: Stray Vacancy complex (similar to R3) ---
-            # Rank(0), Quota(1), Inst(2), Course(3), Status(4), PrevQuota(5), PrevInst(6),
-            # PrevCourse(7), PrevCat(8), NewQuota(9), NewInst(10), NewCourse(11), NewCat(12), ..., Remarks
+            # --- Layout B: Complex (R3 形式) 10+ 列 ---
             if ncols >= 10:
                 rank_str = clean_text(rec[0])
                 if rank_str.isdigit():
-                    rank = int(rank_str)
+                    rank    = int(rank_str)
                     remarks = clean_text(rec[-1]).lower()
                     if "fresh allotted" in remarks or "upgraded" in remarks:
-                        quota = clean_text(rec[9]) if ncols > 9 else clean_text(rec[5])
-                        inst = clean_text(rec[10]) if ncols > 10 else clean_text(rec[6])
+                        quota  = clean_text(rec[9])  if ncols > 9  else clean_text(rec[5])
+                        inst   = clean_text(rec[10]) if ncols > 10 else clean_text(rec[6])
                         course = clean_text(rec[11]) if ncols > 11 else clean_text(rec[7])
-                        cat = clean_text(rec[12]) if ncols > 12 else clean_text(rec[8])
-                    elif any(k in remarks for k in ["no upgradation", "reported", "did not opt", "not allotted"]):
-                        quota = clean_text(rec[1])
-                        inst = clean_text(rec[2])
+                        cat    = clean_text(rec[12]) if ncols > 12 else clean_text(rec[8])
+                    elif any(k in remarks for k in [
+                            "no upgradation", "reported", "did not opt", "not allotted"]):
+                        quota  = clean_text(rec[1])
+                        inst   = clean_text(rec[2])
                         course = clean_text(rec[3])
-                        cat = clean_text(rec[8]) if ncols > 8 else ""
+                        cat    = clean_text(rec[8]) if ncols > 8 else ""
                     else:
                         continue
 
                     if inst and inst not in ("-", ""):
-                        rows.append({
-                            "rank": rank, "quota": quota,
-                            "inst": inst, "course": course, "cat": cat
-                        })
+                        rows.append({"rank": rank, "quota": quota,
+                                     "inst": inst, "course": course, "cat": cat})
 
         except Exception:
             continue
@@ -150,59 +219,58 @@ def parse_page(page):
     return rows
 
 
-def main():
-    if not os.path.exists(PDF_PATH):
-        print(f"ERROR: {PDF_PATH} not found.")
-        print("Download from:")
-        print("  https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260223177387794.pdf")
-        print(f"and save as: {PDF_PATH}")
-        return
-
-    print(f"Reading {PDF_PATH}...")
+def extract_r4():
+    """PDF 全ページを解析して allotment 行リストを返す。"""
     all_rows = []
     with pdfplumber.open(PDF_PATH) as pdf:
         total = len(pdf.pages)
         print(f"  {total} pages found")
-        # Skip first few pages (usually cover/instructions); start at page index 2
+        # 最初の数ページ (表紙・説明) をスキップ
         for i, page in enumerate(pdf.pages[2:], start=2):
             rows = parse_page(page)
             all_rows.extend(rows)
             if (i + 1) % 50 == 0:
                 print(f"  Processed {i + 1}/{total} pages, {len(all_rows)} rows so far...")
+    return all_rows
 
-    print(f"Total R4 allotments extracted: {len(all_rows)}")
-    if not all_rows:
-        print("No data extracted. The PDF might have a different column layout.")
-        print("Check inspect_page.py to examine the page structure.")
-        return
+# ---------------------------------------------------------------------------
+# マージ
+# ---------------------------------------------------------------------------
 
-    # Build lookup: (inst_name, course, quota, cat, state) → [ranks]
+def merge_into_json(all_rows):
+    """抽出した行を正規化して closingRanks.json にマージする。"""
+
+    # (inst_name, course, quota, cat, state) → [ranks]
     r4_map = defaultdict(list)
     for row in all_rows:
         inst = row["inst"]
-        inst_name = inst.split(',')[0].strip()
+        inst_name = inst.split(",")[0].strip()
         state = get_state(inst)
-        key = (inst_name, row["course"], row["quota"], row["cat"], state)
+
+        # 正規化
+        norm_course = COURSE_MAP.get(row["course"], row["course"])
+        norm_quota  = normalize_quota(row["quota"], norm_course)
+        norm_cat    = CATEGORY_MAP.get(row["cat"], row["cat"])
+
+        key = (inst_name, norm_course, norm_quota, norm_cat, state)
         r4_map[key].append(row["rank"])
 
-    # Sort ranks per group
     for key in r4_map:
         r4_map[key].sort()
 
-    print(f"Unique (inst, course, quota, cat) groups: {len(r4_map)}")
+    print(f"  Unique (inst, course, quota, cat) groups: {len(r4_map)}")
 
-    # Merge into closingRanks.json
     with open(RANKS_FILE) as f:
         ranks_data = json.load(f)
 
-    matched = 0
-    new_entries = 0
-
-    # Build existing key index
+    # 既存レコードのインデックス構築
     existing_index = {}
     for item in ranks_data:
         key = (item["institute"], item["course"], item["quota"], item["category"], item["state"])
         existing_index[key] = item
+
+    matched     = 0
+    new_entries = 0
 
     for key, rank_list in r4_map.items():
         inst_name, course, quota, cat, state = key
@@ -210,18 +278,17 @@ def main():
             existing_index[key].setdefault("ranks", {})[ROUND_ID] = rank_list
             matched += 1
         else:
-            # New entry not seen in R1-R3
             new_entry = {
                 "id": len(ranks_data) + new_entries + 1,
-                "institute": inst_name,
-                "state": state,
-                "course": course,
-                "quota": quota,
-                "category": cat,
-                "fee": "-",
-                "stipend": "-",
+                "institute":   inst_name,
+                "state":       state,
+                "course":      course,
+                "quota":       quota,
+                "category":    cat,
+                "fee":         "-",
+                "stipend":     "-",
                 "bondPenalty": "-",
-                "bondYears": "-",
+                "bondYears":   "-",
                 "ranks": {
                     "2025_R1": [], "2025_R2": [], "2025_R3": [],
                     ROUND_ID: rank_list
@@ -230,13 +297,53 @@ def main():
             ranks_data.append(new_entry)
             new_entries += 1
 
-    print(f"Matched to existing entries: {matched}")
-    print(f"New entries added: {new_entries}")
+    print(f"  Matched to existing entries: {matched}")
+    print(f"  New entries added: {new_entries}")
 
-    with open(RANKS_FILE, 'w') as f:
+    with open(RANKS_FILE, "w") as f:
         json.dump(ranks_data, f, indent=2)
-    print(f"Saved {len(ranks_data)} total records to {RANKS_FILE}")
-    print("\nNext: run 'python3 generate_stats.py' to update branchStats.json and instituteStats.json")
+    print(f"  Saved {len(ranks_data)} total records → {RANKS_FILE}")
+
+# ---------------------------------------------------------------------------
+# メイン
+# ---------------------------------------------------------------------------
+
+def main():
+    print("=== NEET PG 2025 Round 4 Auto-Import ===\n")
+
+    # 1. ダウンロード
+    print("[1/3] Downloading PDF...")
+    if not download_pdf():
+        print(
+            "\nDownload failed. Please download manually from:\n"
+            f"  {PDF_URL}\n"
+            f"and save as: {PDF_PATH}\n"
+            "Then re-run this script."
+        )
+        sys.exit(1)
+
+    # 2. 抽出
+    print(f"\n[2/3] Extracting allotment data from {PDF_PATH}...")
+    all_rows = extract_r4()
+    print(f"  Total R4 allotments extracted: {len(all_rows)}")
+
+    if not all_rows:
+        print("  No data extracted. The PDF may use a different column layout.")
+        sys.exit(1)
+
+    # 3. マージ & 統計更新
+    print(f"\n[3/3] Merging into {RANKS_FILE} and updating stats...")
+    merge_into_json(all_rows)
+
+    # generate_stats.py を実行して branchStats / instituteStats を再生成
+    stats_script = "generate_stats.py"
+    if os.path.exists(stats_script):
+        print(f"\n  Running {stats_script}...")
+        subprocess.check_call([sys.executable, stats_script])
+    else:
+        print(f"\n  ('{stats_script}' not found — skipping stats regeneration)")
+
+    print("\n=== Done! Round 4 data imported successfully. ===")
 
 
 if __name__ == "__main__":
