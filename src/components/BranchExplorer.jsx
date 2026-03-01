@@ -1,54 +1,110 @@
+import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
+import branchData from '../data/branchStats.json'
 
-export const branches = [
-    { id: 1, name: 'Radio Diagnosis', type: 'Clinical', seats: 1240, cutoff: 1540, trend: '+12%' },
-    { id: 2, name: 'General Medicine', type: 'Clinical', seats: 3420, cutoff: 3200, trend: '+5%' },
-    { id: 3, name: 'Dermatology', type: 'Clinical', seats: 850, cutoff: 2100, trend: '+8%' },
-    { id: 4, name: 'Pediatrics', type: 'Clinical', seats: 2100, cutoff: 5800, trend: '-2%' },
-    { id: 5, name: 'General Surgery', type: 'Clinical', seats: 2800, cutoff: 8500, trend: '+1%' },
-    { id: 6, name: 'Pathology', type: 'Para-Clinical', seats: 1500, cutoff: 18000, trend: '+4%' },
-    { id: 7, name: 'Pharmacology', type: 'Para-Clinical', seats: 900, cutoff: 35000, trend: '-10%' },
-    { id: 8, name: 'Anatomy', type: 'Pre-Clinical', seats: 600, cutoff: 55000, trend: '-15%' },
-]
+export const branches = branchData
 
 export default function BranchExplorer({ searchQuery }) {
-    const filteredBranches = branches.filter(b =>
-        b.name.toLowerCase().includes(searchQuery.toLowerCase())
-    )
+    const [sortField, setSortField] = useState('openingRank')
+    const [sortDir, setSortDir] = useState('asc')
+    const [typeFilter, setTypeFilter] = useState('All')
+
+    const filtered = useMemo(() => {
+        let result = branches.filter(b =>
+            b.course.toLowerCase().includes((searchQuery || '').toLowerCase())
+        )
+        if (typeFilter !== 'All') {
+            result = result.filter(b => b.type === typeFilter)
+        }
+        result = [...result].sort((a, b) => {
+            const av = a[sortField]
+            const bv = b[sortField]
+            if (typeof av === 'number') return sortDir === 'asc' ? av - bv : bv - av
+            return sortDir === 'asc' ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av))
+        })
+        return result
+    }, [searchQuery, sortField, sortDir, typeFilter])
+
+    const handleSort = (field) => {
+        if (sortField === field) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+        else { setSortField(field); setSortDir('asc') }
+    }
 
     const getTypeBadge = (type) => {
         const className = type === 'Clinical' ? 'badge-clinical' : type === 'Para-Clinical' ? 'badge-para' : 'badge-pre'
         return <span className={`badge ${className}`}>{type}</span>
     }
 
+    const SortIcon = ({ field }) => {
+        if (sortField !== field) return <span style={{ opacity: 0.3 }}>↕</span>
+        return <span>{sortDir === 'asc' ? '↑' : '↓'}</span>
+    }
+
     return (
         <div className="explorer-container">
-            <div className="table-wrapper glass-panel">
+            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+                {['All', 'Clinical', 'Para-Clinical', 'Pre-Clinical'].map(t => (
+                    <button
+                        key={t}
+                        onClick={() => setTypeFilter(t)}
+                        style={{
+                            padding: '0.25rem 0.75rem',
+                            borderRadius: '9999px',
+                            border: '1px solid var(--border)',
+                            background: typeFilter === t ? 'var(--accent)' : 'var(--panel-bg)',
+                            color: typeFilter === t ? '#fff' : 'var(--text-secondary)',
+                            cursor: 'pointer',
+                            fontSize: '0.8rem',
+                        }}
+                    >
+                        {t}
+                    </button>
+                ))}
+                <span style={{ marginLeft: 'auto', color: 'var(--text-muted)', fontSize: '0.8rem', alignSelf: 'center' }}>
+                    {filtered.length} branches
+                </span>
+            </div>
+
+            <div className="table-wrapper glass-panel" style={{ overflowX: 'auto' }}>
                 <table className="explorer-table">
                     <thead>
                         <tr>
-                            <th>Branch Name</th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('course')}>
+                                Branch Name <SortIcon field="course" />
+                            </th>
                             <th>Type</th>
-                            <th>Total Seats</th>
-                            <th>Avg. Cut-off Rank</th>
-                            <th>Popularity Trend</th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('seats')}>
+                                Allotted Seats <SortIcon field="seats" />
+                            </th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('institutes')}>
+                                Institutes <SortIcon field="institutes" />
+                            </th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('openingRank')}>
+                                Opening Rank <SortIcon field="openingRank" />
+                            </th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('medianRank')}>
+                                Median Rank <SortIcon field="medianRank" />
+                            </th>
+                            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('closingRank')}>
+                                Closing Rank <SortIcon field="closingRank" />
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
-                        {filteredBranches.map((branch, index) => (
+                        {filtered.map((branch, index) => (
                             <motion.tr
-                                key={branch.id}
+                                key={branch.course}
                                 initial={{ opacity: 0, x: -10 }}
                                 animate={{ opacity: 1, x: 0 }}
-                                transition={{ delay: index * 0.05 }}
+                                transition={{ delay: Math.min(index * 0.02, 0.5) }}
                             >
-                                <td style={{ fontWeight: 600 }}>{branch.name}</td>
+                                <td style={{ fontWeight: 600 }}>{branch.course}</td>
                                 <td>{getTypeBadge(branch.type)}</td>
                                 <td>{branch.seats.toLocaleString()}</td>
-                                <td>{branch.cutoff.toLocaleString()}</td>
-                                <td style={{ color: branch.trend.startsWith('+') ? '#10b981' : '#f43f5e' }}>
-                                    {branch.trend}
-                                </td>
+                                <td>{branch.institutes}</td>
+                                <td className="rank-highlight">{branch.openingRank.toLocaleString()}</td>
+                                <td>{branch.medianRank.toLocaleString()}</td>
+                                <td style={{ color: 'var(--text-muted)' }}>{branch.closingRank.toLocaleString()}</td>
                             </motion.tr>
                         ))}
                     </tbody>

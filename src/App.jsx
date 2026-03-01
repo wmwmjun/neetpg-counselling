@@ -14,6 +14,7 @@ import { motion } from 'framer-motion'
 import './App.css'
 import BranchExplorer, { branches } from './components/BranchExplorer'
 import ClosingRanks from './components/ClosingRanks'
+import CollegeFinder from './components/CollegeFinder'
 
 function App() {
   const [activeTab, setActiveTab] = useState('closing-ranks') // Set as default for now
@@ -28,10 +29,10 @@ function App() {
   ]
 
   const stats = [
-    { label: 'Total Seats', value: '45,210', icon: GraduationCap, color: '#4f46e5' },
-    { label: 'Govt. Seats', value: '25,840', icon: TrendingUp, color: '#0ea5e9' },
+    { label: 'Total Allotments', value: '90,400', icon: GraduationCap, color: '#4f46e5' },
+    { label: 'Institutes', value: '1,585', icon: MapPin, color: '#0ea5e9' },
     { label: 'Top Branch', value: 'Radio Dx', icon: BookOpen, color: '#f43f5e' },
-    { label: 'Eligible Candidates', value: '1.8L+', icon: User, color: '#10b981' },
+    { label: 'Branches Offered', value: '93', icon: TrendingUp, color: '#10b981' },
   ]
 
   return (
@@ -108,7 +109,7 @@ function App() {
             <div className="glass-panel" style={{ padding: '2rem', minHeight: '300px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
                 <h2 style={{ fontSize: '1.25rem' }}>
-                  {activeTab === 'branches' ? 'Branch Explorer' : 'Trending Branches (2025)'}
+                  {activeTab === 'branches' ? 'Branch Explorer' : activeTab === 'colleges' ? 'College Finder' : 'Trending Branches (2025)'}
                 </h2>
                 {activeTab === 'branches' && (
                   <span style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
@@ -119,6 +120,8 @@ function App() {
 
               {activeTab === 'closing-ranks' ? (
                 <ClosingRanks />
+              ) : activeTab === 'colleges' ? (
+                <CollegeFinder />
               ) : activeTab === 'branches' || activeTab === 'dashboard' ? (
                 <BranchExplorer searchQuery={searchQuery} />
               ) : (
