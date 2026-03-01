@@ -8,7 +8,11 @@ from collections import defaultdict
 with open('src/data/closingRanks.json') as f:
     data = json.load(f)
 
-ROUNDS = ['2025_R1', '2025_R2', '2025_R3', '2025_R4']
+# Detect all round keys present in data (e.g. 2023_R1, 2024_R4, 2025_R3 …)
+all_round_keys = set()
+for _item in data:
+    all_round_keys.update(_item.get("ranks", {}).keys())
+ROUNDS = sorted(all_round_keys)
 
 
 def get_type(course):
