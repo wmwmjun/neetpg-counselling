@@ -1,130 +1,176 @@
 import { useState, useMemo, useEffect } from 'react'
-
 import { createPortal } from 'react-dom'
-
-import { Search, Filter, ChevronDown, Download, HelpCircle } from 'lucide-react'
+import { ChevronDown, Download, HelpCircle, ChevronUp, ChevronsUpDown } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import './ClosingRanks.css'
 import closingRanksData from '../data/closingRanks.json'
 
-const mockClosingRanks = closingRanksData;
+const mockClosingRanks = closingRanksData
+
+// Parse a formatted value like "1,23,456" or "-" to number. "-" → 0.
+function parseVal(str) {
+    if (!str || str === '-') return 0
+    const n = parseInt(String(str).replace(/[₹,]/g, ''), 10)
+    return isNaN(n) ? 0 : n
+}
+
+// Get the closing rank (last element) of a round, or null if no data
+function closingRankOf(item, round) {
+    const ranks = item.ranks?.[round]
+    return ranks && ranks.length > 0 ? ranks[ranks.length - 1] : null
+}
+
+const ROUNDS = ['2025_R1', '2025_R2', '2025_R3', '2025_R4']
+const ROUND_LABELS = { '2025_R1': '2025 R1', '2025_R2': '2025 R2', '2025_R3': '2025 R3', '2025_R4': '2025 R4' }
 
 export default function ClosingRanks() {
     const [filters, setFilters] = useState({
-        rankFrom: '',
-        rankTo: '',
-        feeFrom: '',
-        feeTo: '',
-        stipendFrom: '',
-        stipendTo: '',
-        bondPenaltyFrom: '',
-        bondPenaltyTo: '',
+        rankFrom: '', rankTo: '',
+        feeFrom: '', feeTo: '',
+        stipendFrom: '', stipendTo: '',
+        bondPenaltyFrom: '', bondPenaltyTo: '',
         bondYears: 'Select...',
-        quota: 'Select...',
-        category: 'Select...',
-        institute: 'Select...',
-        state: 'Select...',
-        course: 'Select...',
+        quota: 'Select...', category: 'Select...',
+        state: 'Select...', course: 'Select...',
     })
-
+    const [sortConfig, setSortConfig] = useState({ field: null, dir: 'asc' })
     const [selectedDetail, setSelectedDetail] = useState(null)
-    const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 50;
+    const [currentPage, setCurrentPage] = useState(1)
+    const itemsPerPage = 50
 
+    // Dynamically build filter options from data
+    const filterOptions = useMemo(() => {
+        const quotas = new Set(), categories = new Set(), states = new Set(),
+            courses = new Set(), bondYearsSet = new Set()
+        mockClosingRanks.forEach(item => {
+            if (item.quota) quotas.add(item.quota)
+            if (item.category) categories.add(item.category)
+            if (item.state) states.add(item.state)
+            if (item.course) courses.add(item.course)
+            if (item.bondYears && item.bondYears !== '-') bondYearsSet.add(item.bondYears)
+        })
+        return {
+            quotas: Array.from(quotas).sort(),
+            categories: Array.from(categories).sort(),
+            states: Array.from(states).sort(),
+            courses: Array.from(courses).sort(),
+            bondYears: Array.from(bondYearsSet).sort((a, b) => Number(a) - Number(b)),
+        }
+    }, [])
+
+    // --- Filtering ---
     const filteredData = useMemo(() => {
-        if (!mockClosingRanks) return [];
         return mockClosingRanks.filter(item => {
-            // Get the last available rank across all rounds to use for range filtering
-            const allRanks = [
-                ...(item.ranks?.['2025_R1'] || []),
-                ...(item.ranks?.['2025_R2'] || []),
-                ...(item.ranks?.['2025_R3'] || [])
-            ];
-            const lastRank = allRanks.length > 0 ? allRanks[allRanks.length - 1] : 0;
-
+            // Closing rank: use last available rank across all rounds
+            const allRanks = ROUNDS.flatMap(r => item.ranks?.[r] || [])
+            const lastRank = allRanks.length > 0 ? allRanks[allRanks.length - 1] : 0
             if (filters.rankFrom && lastRank < parseInt(filters.rankFrom)) return false
             if (filters.rankTo && lastRank > parseInt(filters.rankTo)) return false
 
-            const feeVal = parseInt((item.fee || '0').replace(/[₹,]/g, ''))
+            // Fee — treat "-" as 0; filter only applies when user entered a value
+            const feeVal = parseVal(item.fee)
             if (filters.feeFrom && feeVal < parseInt(filters.feeFrom)) return false
             if (filters.feeTo && feeVal > parseInt(filters.feeTo)) return false
 
-            const stipendVal = parseInt((item.stipend || '0').replace(/[₹,]/g, ''))
+            // Stipend — treat "-" as 0
+            const stipendVal = parseVal(item.stipend)
             if (filters.stipendFrom && stipendVal < parseInt(filters.stipendFrom)) return false
             if (filters.stipendTo && stipendVal > parseInt(filters.stipendTo)) return false
 
+            // Bond Penalty — treat "-" as 0 (was missing before)
+            const bpVal = parseVal(item.bondPenalty)
+            if (filters.bondPenaltyFrom && bpVal < parseInt(filters.bondPenaltyFrom)) return false
+            if (filters.bondPenaltyTo && bpVal > parseInt(filters.bondPenaltyTo)) return false
+
+            // Bond Years dropdown
+            if (filters.bondYears !== 'Select...' && String(item.bondYears) !== filters.bondYears) return false
+
+            // Dropdown filters
             if (filters.quota !== 'Select...' && item.quota !== filters.quota) return false
             if (filters.category !== 'Select...' && item.category !== filters.category) return false
             if (filters.state !== 'Select...' && item.state !== filters.state) return false
-            if (filters.bondYears !== 'Select...' && String(item.bondYears) !== filters.bondYears.split(' ')[0]) return false
             if (filters.course !== 'Select...' && item.course !== filters.course) return false
 
             return true
         })
     }, [filters])
 
+    // --- Sorting ---
+    const sortedData = useMemo(() => {
+        if (!sortConfig.field) return filteredData
+        return [...filteredData].sort((a, b) => {
+            const { field, dir } = sortConfig
+            let av, bv
 
-    useEffect(() => {
-        setCurrentPage(1);
-    }, [filters]);
+            if (['fee', 'stipend', 'bondPenalty'].includes(field)) {
+                av = parseVal(a[field]); bv = parseVal(b[field])
+            } else if (field === 'bondYears') {
+                av = a.bondYears === '-' ? -1 : Number(a.bondYears)
+                bv = b.bondYears === '-' ? -1 : Number(b.bondYears)
+            } else if (ROUNDS.includes(field)) {
+                // Sort by closing rank of that round; null (no data) sorts to end
+                av = closingRankOf(a, field) ?? (dir === 'asc' ? Infinity : -1)
+                bv = closingRankOf(b, field) ?? (dir === 'asc' ? Infinity : -1)
+            } else {
+                av = String(a[field] ?? ''); bv = String(b[field] ?? '')
+                return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av)
+            }
+            return dir === 'asc' ? av - bv : bv - av
+        })
+    }, [filteredData, sortConfig])
 
+    useEffect(() => { setCurrentPage(1) }, [filters, sortConfig])
 
     const paginatedData = useMemo(() => {
-        const startIdx = (currentPage - 1) * itemsPerPage;
-        return filteredData.slice(startIdx, startIdx + itemsPerPage);
-    }, [filteredData, currentPage]);
+        const start = (currentPage - 1) * itemsPerPage
+        return sortedData.slice(start, start + itemsPerPage)
+    }, [sortedData, currentPage])
 
-    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    const totalPages = Math.ceil(sortedData.length / itemsPerPage)
 
-    const filterOptions = useMemo(() => {
-        const options = {
-            quotas: new Set(),
-            categories: new Set(),
-            states: new Set(),
-            courses: new Set()
-        };
+    const handleInputChange = (field, value) => setFilters(prev => ({ ...prev, [field]: value }))
 
-        mockClosingRanks.forEach(item => {
-            if (item.quota) options.quotas.add(item.quota);
-            if (item.category) options.categories.add(item.category);
-            if (item.state) options.states.add(item.state);
-            if (item.course) options.courses.add(item.course);
-        });
-
-        return {
-            quotas: Array.from(options.quotas).sort(),
-            categories: Array.from(options.categories).sort(),
-            states: Array.from(options.states).sort(),
-            courses: Array.from(options.courses).sort()
-        };
-    }, []);
-
-    const handleInputChange = (field, value) => {
-        setFilters(prev => ({ ...prev, [field]: value }))
+    const handleSort = (field) => {
+        setSortConfig(prev =>
+            prev.field === field
+                ? { field, dir: prev.dir === 'asc' ? 'desc' : 'asc' }
+                : { field, dir: 'asc' }
+        )
     }
+
+    const clearFilters = () => setFilters({
+        rankFrom: '', rankTo: '', feeFrom: '', feeTo: '',
+        stipendFrom: '', stipendTo: '', bondPenaltyFrom: '', bondPenaltyTo: '',
+        bondYears: 'Select...', quota: 'Select...', category: 'Select...',
+        state: 'Select...', course: 'Select...',
+    })
+
+    const SortIcon = ({ field }) => {
+        if (sortConfig.field !== field) return <ChevronsUpDown size={12} style={{ opacity: 0.35, marginLeft: 3 }} />
+        return sortConfig.dir === 'asc'
+            ? <ChevronUp size={12} style={{ marginLeft: 3, color: '#60a5fa' }} />
+            : <ChevronDown size={12} style={{ marginLeft: 3, color: '#60a5fa' }} />
+    }
+
+    const thStyle = (field) => ({
+        cursor: 'pointer',
+        userSelect: 'none',
+        color: sortConfig.field === field ? '#60a5fa' : undefined,
+    })
 
     const renderRankCell = (item, round) => {
         const ranks = item.ranks?.[round]
-        if (!ranks || ranks.length === 0) return '-'
-
-        const closingRank = ranks[ranks.length - 1]
-        const count = ranks.length
-
+        if (!ranks || ranks.length === 0) return <span style={{ color: 'var(--text-muted)' }}>-</span>
         return (
-            <div
-                className="rank-cell-content"
-                onClick={() => {
-                    setSelectedDetail({ item, round, ranks });
-                }}
-
-                style={{ cursor: 'pointer' }}
-            >
-
-                <span className="closing-rank">{closingRank}</span>
-                <span className="seat-count">({count})</span>
+            <div className="rank-cell-content" style={{ cursor: 'pointer' }}
+                onClick={() => setSelectedDetail({ item, round, ranks })}>
+                <span className="closing-rank">{ranks[ranks.length - 1]}</span>
+                <span className="seat-count">({ranks.length})</span>
             </div>
         )
     }
+
+    const hasR4 = mockClosingRanks.some(x => x.ranks?.['2025_R4']?.length > 0)
 
     return (
         <>
@@ -140,9 +186,9 @@ export default function ClosingRanks() {
                             <label>Closing Rank</label>
                             <div className="range-inputs">
                                 <span>From</span>
-                                <input type="number" placeholder="1" value={filters.rankFrom} onChange={(e) => handleInputChange('rankFrom', e.target.value)} />
+                                <input type="number" placeholder="1" value={filters.rankFrom} onChange={e => handleInputChange('rankFrom', e.target.value)} />
                                 <span>To</span>
-                                <input type="number" placeholder="230087" value={filters.rankTo} onChange={(e) => handleInputChange('rankTo', e.target.value)} />
+                                <input type="number" placeholder="230087" value={filters.rankTo} onChange={e => handleInputChange('rankTo', e.target.value)} />
                             </div>
                         </div>
 
@@ -150,9 +196,9 @@ export default function ClosingRanks() {
                             <label>Fee (₹)</label>
                             <div className="range-inputs">
                                 <span>From</span>
-                                <input type="number" placeholder="0" value={filters.feeFrom} onChange={(e) => handleInputChange('feeFrom', e.target.value)} />
+                                <input type="number" placeholder="0" value={filters.feeFrom} onChange={e => handleInputChange('feeFrom', e.target.value)} />
                                 <span>To</span>
-                                <input type="number" placeholder="22950000" value={filters.feeTo} onChange={(e) => handleInputChange('feeTo', e.target.value)} />
+                                <input type="number" placeholder="22950000" value={filters.feeTo} onChange={e => handleInputChange('feeTo', e.target.value)} />
                             </div>
                         </div>
 
@@ -160,9 +206,9 @@ export default function ClosingRanks() {
                             <label>Stipend (₹)</label>
                             <div className="range-inputs">
                                 <span>From</span>
-                                <input type="number" placeholder="0" value={filters.stipendFrom} onChange={(e) => handleInputChange('stipendFrom', e.target.value)} />
+                                <input type="number" placeholder="0" value={filters.stipendFrom} onChange={e => handleInputChange('stipendFrom', e.target.value)} />
                                 <span>To</span>
-                                <input type="number" placeholder="1560000" value={filters.stipendTo} onChange={(e) => handleInputChange('stipendTo', e.target.value)} />
+                                <input type="number" placeholder="1560000" value={filters.stipendTo} onChange={e => handleInputChange('stipendTo', e.target.value)} />
                             </div>
                         </div>
 
@@ -170,21 +216,20 @@ export default function ClosingRanks() {
                             <label>Bond Penalty (₹)</label>
                             <div className="range-inputs">
                                 <span>From</span>
-                                <input type="number" placeholder="0" value={filters.bondPenaltyFrom} onChange={(e) => handleInputChange('bondPenaltyFrom', e.target.value)} />
+                                <input type="number" placeholder="0" value={filters.bondPenaltyFrom} onChange={e => handleInputChange('bondPenaltyFrom', e.target.value)} />
                                 <span>To</span>
-                                <input type="number" placeholder="25000000" value={filters.bondPenaltyTo} onChange={(e) => handleInputChange('bondPenaltyTo', e.target.value)} />
+                                <input type="number" placeholder="25000000" value={filters.bondPenaltyTo} onChange={e => handleInputChange('bondPenaltyTo', e.target.value)} />
                             </div>
                         </div>
 
                         <div className="filter-group">
                             <label>Bond Years</label>
                             <div className="select-wrapper">
-                                <select value={filters.bondYears} onChange={(e) => handleInputChange('bondYears', e.target.value)}>
-                                    <option>Select...</option>
-                                    <option>0 Year</option>
-                                    <option>1 Year</option>
-                                    <option>2 Years</option>
-                                    <option>3 Years</option>
+                                <select value={filters.bondYears} onChange={e => handleInputChange('bondYears', e.target.value)}>
+                                    <option value="Select...">Select...</option>
+                                    {filterOptions.bondYears.map(y => (
+                                        <option key={y} value={y}>{y} {Number(y) === 1 ? 'Year' : 'Years'}</option>
+                                    ))}
                                 </select>
                                 <ChevronDown size={14} className="select-icon" />
                             </div>
@@ -193,7 +238,7 @@ export default function ClosingRanks() {
                         <div className="filter-group">
                             <label>Quota</label>
                             <div className="select-wrapper">
-                                <select value={filters.quota} onChange={(e) => handleInputChange('quota', e.target.value)}>
+                                <select value={filters.quota} onChange={e => handleInputChange('quota', e.target.value)}>
                                     <option>Select...</option>
                                     {filterOptions.quotas.map(q => <option key={q}>{q}</option>)}
                                 </select>
@@ -204,7 +249,7 @@ export default function ClosingRanks() {
                         <div className="filter-group">
                             <label>Category</label>
                             <div className="select-wrapper">
-                                <select value={filters.category} onChange={(e) => handleInputChange('category', e.target.value)}>
+                                <select value={filters.category} onChange={e => handleInputChange('category', e.target.value)}>
                                     <option>Select...</option>
                                     {filterOptions.categories.map(c => <option key={c}>{c}</option>)}
                                 </select>
@@ -215,7 +260,7 @@ export default function ClosingRanks() {
                         <div className="filter-group">
                             <label>State</label>
                             <div className="select-wrapper">
-                                <select value={filters.state} onChange={(e) => handleInputChange('state', e.target.value)}>
+                                <select value={filters.state} onChange={e => handleInputChange('state', e.target.value)}>
                                     <option>Select...</option>
                                     {filterOptions.states.map(s => <option key={s}>{s}</option>)}
                                 </select>
@@ -224,12 +269,7 @@ export default function ClosingRanks() {
                         </div>
 
                         <div className="filter-group" style={{ justifyContent: 'flex-end', paddingTop: '1.5rem' }}>
-                            <button className="clear-filter" onClick={() => setFilters({
-                                rankFrom: '', rankTo: '', feeFrom: '', feeTo: '', stipendFrom: '', stipendTo: '',
-                                bondPenaltyFrom: '', bondPenaltyTo: '', bondYears: 'Select...',
-                                quota: 'Select...', category: 'Select...',
-                                institute: 'Select...', state: 'Select...', course: 'Select...'
-                            })}>
+                            <button className="clear-filter" onClick={clearFilters}>
                                 <Download size={16} /> Clear Filters
                             </button>
                         </div>
@@ -237,7 +277,7 @@ export default function ClosingRanks() {
                         <div className="filter-group full-width">
                             <label>Course</label>
                             <div className="select-wrapper">
-                                <select value={filters.course} onChange={(e) => handleInputChange('course', e.target.value)}>
+                                <select value={filters.course} onChange={e => handleInputChange('course', e.target.value)}>
                                     <option>Select...</option>
                                     {filterOptions.courses.map(c => <option key={c}>{c}</option>)}
                                 </select>
@@ -245,13 +285,22 @@ export default function ClosingRanks() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
                 <div className="data-info">
-                    <span>Showing <strong>{(currentPage - 1) * itemsPerPage + 1} - {Math.min(currentPage * itemsPerPage, filteredData.length)}</strong> of <strong>{filteredData.length}</strong> matches. (Total Records: {mockClosingRanks.length})</span>
-                    <button className="sort-btn">Sort Data</button>
+                    <span>
+                        Showing <strong>{Math.min((currentPage - 1) * itemsPerPage + 1, sortedData.length)} – {Math.min(currentPage * itemsPerPage, sortedData.length)}</strong> of <strong>{sortedData.length}</strong> matches.
+                        {' '}(Total: {mockClosingRanks.length})
+                    </span>
+                    {sortConfig.field && (
+                        <span style={{ fontSize: '0.75rem', color: '#60a5fa' }}>
+                            Sorted by <strong>{sortConfig.field}</strong> ({sortConfig.dir})
+                            <button onClick={() => setSortConfig({ field: null, dir: 'asc' })}
+                                style={{ marginLeft: 8, color: 'var(--text-muted)', background: 'none', border: 'none', cursor: 'pointer', fontSize: '0.75rem' }}>
+                                ✕ clear
+                            </button>
+                        </span>
+                    )}
                 </div>
 
                 <div className="ranks-table-wrapper glass-panel">
@@ -263,13 +312,32 @@ export default function ClosingRanks() {
                                 <th>State</th>
                                 <th>Institute</th>
                                 <th>Course</th>
-                                <th>Fee</th>
-                                <th>Stipend</th>
-                                <th>Bond Penalty</th>
-                                <th>Bond Years</th>
-                                <th>2025 R1</th>
-                                <th>2025 R2</th>
-                                <th>2025 R3</th>
+                                <th style={thStyle('fee')} onClick={() => handleSort('fee')}>
+                                    Fee <SortIcon field="fee" />
+                                </th>
+                                <th style={thStyle('stipend')} onClick={() => handleSort('stipend')}>
+                                    Stipend <SortIcon field="stipend" />
+                                </th>
+                                <th style={thStyle('bondPenalty')} onClick={() => handleSort('bondPenalty')}>
+                                    Bond Penalty <SortIcon field="bondPenalty" />
+                                </th>
+                                <th style={thStyle('bondYears')} onClick={() => handleSort('bondYears')}>
+                                    Bond Yrs <SortIcon field="bondYears" />
+                                </th>
+                                <th style={thStyle('2025_R1')} onClick={() => handleSort('2025_R1')}>
+                                    2025 R1 <SortIcon field="2025_R1" />
+                                </th>
+                                <th style={thStyle('2025_R2')} onClick={() => handleSort('2025_R2')}>
+                                    2025 R2 <SortIcon field="2025_R2" />
+                                </th>
+                                <th style={thStyle('2025_R3')} onClick={() => handleSort('2025_R3')}>
+                                    2025 R3 <SortIcon field="2025_R3" />
+                                </th>
+                                {hasR4 && (
+                                    <th style={thStyle('2025_R4')} onClick={() => handleSort('2025_R4')}>
+                                        2025 R4 <SortIcon field="2025_R4" />
+                                    </th>
+                                )}
                             </tr>
                         </thead>
                         <tbody>
@@ -287,6 +355,7 @@ export default function ClosingRanks() {
                                     <td className="rank-highlight">{renderRankCell(item, '2025_R1')}</td>
                                     <td className="rank-highlight">{renderRankCell(item, '2025_R2')}</td>
                                     <td className="rank-highlight">{renderRankCell(item, '2025_R3')}</td>
+                                    {hasR4 && <td className="rank-highlight">{renderRankCell(item, '2025_R4')}</td>}
                                 </tr>
                             ))}
                         </tbody>
@@ -295,21 +364,15 @@ export default function ClosingRanks() {
 
                 {totalPages > 1 && (
                     <div className="pagination-controls" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginTop: '1.5rem', paddingBottom: '2rem', flexShrink: 0 }}>
-                        <button
-                            onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                            disabled={currentPage === 1}
-                            style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--border)', background: 'var(--panel-bg)', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', opacity: currentPage === 1 ? 0.5 : 1, color: 'var(--text-primary)' }}
-                        >
+                        <button onClick={() => setCurrentPage(p => Math.max(1, p - 1))} disabled={currentPage === 1}
+                            style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--border)', background: 'var(--panel-bg)', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', opacity: currentPage === 1 ? 0.5 : 1, color: 'var(--text-primary)' }}>
                             Previous
                         </button>
                         <span style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
                             Page <strong>{currentPage}</strong> of <strong>{totalPages}</strong>
                         </span>
-                        <button
-                            onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                            disabled={currentPage === totalPages}
-                            style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--border)', background: 'var(--panel-bg)', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', opacity: currentPage === totalPages ? 0.5 : 1, color: 'var(--text-primary)' }}
-                        >
+                        <button onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))} disabled={currentPage === totalPages}
+                            style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--border)', background: 'var(--panel-bg)', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', opacity: currentPage === totalPages ? 0.5 : 1, color: 'var(--text-primary)' }}>
                             Next
                         </button>
                     </div>
@@ -333,16 +396,15 @@ export default function ClosingRanks() {
                             </div>
                             <div className="modal-body">
                                 <div className="detail-info">
-                                    <p><strong>Institute</strong> <span>{selectedDetail.item.institute}</span></p>
-                                    <p><strong>Course</strong> <span>{selectedDetail.item.course}</span></p>
-                                    <p><strong>Round</strong> <span>{selectedDetail.round}</span></p>
-                                    <p><strong>Total Allotments</strong> <span>{selectedDetail.ranks.length}</span></p>
+                                    <p><strong>Institute</strong><span>{selectedDetail.item.institute}</span></p>
+                                    <p><strong>Course</strong><span>{selectedDetail.item.course}</span></p>
+                                    <p><strong>Round</strong><span>{ROUND_LABELS[selectedDetail.round] ?? selectedDetail.round}</span></p>
+                                    <p><strong>Total Allotments</strong><span>{selectedDetail.ranks.length}</span></p>
                                 </div>
                                 <table className="allotment-list-table">
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>S.No</th>
                                             <th>State</th>
                                             <th>Institute</th>
                                             <th>Course</th>
@@ -355,7 +417,6 @@ export default function ClosingRanks() {
                                         {selectedDetail.ranks.map((rank, index) => (
                                             <tr key={index}>
                                                 <td>{index + 1}</td>
-                                                <td>-</td>
                                                 <td>{selectedDetail.item.state}</td>
                                                 <td>{selectedDetail.item.institute}</td>
                                                 <td>{selectedDetail.item.course}</td>
@@ -372,9 +433,6 @@ export default function ClosingRanks() {
                 </AnimatePresence>,
                 document.body
             )}
-
-
         </>
     )
 }
-
