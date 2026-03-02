@@ -25,7 +25,7 @@
   },
   {
     "institute": "Seth Gordhandas Sunderdas Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 402,
     "courses": 22,
     "fee": "182,128",
@@ -37,7 +37,7 @@
   },
   {
     "institute": "Bangalore Medical College and Research Institute",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 420,
     "courses": 25,
     "fee": "-",
@@ -49,7 +49,7 @@
   },
   {
     "institute": "Srirama Chandra Bhanja Medical College",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 329,
     "courses": 24,
     "fee": "78,830",
@@ -61,7 +61,7 @@
   },
   {
     "institute": "MADRAS MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 635,
     "courses": 27,
     "fee": "-",
@@ -97,7 +97,7 @@
   },
   {
     "institute": "Sanjay Gandhi Postgarduate Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 86,
     "courses": 12,
     "fee": "61",
@@ -109,7 +109,7 @@
   },
   {
     "institute": "B. J. MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 620,
     "courses": 25,
     "fee": "-",
@@ -169,7 +169,7 @@
   },
   {
     "institute": "LOKMANYA TILAK MEDICAL COLLEGE MUMBAI",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 327,
     "courses": 28,
     "fee": "-",
@@ -181,7 +181,7 @@
   },
   {
     "institute": "Sawai Man Singh Medical College",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 880,
     "courses": 27,
     "fee": "-",
@@ -205,7 +205,7 @@
   },
   {
     "institute": "GOVT MEDICAL COLLEGE KOTTAYAM",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 166,
     "courses": 22,
     "fee": "84,935",
@@ -217,7 +217,7 @@
   },
   {
     "institute": "INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 448,
     "courses": 23,
     "fee": "200,000",
@@ -241,7 +241,7 @@
   },
   {
     "institute": "TOPIWALA NATIONAL MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 260,
     "courses": 20,
     "fee": "1",
@@ -253,7 +253,7 @@
   },
   {
     "institute": "GOVT. MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 598,
     "courses": 28,
     "fee": "84,935",
@@ -265,7 +265,7 @@
   },
   {
     "institute": "JAWAHARLAL NEHRU MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 686,
     "courses": 24,
     "fee": "42,200",
@@ -277,7 +277,7 @@
   },
   {
     "institute": "GOVT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 428,
     "courses": 23,
     "fee": "84,935",
@@ -289,7 +289,7 @@
   },
   {
     "institute": "University College of Medical Sciences",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 530,
     "courses": 20,
     "fee": "-",
@@ -313,7 +313,7 @@
   },
   {
     "institute": "Sir Ganga Ram Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 153,
     "courses": 22,
     "fee": "105,000",
@@ -325,7 +325,7 @@
   },
   {
     "institute": "ESIC Medical College & Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 141,
     "courses": 24,
     "fee": "2",
@@ -337,7 +337,7 @@
   },
   {
     "institute": "IPGME&R and SSKM Hospital Kolkata",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 279,
     "courses": 22,
     "fee": "18,050",
@@ -349,7 +349,7 @@
   },
   {
     "institute": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 333,
     "courses": 23,
     "fee": "-",
@@ -361,7 +361,7 @@
   },
   {
     "institute": "STANLEY MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 304,
     "courses": 22,
     "fee": "-",
@@ -373,7 +373,7 @@
   },
   {
     "institute": "GANDHI MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 338,
     "courses": 23,
     "fee": "133,500",
@@ -385,7 +385,7 @@
   },
   {
     "institute": "PATNA MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 313,
     "courses": 26,
     "fee": "-",
@@ -409,7 +409,7 @@
   },
   {
     "institute": "Silchar Medical College",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 181,
     "courses": 19,
     "fee": "33,900",
@@ -421,7 +421,7 @@
   },
   {
     "institute": "Government medical college patiala.",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 223,
     "courses": 21,
     "fee": "-",
@@ -433,7 +433,7 @@
   },
   {
     "institute": "Indira Gandhi Medical College Shimla",
-    "state": "Others",
+    "state": "Himachal Pradesh",
     "totalSeats": 223,
     "courses": 19,
     "fee": "39,000",
@@ -457,7 +457,7 @@
   },
   {
     "institute": "Sher-i-Kashmir Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 209,
     "courses": 17,
     "fee": "-",
@@ -481,7 +481,7 @@
   },
   {
     "institute": "Ravindra Nath Tagore Medical College",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 331,
     "courses": 24,
     "fee": "23,354",
@@ -493,7 +493,7 @@
   },
   {
     "institute": "KING GEORGES MEDICAL UNIVERSITY",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 537,
     "courses": 29,
     "fee": "53,700",
@@ -505,7 +505,7 @@
   },
   {
     "institute": "Tirunelveli Medical College",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 208,
     "courses": 22,
     "fee": "-",
@@ -529,7 +529,7 @@
   },
   {
     "institute": "MADURAI MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 300,
     "courses": 23,
     "fee": "100,000",
@@ -541,7 +541,7 @@
   },
   {
     "institute": "Govt. Medical College",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 889,
     "courses": 28,
     "fee": "84,935",
@@ -553,7 +553,7 @@
   },
   {
     "institute": "Mahatma Gandhi Memorial Medical College",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 482,
     "courses": 27,
     "fee": "-",
@@ -577,7 +577,7 @@
   },
   {
     "institute": "B.J.Government Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 333,
     "courses": 22,
     "fee": "-",
@@ -613,7 +613,7 @@
   },
   {
     "institute": "Sardar Patel Medical College",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 294,
     "courses": 24,
     "fee": "37,850",
@@ -625,7 +625,7 @@
   },
   {
     "institute": "Government Medical College Kota",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 296,
     "courses": 23,
     "fee": "-",
@@ -637,7 +637,7 @@
   },
   {
     "institute": "Government Kilpauk Medical College",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 214,
     "courses": 22,
     "fee": "68,235",
@@ -649,7 +649,7 @@
   },
   {
     "institute": "KURNOOL MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 268,
     "courses": 21,
     "fee": "-",
@@ -661,7 +661,7 @@
   },
   {
     "institute": "Indira Gandhi Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 169,
     "courses": 21,
     "fee": "200,000",
@@ -673,7 +673,7 @@
   },
   {
     "institute": "Government T D Medical College",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 151,
     "courses": 23,
     "fee": "85,035",
@@ -697,7 +697,7 @@
   },
   {
     "institute": "ESIC Medical College",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 147,
     "courses": 22,
     "fee": "-",
@@ -709,7 +709,7 @@
   },
   {
     "institute": "Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 83,
     "courses": 13,
     "fee": "-",
@@ -721,7 +721,7 @@
   },
   {
     "institute": "Dr. Sampurnanand Medical College (SNMC)",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 285,
     "courses": 24,
     "fee": "-",
@@ -745,7 +745,7 @@
   },
   {
     "institute": "Dr Ram Manohar Lohia Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 139,
     "courses": 16,
     "fee": "62,800",
@@ -769,7 +769,7 @@
   },
   {
     "institute": "M. P. SHAH GOVERNMENT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 362,
     "courses": 26,
     "fee": "147,000",
@@ -781,7 +781,7 @@
   },
   {
     "institute": "Gauhati Medical College",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 298,
     "courses": 25,
     "fee": "27,300",
@@ -805,7 +805,7 @@
   },
   {
     "institute": "GUNTUR MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 294,
     "courses": 24,
     "fee": "30,000",
@@ -829,7 +829,7 @@
   },
   {
     "institute": "Maharaja Krushna Chandra Gajapati Medical College",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 232,
     "courses": 22,
     "fee": "82,300",
@@ -841,7 +841,7 @@
   },
   {
     "institute": "Gandhi Medical College",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 419,
     "courses": 22,
     "fee": "133,500",
@@ -853,7 +853,7 @@
   },
   {
     "institute": "P.D. Hinduja National Hospital and Medical Research Centre",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 71,
     "courses": 13,
     "fee": "-",
@@ -877,7 +877,7 @@
   },
   {
     "institute": "Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 98,
     "courses": 14,
     "fee": "-",
@@ -913,7 +913,7 @@
   },
   {
     "institute": "MANDYA INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 149,
     "courses": 18,
     "fee": "-",
@@ -925,7 +925,7 @@
   },
   {
     "institute": "HASSAN INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 122,
     "courses": 21,
     "fee": "-",
@@ -937,7 +937,7 @@
   },
   {
     "institute": "INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 262,
     "courses": 20,
     "fee": "171,130",
@@ -949,7 +949,7 @@
   },
   {
     "institute": "Govt. Medical College Akola",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 121,
     "courses": 17,
     "fee": "169,900",
@@ -961,7 +961,7 @@
   },
   {
     "institute": "Malabar Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 107,
     "courses": 16,
     "fee": "-",
@@ -985,7 +985,7 @@
   },
   {
     "institute": "MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 375,
     "courses": 30,
     "fee": "42,200",
@@ -1021,7 +1021,7 @@
   },
   {
     "institute": "JAWAHAR LAL NEHRU MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 383,
     "courses": 26,
     "fee": "37,849",
@@ -1033,7 +1033,7 @@
   },
   {
     "institute": "Baby Memorial Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 90,
     "courses": 12,
     "fee": "-",
@@ -1045,7 +1045,7 @@
   },
   {
     "institute": "COIMBATORE MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 176,
     "courses": 20,
     "fee": "68,210",
@@ -1057,7 +1057,7 @@
   },
   {
     "institute": "Moti Lal Nehru Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 275,
     "courses": 22,
     "fee": "42,000",
@@ -1069,7 +1069,7 @@
   },
   {
     "institute": "SHIMOGA INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 151,
     "courses": 17,
     "fee": "-",
@@ -1081,7 +1081,7 @@
   },
   {
     "institute": "Jaslok Hospital and Research Centre",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 45,
     "courses": 6,
     "fee": "-",
@@ -1093,7 +1093,7 @@
   },
   {
     "institute": "MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 168,
     "courses": 17,
     "fee": "42",
@@ -1105,7 +1105,7 @@
   },
   {
     "institute": "EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 128,
     "courses": 16,
     "fee": "-",
@@ -1117,7 +1117,7 @@
   },
   {
     "institute": "Kasturba Medical College Manipal",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 590,
     "courses": 27,
     "fee": "-",
@@ -1129,7 +1129,7 @@
   },
   {
     "institute": "Government Mohan Kumaramangalam Medical College",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 146,
     "courses": 16,
     "fee": "76,870",
@@ -1141,7 +1141,7 @@
   },
   {
     "institute": "Apollo Hospital International",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 29,
     "courses": 7,
     "fee": "-",
@@ -1177,7 +1177,7 @@
   },
   {
     "institute": "THANJAVUR MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 175,
     "courses": 19,
     "fee": "-",
@@ -1201,7 +1201,7 @@
   },
   {
     "institute": "Lilavati Hospital and Research Centre",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 72,
     "courses": 14,
     "fee": "-",
@@ -1213,7 +1213,7 @@
   },
   {
     "institute": "GOVERNMENT MEDICAL COLLEGE - KANNUR",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 78,
     "courses": 18,
     "fee": "-",
@@ -1225,7 +1225,7 @@
   },
   {
     "institute": "Guru Gobind Singh Medical College",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 182,
     "courses": 25,
     "fee": "-",
@@ -1237,7 +1237,7 @@
   },
   {
     "institute": "Siddhartha Medical College",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 249,
     "courses": 20,
     "fee": "-",
@@ -1249,7 +1249,7 @@
   },
   {
     "institute": "Mahatma Gandhi Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 145,
     "courses": 20,
     "fee": "426,560",
@@ -1261,7 +1261,7 @@
   },
   {
     "institute": "Batra Hospital and Medical Research Centre",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 66,
     "courses": 8,
     "fee": "-",
@@ -1273,7 +1273,7 @@
   },
   {
     "institute": "K.A.P.Viswanatham Government Medical College",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 142,
     "courses": 19,
     "fee": "-",
@@ -1285,7 +1285,7 @@
   },
   {
     "institute": "Sir Hurkisondas Nurrotumdas Hospital and Research Centre",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 107,
     "courses": 14,
     "fee": "-",
@@ -1297,7 +1297,7 @@
   },
   {
     "institute": "Medanta The Medicity",
-    "state": "Others",
+    "state": "Goa",
     "totalSeats": 108,
     "courses": 14,
     "fee": "-",
@@ -1309,7 +1309,7 @@
   },
   {
     "institute": "Ganesh Shankar Vidyarthi Memorial Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 275,
     "courses": 20,
     "fee": "42,000",
@@ -1321,7 +1321,7 @@
   },
   {
     "institute": "CALCUTTA NATIONAL MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 210,
     "courses": 19,
     "fee": "-",
@@ -1345,7 +1345,7 @@
   },
   {
     "institute": "Apollo Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 548,
     "courses": 20,
     "fee": "-",
@@ -1369,7 +1369,7 @@
   },
   {
     "institute": "Indraprastha Apollo Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 79,
     "courses": 15,
     "fee": "-",
@@ -1381,7 +1381,7 @@
   },
   {
     "institute": "S.V. Medical College",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 334,
     "courses": 21,
     "fee": "-",
@@ -1393,7 +1393,7 @@
   },
   {
     "institute": "Aster Medcity",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 51,
     "courses": 8,
     "fee": "-",
@@ -1405,7 +1405,7 @@
   },
   {
     "institute": "RUHS COLLEGE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 65,
     "courses": 17,
     "fee": "-",
@@ -1429,7 +1429,7 @@
   },
   {
     "institute": "St. Stephen`s Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 105,
     "courses": 15,
     "fee": "-",
@@ -1441,7 +1441,7 @@
   },
   {
     "institute": "Max Super Specialty Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 234,
     "courses": 17,
     "fee": "-",
@@ -1453,7 +1453,7 @@
   },
   {
     "institute": "GADAG INSTITUTE OF MEDICAL SCIENCES GADAG",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 125,
     "courses": 19,
     "fee": "-",
@@ -1477,7 +1477,7 @@
   },
   {
     "institute": "Gulbarga Institute Of Medical Sciences",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 138,
     "courses": 20,
     "fee": "-",
@@ -1489,7 +1489,7 @@
   },
   {
     "institute": "Rajendra Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 256,
     "courses": 19,
     "fee": "-",
@@ -1501,7 +1501,7 @@
   },
   {
     "institute": "Kovai Medical Centre",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 116,
     "courses": 10,
     "fee": "-",
@@ -1525,7 +1525,7 @@
   },
   {
     "institute": "Dr. B. Nanavati Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 75,
     "courses": 7,
     "fee": "-",
@@ -1537,7 +1537,7 @@
   },
   {
     "institute": "NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 292,
     "courses": 20,
     "fee": "-",
@@ -1549,7 +1549,7 @@
   },
   {
     "institute": "VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 209,
     "courses": 20,
     "fee": "-",
@@ -1561,7 +1561,7 @@
   },
   {
     "institute": "K.E.M. Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 77,
     "courses": 11,
     "fee": "-",
@@ -1573,7 +1573,7 @@
   },
   {
     "institute": "Pt. Jawahar Lal Nehru Memorial Medical College",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 211,
     "courses": 22,
     "fee": "20,000",
@@ -1585,7 +1585,7 @@
   },
   {
     "institute": "Deenanath Mangeshkar Hospital and Research Centre.",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 125,
     "courses": 12,
     "fee": "-",
@@ -1597,7 +1597,7 @@
   },
   {
     "institute": "Manipal Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 288,
     "courses": 19,
     "fee": "125,000",
@@ -1609,7 +1609,7 @@
   },
   {
     "institute": "Dr.V.M.Govt.Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 154,
     "courses": 20,
     "fee": "176,000",
@@ -1621,7 +1621,7 @@
   },
   {
     "institute": "VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 166,
     "courses": 17,
     "fee": "-",
@@ -1645,7 +1645,7 @@
   },
   {
     "institute": "Narayana Hrudayalaya Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 181,
     "courses": 16,
     "fee": "-",
@@ -1657,7 +1657,7 @@
   },
   {
     "institute": "Baba Raghav Das Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 202,
     "courses": 21,
     "fee": "-",
@@ -1669,7 +1669,7 @@
   },
   {
     "institute": "Kakatiya Medical College",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 325,
     "courses": 25,
     "fee": "-",
@@ -1681,7 +1681,7 @@
   },
   {
     "institute": "Bangalore Baptist Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 139,
     "courses": 17,
     "fee": "-",
@@ -1705,7 +1705,7 @@
   },
   {
     "institute": "ESIC Medical College and PGIMSR",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 134,
     "courses": 22,
     "fee": "-",
@@ -1741,7 +1741,7 @@
   },
   {
     "institute": "Rangaraya Medical College",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 308,
     "courses": 21,
     "fee": "60,000",
@@ -1753,7 +1753,7 @@
   },
   {
     "institute": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 143,
     "courses": 20,
     "fee": "-",
@@ -1765,7 +1765,7 @@
   },
   {
     "institute": "Santokbha Durlabhji Memorial Hospital Cum Medical Research Institute",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 95,
     "courses": 9,
     "fee": "125,000",
@@ -1801,7 +1801,7 @@
   },
   {
     "institute": "Hindu Rao Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 99,
     "courses": 11,
     "fee": "-",
@@ -1813,7 +1813,7 @@
   },
   {
     "institute": "Sarojini Naidu Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 320,
     "courses": 28,
     "fee": "42,000",
@@ -1825,7 +1825,7 @@
   },
   {
     "institute": "Dr. Rajendra Prasad Government Medical College",
-    "state": "Others",
+    "state": "Himachal Pradesh",
     "totalSeats": 169,
     "courses": 19,
     "fee": "65,000",
@@ -1837,7 +1837,7 @@
   },
   {
     "institute": "Holy Family Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 83,
     "courses": 9,
     "fee": "-",
@@ -1885,7 +1885,7 @@
   },
   {
     "institute": "NALANDA MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 171,
     "courses": 19,
     "fee": "42,200",
@@ -1897,7 +1897,7 @@
   },
   {
     "institute": "Breach Candy Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 66,
     "courses": 7,
     "fee": "-",
@@ -1921,7 +1921,7 @@
   },
   {
     "institute": "Holy Spirit Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 64,
     "courses": 10,
     "fee": "-",
@@ -1933,7 +1933,7 @@
   },
   {
     "institute": "Artemis Health Institute",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 80,
     "courses": 11,
     "fee": "-",
@@ -1957,7 +1957,7 @@
   },
   {
     "institute": "Bankura Sammilani Medical College",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 135,
     "courses": 18,
     "fee": "-",
@@ -1969,7 +1969,7 @@
   },
   {
     "institute": "DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 194,
     "courses": 20,
     "fee": "157,500",
@@ -1981,7 +1981,7 @@
   },
   {
     "institute": "CHENGALPATTU MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 146,
     "courses": 21,
     "fee": "-",
@@ -2005,7 +2005,7 @@
   },
   {
     "institute": "Bombay Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 67,
     "courses": 7,
     "fee": "-",
@@ -2017,7 +2017,7 @@
   },
   {
     "institute": "Meenakshi Mission Hospital and Research Centre",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 82,
     "courses": 12,
     "fee": "-",
@@ -2029,7 +2029,7 @@
   },
   {
     "institute": "RAICHUR INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 92,
     "courses": 18,
     "fee": "-",
@@ -2053,7 +2053,7 @@
   },
   {
     "institute": "Rajiv Gandhi Cancer Institute and Research Centre",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 44,
     "courses": 4,
     "fee": "-",
@@ -2065,7 +2065,7 @@
   },
   {
     "institute": "Lisie Medical Institution",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 62,
     "courses": 8,
     "fee": "-",
@@ -2077,7 +2077,7 @@
   },
   {
     "institute": "College of Medicine & Sagore Dutta Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 79,
     "courses": 13,
     "fee": "20,000",
@@ -2089,7 +2089,7 @@
   },
   {
     "institute": "Fortis Memorial Research Institute",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 29,
     "courses": 6,
     "fee": "-",
@@ -2113,7 +2113,7 @@
   },
   {
     "institute": "Ruby Hall Clinic",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 81,
     "courses": 12,
     "fee": "-",
@@ -2125,7 +2125,7 @@
   },
   {
     "institute": "Jupiter Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 61,
     "courses": 9,
     "fee": "-",
@@ -2137,7 +2137,7 @@
   },
   {
     "institute": "Lourdes Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 56,
     "courses": 10,
     "fee": "-",
@@ -2149,7 +2149,7 @@
   },
   {
     "institute": "Dr. B L Kapur Memorial Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 85,
     "courses": 15,
     "fee": "-",
@@ -2173,7 +2173,7 @@
   },
   {
     "institute": "GOVERNMENT VELLORE MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 80,
     "courses": 10,
     "fee": "50,000",
@@ -2197,7 +2197,7 @@
   },
   {
     "institute": "Paras Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 30,
     "courses": 4,
     "fee": "-",
@@ -2209,7 +2209,7 @@
   },
   {
     "institute": "Lakeshore Hospital and Res.",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 35,
     "courses": 8,
     "fee": "-",
@@ -2269,7 +2269,7 @@
   },
   {
     "institute": "Jaypee Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 61,
     "courses": 8,
     "fee": "-",
@@ -2281,7 +2281,7 @@
   },
   {
     "institute": "Jehangir Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 73,
     "courses": 11,
     "fee": "-",
@@ -2293,7 +2293,7 @@
   },
   {
     "institute": "Saifee Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 61,
     "courses": 8,
     "fee": "-",
@@ -2305,7 +2305,7 @@
   },
   {
     "institute": "Billroth Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 24,
     "courses": 2,
     "fee": "-",
@@ -2317,7 +2317,7 @@
   },
   {
     "institute": "K.J. Somaiya Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 35,
     "courses": 7,
     "fee": "125,000",
@@ -2329,7 +2329,7 @@
   },
   {
     "institute": "Dr. Baba Saheb Ambedkar Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 84,
     "courses": 12,
     "fee": "-",
@@ -2341,7 +2341,7 @@
   },
   {
     "institute": "Govt. Doon Medical College",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 103,
     "courses": 18,
     "fee": "-",
@@ -2389,7 +2389,7 @@
   },
   {
     "institute": "Fortis Escorts Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 49,
     "courses": 7,
     "fee": "-",
@@ -2401,7 +2401,7 @@
   },
   {
     "institute": "Krishna Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 91,
     "courses": 14,
     "fee": "-",
@@ -2413,7 +2413,7 @@
   },
   {
     "institute": "DARBHANGA MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 258,
     "courses": 19,
     "fee": "42,200",
@@ -2425,7 +2425,7 @@
   },
   {
     "institute": "KANYAKUMARI GOVERNMENT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 79,
     "courses": 11,
     "fee": "-",
@@ -2437,7 +2437,7 @@
   },
   {
     "institute": "Sri Ramakrishna Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 68,
     "courses": 6,
     "fee": "-",
@@ -2449,7 +2449,7 @@
   },
   {
     "institute": "GOVERNMENT MEDICAL COLLEGE KADAPA (FORMERLY RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 184,
     "courses": 21,
     "fee": "-",
@@ -2485,7 +2485,7 @@
   },
   {
     "institute": "Aster CMI Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 70,
     "courses": 9,
     "fee": "-",
@@ -2497,7 +2497,7 @@
   },
   {
     "institute": "Employees' State Insurance Corporation Medical College & Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 89,
     "courses": 16,
     "fee": "255,000",
@@ -2509,7 +2509,7 @@
   },
   {
     "institute": "Rajiv Gandhi Institute of Medical Sciences Srikakulam",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 153,
     "courses": 20,
     "fee": "-",
@@ -2521,7 +2521,7 @@
   },
   {
     "institute": "Asian Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 93,
     "courses": 10,
     "fee": "-",
@@ -2569,7 +2569,7 @@
   },
   {
     "institute": "G Kuppuswamy Naidu Memorial Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 93,
     "courses": 13,
     "fee": "-",
@@ -2593,7 +2593,7 @@
   },
   {
     "institute": "Rajagiri Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 40,
     "courses": 8,
     "fee": "-",
@@ -2605,7 +2605,7 @@
   },
   {
     "institute": "Dr. Hedgewar Rugnalaya",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 53,
     "courses": 11,
     "fee": "1",
@@ -2629,7 +2629,7 @@
   },
   {
     "institute": "GOVERNMENT THOOTHUKUDI MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 81,
     "courses": 10,
     "fee": "-",
@@ -2641,7 +2641,7 @@
   },
   {
     "institute": "ACSR GOVERNMENT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 101,
     "courses": 12,
     "fee": "50",
@@ -2653,7 +2653,7 @@
   },
   {
     "institute": "Dr. Babasaheb Ambedkar Central Railway Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 46,
     "courses": 12,
     "fee": "-",
@@ -2689,7 +2689,7 @@
   },
   {
     "institute": "Bhabha Atomic Research Centre and Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 95,
     "courses": 12,
     "fee": "-",
@@ -2701,7 +2701,7 @@
   },
   {
     "institute": "GOVERNMENT VILLUPURAM MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 75,
     "courses": 9,
     "fee": "72,005",
@@ -2725,7 +2725,7 @@
   },
   {
     "institute": "Shri Balaji Action Medical Institute",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 74,
     "courses": 12,
     "fee": "-",
@@ -2737,7 +2737,7 @@
   },
   {
     "institute": "SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 158,
     "courses": 18,
     "fee": "170,100",
@@ -2749,7 +2749,7 @@
   },
   {
     "institute": "Medical Trust Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 95,
     "courses": 17,
     "fee": "-",
@@ -2773,7 +2773,7 @@
   },
   {
     "institute": "Rims Medical College",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 143,
     "courses": 18,
     "fee": "-",
@@ -2785,7 +2785,7 @@
   },
   {
     "institute": "Deen Dayal Upadhyay Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 46,
     "courses": 9,
     "fee": "-",
@@ -2821,7 +2821,7 @@
   },
   {
     "institute": "Midnapore Medical College and Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 110,
     "courses": 9,
     "fee": "18,000",
@@ -2833,7 +2833,7 @@
   },
   {
     "institute": "JHALAWAR MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 125,
     "courses": 15,
     "fee": "1",
@@ -2869,7 +2869,7 @@
   },
   {
     "institute": "Sadhu Vaswani Missions",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 65,
     "courses": 10,
     "fee": "-",
@@ -2893,7 +2893,7 @@
   },
   {
     "institute": "SAL Hospital and Medical Institute",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 6,
     "courses": 1,
     "fee": "-",
@@ -2941,7 +2941,7 @@
   },
   {
     "institute": "Apollomedics Superspeciality Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 70,
     "courses": 14,
     "fee": "-",
@@ -2977,7 +2977,7 @@
   },
   {
     "institute": "Yashoda Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 72,
     "courses": 13,
     "fee": "-",
@@ -2989,7 +2989,7 @@
   },
   {
     "institute": "Choithram Hospital and Research Centre",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 47,
     "courses": 8,
     "fee": "-",
@@ -3001,7 +3001,7 @@
   },
   {
     "institute": "Max Smart Super Specialty Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 45,
     "courses": 7,
     "fee": "-",
@@ -3013,7 +3013,7 @@
   },
   {
     "institute": "GMERS Medical College and General Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 112,
     "courses": 12,
     "fee": "-",
@@ -3025,7 +3025,7 @@
   },
   {
     "institute": "Sri Ramachandra Medical College and Research Institute",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 687,
     "courses": 29,
     "fee": "32",
@@ -3037,7 +3037,7 @@
   },
   {
     "institute": "AIG Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 51,
     "courses": 11,
     "fee": "-",
@@ -3049,7 +3049,7 @@
   },
   {
     "institute": "Govt. Bundelkhand Medical College Sagar M.P.",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 119,
     "courses": 18,
     "fee": "-",
@@ -3061,7 +3061,7 @@
   },
   {
     "institute": "Metro Heart Institute with Multispecialty",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 42,
     "courses": 8,
     "fee": "-",
@@ -3073,7 +3073,7 @@
   },
   {
     "institute": "Jupiter Lifeline Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 44,
     "courses": 7,
     "fee": "-",
@@ -3085,7 +3085,7 @@
   },
   {
     "institute": "BIDAR INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 108,
     "courses": 16,
     "fee": "-",
@@ -3097,7 +3097,7 @@
   },
   {
     "institute": "Government Multi Specialty Hospital",
-    "state": "Others",
+    "state": "Chandigarh",
     "totalSeats": 123,
     "courses": 18,
     "fee": "-",
@@ -3121,7 +3121,7 @@
   },
   {
     "institute": "Yashoda Super Speciality Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 148,
     "courses": 15,
     "fee": "125,000",
@@ -3145,7 +3145,7 @@
   },
   {
     "institute": "Ispat General Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 62,
     "courses": 8,
     "fee": "-",
@@ -3157,7 +3157,7 @@
   },
   {
     "institute": "Human care Medical Charitable Trust",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 29,
     "courses": 5,
     "fee": "-",
@@ -3169,7 +3169,7 @@
   },
   {
     "institute": "M.I.O.T. Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 59,
     "courses": 6,
     "fee": "-",
@@ -3181,7 +3181,7 @@
   },
   {
     "institute": "RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 120,
     "courses": 17,
     "fee": "-",
@@ -3193,7 +3193,7 @@
   },
   {
     "institute": "Max Super Specialty Hospital Lucknow ( A Unit of Starlit Medical Center Private Limited ) ( Formerly Known As Sahara India Medical Institute Limited Lucknow )",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 25,
     "courses": 4,
     "fee": "125,000",
@@ -3205,7 +3205,7 @@
   },
   {
     "institute": "MGM New Bombay Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 18,
     "courses": 2,
     "fee": "-",
@@ -3217,7 +3217,7 @@
   },
   {
     "institute": "Ashoka Medicover Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 29,
     "courses": 4,
     "fee": "-",
@@ -3229,7 +3229,7 @@
   },
   {
     "institute": "Swami Dayanand Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 54,
     "courses": 9,
     "fee": "-",
@@ -3253,7 +3253,7 @@
   },
   {
     "institute": "Shalby Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 56,
     "courses": 5,
     "fee": "-",
@@ -3265,7 +3265,7 @@
   },
   {
     "institute": "Continental Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 66,
     "courses": 8,
     "fee": "125,000",
@@ -3277,7 +3277,7 @@
   },
   {
     "institute": "Sahyadri Super Specialty Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 43,
     "courses": 7,
     "fee": "-",
@@ -3301,7 +3301,7 @@
   },
   {
     "institute": "Gvernment Medical College",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 116,
     "courses": 18,
     "fee": "-",
@@ -3313,7 +3313,7 @@
   },
   {
     "institute": "Rukmani Birla Hospital",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 17,
     "courses": 4,
     "fee": "-",
@@ -3325,7 +3325,7 @@
   },
   {
     "institute": "B.R. Singh Hospital and Centre for Medical Education and Research",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 29,
     "courses": 6,
     "fee": "-",
@@ -3349,7 +3349,7 @@
   },
   {
     "institute": "Tata Main Hospital",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 164,
     "courses": 11,
     "fee": "-",
@@ -3361,7 +3361,7 @@
   },
   {
     "institute": "Wockhardt Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 19,
     "courses": 5,
     "fee": "-",
@@ -3373,7 +3373,7 @@
   },
   {
     "institute": "Polakulath Narayanan Renai Medicity Multi Super Specialty Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 54,
     "courses": 8,
     "fee": "-",
@@ -3385,7 +3385,7 @@
   },
   {
     "institute": "Rabindranath Tagore International Institute of Cardiac Sciences",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 103,
     "courses": 12,
     "fee": "125,000",
@@ -3421,7 +3421,7 @@
   },
   {
     "institute": "Jorhat Medical College & Hospital",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 144,
     "courses": 20,
     "fee": "33,900",
@@ -3445,7 +3445,7 @@
   },
   {
     "institute": "Mohandai Oswal Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 45,
     "courses": 8,
     "fee": "-",
@@ -3457,7 +3457,7 @@
   },
   {
     "institute": "Ramkrishna Care Hospital",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 42,
     "courses": 7,
     "fee": "125,000",
@@ -3469,7 +3469,7 @@
   },
   {
     "institute": "Dharamshila Narayana Superspeciality Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 15,
     "courses": 4,
     "fee": "-",
@@ -3481,7 +3481,7 @@
   },
   {
     "institute": "GMERS Medical College and Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 187,
     "courses": 19,
     "fee": "-",
@@ -3493,7 +3493,7 @@
   },
   {
     "institute": "Tata Medical Center",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -3505,7 +3505,7 @@
   },
   {
     "institute": "Mata Chanan Devi Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 62,
     "courses": 7,
     "fee": "-",
@@ -3517,7 +3517,7 @@
   },
   {
     "institute": "Tezpur Medical College",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 106,
     "courses": 15,
     "fee": "36,300",
@@ -3541,7 +3541,7 @@
   },
   {
     "institute": "SRM Institutes for Medical Sciences",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 41,
     "courses": 6,
     "fee": "-",
@@ -3553,7 +3553,7 @@
   },
   {
     "institute": "Sarvodaya Hospital and Research Centre",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 69,
     "courses": 12,
     "fee": "-",
@@ -3589,7 +3589,7 @@
   },
   {
     "institute": "Vivekananda Polyclinic and Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 85,
     "courses": 16,
     "fee": "-",
@@ -3601,7 +3601,7 @@
   },
   {
     "institute": "Kalpana Chawla Govt Medical College",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 119,
     "courses": 20,
     "fee": "-",
@@ -3613,7 +3613,7 @@
   },
   {
     "institute": "Royal Care Super Speciality Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 20,
     "courses": 3,
     "fee": "-",
@@ -3637,7 +3637,7 @@
   },
   {
     "institute": "Shri Vasantrao Naik Govt Medical College Yavatmal",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 106,
     "courses": 17,
     "fee": "169,100",
@@ -3649,7 +3649,7 @@
   },
   {
     "institute": "Manipal Hospital Whitefield",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 47,
     "courses": 10,
     "fee": "-",
@@ -3685,7 +3685,7 @@
   },
   {
     "institute": "Yashoda Super Specialty Hospitals",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 45,
     "courses": 9,
     "fee": "-",
@@ -3721,7 +3721,7 @@
   },
   {
     "institute": "Satguru Partap Singh Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 47,
     "courses": 6,
     "fee": "-",
@@ -3745,7 +3745,7 @@
   },
   {
     "institute": "IQRAA International Hospital and Research Centre",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 57,
     "courses": 9,
     "fee": "-",
@@ -3757,7 +3757,7 @@
   },
   {
     "institute": "CHL Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -3769,7 +3769,7 @@
   },
   {
     "institute": "Paras HMRI Hospital",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 27,
     "courses": 6,
     "fee": "-",
@@ -3805,7 +3805,7 @@
   },
   {
     "institute": "Sakra World Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 47,
     "courses": 7,
     "fee": "-",
@@ -3841,7 +3841,7 @@
   },
   {
     "institute": "Aadhar Health Institute",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 31,
     "courses": 7,
     "fee": "-",
@@ -3877,7 +3877,7 @@
   },
   {
     "institute": "The Calcutta Medical Research Institute",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 57,
     "courses": 9,
     "fee": "-",
@@ -3889,7 +3889,7 @@
   },
   {
     "institute": "KIMS Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 55,
     "courses": 9,
     "fee": "-",
@@ -3901,7 +3901,7 @@
   },
   {
     "institute": "Maharaja Agrasen Medical College",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 74,
     "courses": 10,
     "fee": "-",
@@ -3925,7 +3925,7 @@
   },
   {
     "institute": "Bansal Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 33,
     "courses": 6,
     "fee": "-",
@@ -3937,7 +3937,7 @@
   },
   {
     "institute": "Care Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 89,
     "courses": 9,
     "fee": "-",
@@ -3961,7 +3961,7 @@
   },
   {
     "institute": "Chandan Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 44,
     "courses": 8,
     "fee": "-",
@@ -3985,7 +3985,7 @@
   },
   {
     "institute": "Kauvery Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 47,
     "courses": 6,
     "fee": "125,000",
@@ -4021,7 +4021,7 @@
   },
   {
     "institute": "Soban Singh Jeena Government Institute of Medical Sciences & Research",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 34,
     "courses": 13,
     "fee": "-",
@@ -4033,7 +4033,7 @@
   },
   {
     "institute": "MALDA MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 29,
     "courses": 7,
     "fee": "18,050",
@@ -4069,7 +4069,7 @@
   },
   {
     "institute": "Kozhikode District Co- Operative Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 5,
     "courses": 3,
     "fee": "-",
@@ -4093,7 +4093,7 @@
   },
   {
     "institute": "Ananthapuri Hospital and Research Institute",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 47,
     "courses": 6,
     "fee": "-",
@@ -4129,7 +4129,7 @@
   },
   {
     "institute": "Sarvodaya Multispeciality And Cancer Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 7,
     "courses": 1,
     "fee": "-",
@@ -4153,7 +4153,7 @@
   },
   {
     "institute": "Bhagwan Mahaveer Jain Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 53,
     "courses": 6,
     "fee": "-",
@@ -4165,7 +4165,7 @@
   },
   {
     "institute": "Vishesh Jupiter Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 40,
     "courses": 5,
     "fee": "-",
@@ -4177,7 +4177,7 @@
   },
   {
     "institute": "Rajmata Shrimati Devendra Kumari Singhdeo Government Medical College",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 72,
     "courses": 14,
     "fee": "79",
@@ -4189,7 +4189,7 @@
   },
   {
     "institute": "ESIC Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 26,
     "courses": 7,
     "fee": "-",
@@ -4201,7 +4201,7 @@
   },
   {
     "institute": "Sparsh Super Specialty Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 37,
     "courses": 7,
     "fee": "-",
@@ -4225,7 +4225,7 @@
   },
   {
     "institute": "Apple Saraswati Multispecialty Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -4285,7 +4285,7 @@
   },
   {
     "institute": "Capitol Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 11,
     "courses": 2,
     "fee": "-",
@@ -4297,7 +4297,7 @@
   },
   {
     "institute": "Valluvanad Hospital Complex Limited",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 37,
     "courses": 5,
     "fee": "-",
@@ -4345,7 +4345,7 @@
   },
   {
     "institute": "Dr. R N Cooper Municipal General Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 23,
     "courses": 5,
     "fee": "1",
@@ -4357,7 +4357,7 @@
   },
   {
     "institute": "Noble Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 56,
     "courses": 6,
     "fee": "-",
@@ -4393,7 +4393,7 @@
   },
   {
     "institute": "BAPS Pramukh Swami Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 7,
     "courses": 1,
     "fee": "125,000",
@@ -4417,7 +4417,7 @@
   },
   {
     "institute": "S. K. S. Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 54,
     "courses": 8,
     "fee": "-",
@@ -4429,7 +4429,7 @@
   },
   {
     "institute": "K.G. Hospital and PG Medical Institute",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 72,
     "courses": 12,
     "fee": "-",
@@ -4477,7 +4477,7 @@
   },
   {
     "institute": "Government Medical College and Associated Hospital",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 137,
     "courses": 20,
     "fee": "-",
@@ -4489,7 +4489,7 @@
   },
   {
     "institute": "NANDI MEDICAL COLLEGE AND REASERCH INSTITUTEE",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 18,
     "courses": 8,
     "fee": "185,000",
@@ -4585,7 +4585,7 @@
   },
   {
     "institute": "Kasturba Medical College Mangalore",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 453,
     "courses": 23,
     "fee": "-",
@@ -4597,7 +4597,7 @@
   },
   {
     "institute": "Southern Railway Head Quarter Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 40,
     "courses": 9,
     "fee": "-",
@@ -4609,7 +4609,7 @@
   },
   {
     "institute": "Govt. Medical College Anantnag",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 16,
     "courses": 5,
     "fee": "-",
@@ -4621,7 +4621,7 @@
   },
   {
     "institute": "Utkal Institute of Medical Sciences and Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 47,
     "courses": 6,
     "fee": "125,000",
@@ -4657,7 +4657,7 @@
   },
   {
     "institute": "Shaheed Hasan Khan Mewati Government Medical College",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 110,
     "courses": 20,
     "fee": "1",
@@ -4681,7 +4681,7 @@
   },
   {
     "institute": "HAVERI INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 12,
     "courses": 5,
     "fee": "-",
@@ -4693,7 +4693,7 @@
   },
   {
     "institute": "Bhagat Phool Singh Govt. Medical College for Women",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 138,
     "courses": 17,
     "fee": "1",
@@ -4717,7 +4717,7 @@
   },
   {
     "institute": "Omega Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 19,
     "courses": 2,
     "fee": "-",
@@ -4729,7 +4729,7 @@
   },
   {
     "institute": "Little Flower Hospital and Research Centre",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 56,
     "courses": 8,
     "fee": "-",
@@ -4741,7 +4741,7 @@
   },
   {
     "institute": "ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 67,
     "courses": 14,
     "fee": "42,200",
@@ -4777,7 +4777,7 @@
   },
   {
     "institute": "Medica Superspecialty Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 68,
     "courses": 10,
     "fee": "-",
@@ -4813,7 +4813,7 @@
   },
   {
     "institute": "Healthworld Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 77,
     "courses": 9,
     "fee": "-",
@@ -4885,7 +4885,7 @@
   },
   {
     "institute": "Bhaktivedanta Hospital and Research Institute",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 35,
     "courses": 6,
     "fee": "-",
@@ -4909,7 +4909,7 @@
   },
   {
     "institute": "Govt. Medical College and hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 14,
     "courses": 4,
     "fee": "-",
@@ -4921,7 +4921,7 @@
   },
   {
     "institute": "Dr. L H Hiranandani Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 77,
     "courses": 10,
     "fee": "-",
@@ -4957,7 +4957,7 @@
   },
   {
     "institute": "Peerless Hospital and B K Roy Research Centre",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 55,
     "courses": 11,
     "fee": "125,000",
@@ -4993,7 +4993,7 @@
   },
   {
     "institute": "Medicover Hospitals",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 23,
     "courses": 5,
     "fee": "-",
@@ -5029,7 +5029,7 @@
   },
   {
     "institute": "Lalitha Super Specialty Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 56,
     "courses": 9,
     "fee": "-",
@@ -5041,7 +5041,7 @@
   },
   {
     "institute": "St. Martha`s Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 62,
     "courses": 7,
     "fee": "1",
@@ -5077,7 +5077,7 @@
   },
   {
     "institute": "Sanjay Gandhi Memorial Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 14,
     "courses": 5,
     "fee": "-",
@@ -5101,7 +5101,7 @@
   },
   {
     "institute": "K B Bhabha Municipal General Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 33,
     "courses": 9,
     "fee": "-",
@@ -5137,7 +5137,7 @@
   },
   {
     "institute": "College of Medicine and JNM Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 75,
     "courses": 17,
     "fee": "125,000",
@@ -5185,7 +5185,7 @@
   },
   {
     "institute": "Kamalnayan Bajaj Hospital (Marathwada Medical and Research Institutes)",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 37,
     "courses": 7,
     "fee": "-",
@@ -5209,7 +5209,7 @@
   },
   {
     "institute": "VCSG Govt Institute of Medical Science and Research and HNB Base Teaching Hospital",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 40,
     "courses": 11,
     "fee": "-",
@@ -5221,7 +5221,7 @@
   },
   {
     "institute": "Dr. Kamakshi Memorial Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 103,
     "courses": 10,
     "fee": "-",
@@ -5269,7 +5269,7 @@
   },
   {
     "institute": "Christian Fellowship Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 32,
     "courses": 4,
     "fee": "-",
@@ -5281,7 +5281,7 @@
   },
   {
     "institute": "Bharati Vidyapeeth Deemed to be University Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 427,
     "courses": 21,
     "fee": "-",
@@ -5353,7 +5353,7 @@
   },
   {
     "institute": "Vadamalayan Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 41,
     "courses": 7,
     "fee": "125,000",
@@ -5365,7 +5365,7 @@
   },
   {
     "institute": "Jaipur Golden Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 68,
     "courses": 10,
     "fee": "-",
@@ -5401,7 +5401,7 @@
   },
   {
     "institute": "Narayana Superspecialty Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 30,
     "courses": 4,
     "fee": "125,000",
@@ -5413,7 +5413,7 @@
   },
   {
     "institute": "District Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 509,
     "courses": 15,
     "fee": "-",
@@ -5425,7 +5425,7 @@
   },
   {
     "institute": "KIMS Saveera Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 26,
     "courses": 3,
     "fee": "-",
@@ -5497,7 +5497,7 @@
   },
   {
     "institute": "Dr. Rangarajan Memorial Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 75,
     "courses": 9,
     "fee": "-",
@@ -5509,7 +5509,7 @@
   },
   {
     "institute": "GOVERNMENT MEDICAL COLLEGE MACHILIPATNAM",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 16,
     "courses": 5,
     "fee": "-",
@@ -5533,7 +5533,7 @@
   },
   {
     "institute": "Masina Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 31,
     "courses": 7,
     "fee": "125,000",
@@ -5545,7 +5545,7 @@
   },
   {
     "institute": "MNJ Institute of Oncology and Cancer",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -5581,7 +5581,7 @@
   },
   {
     "institute": "Rajkiya Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 59,
     "courses": 11,
     "fee": "-",
@@ -5593,7 +5593,7 @@
   },
   {
     "institute": "Kongunad Hospitals Private Limited",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 46,
     "courses": 5,
     "fee": "-",
@@ -5605,7 +5605,7 @@
   },
   {
     "institute": "Holy Cross Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 11,
     "courses": 2,
     "fee": "-",
@@ -5629,7 +5629,7 @@
   },
   {
     "institute": "VishwaRaj Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 27,
     "courses": 3,
     "fee": "-",
@@ -5641,7 +5641,7 @@
   },
   {
     "institute": "Cosmopolitan Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 48,
     "courses": 9,
     "fee": "-",
@@ -5677,7 +5677,7 @@
   },
   {
     "institute": "Diamond Harbour Government Medical College And Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 37,
     "courses": 7,
     "fee": "-",
@@ -5689,7 +5689,7 @@
   },
   {
     "institute": "Dr. Ramesh Cardiac and Multi Speciality Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 68,
     "courses": 9,
     "fee": "-",
@@ -5701,7 +5701,7 @@
   },
   {
     "institute": "Daya General Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 55,
     "courses": 7,
     "fee": "-",
@@ -5737,7 +5737,7 @@
   },
   {
     "institute": "Sri Narayani Hospital and Res. Centre",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 31,
     "courses": 5,
     "fee": "-",
@@ -5761,7 +5761,7 @@
   },
   {
     "institute": "KALINGA INSTITUTE OF MEDICAL SCIENCES",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 597,
     "courses": 22,
     "fee": "2,900,000",
@@ -5785,7 +5785,7 @@
   },
   {
     "institute": "MGM Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 736,
     "courses": 25,
     "fee": "-",
@@ -5797,7 +5797,7 @@
   },
   {
     "institute": "Chittaranjan Seva Sadan Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 29,
     "courses": 2,
     "fee": "18",
@@ -5833,7 +5833,7 @@
   },
   {
     "institute": "KIMS Al Shifa Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 35,
     "courses": 7,
     "fee": "-",
@@ -5869,7 +5869,7 @@
   },
   {
     "institute": "Indira Gandhi Govt. General Hospital and PG Institute",
-    "state": "Others",
+    "state": "Puducherry",
     "totalSeats": 77,
     "courses": 9,
     "fee": "125,000",
@@ -5917,7 +5917,7 @@
   },
   {
     "institute": "Sai Sudha Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 4,
     "courses": 2,
     "fee": "-",
@@ -5989,7 +5989,7 @@
   },
   {
     "institute": "Venkateshwar Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 44,
     "courses": 7,
     "fee": "-",
@@ -6001,7 +6001,7 @@
   },
   {
     "institute": "Autonomous State Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 173,
     "courses": 19,
     "fee": "-",
@@ -6049,7 +6049,7 @@
   },
   {
     "institute": "Government Head Quarters Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 81,
     "courses": 9,
     "fee": "-",
@@ -6169,7 +6169,7 @@
   },
   {
     "institute": "Apex Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 71,
     "courses": 8,
     "fee": "-",
@@ -6181,7 +6181,7 @@
   },
   {
     "institute": "GOVERNMENT MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 102,
     "courses": 15,
     "fee": "110,160",
@@ -6193,7 +6193,7 @@
   },
   {
     "institute": "HINDU MISSION HOSPITAL",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 15,
     "courses": 2,
     "fee": "-",
@@ -6241,7 +6241,7 @@
   },
   {
     "institute": "Tata Motors Hospital",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 58,
     "courses": 9,
     "fee": "-",
@@ -6277,7 +6277,7 @@
   },
   {
     "institute": "Rainbow Children`s Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 21,
     "courses": 3,
     "fee": "125,000",
@@ -6289,7 +6289,7 @@
   },
   {
     "institute": "Gheesibai Memorial Mittal Hospital and Research Centre",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 21,
     "courses": 4,
     "fee": "-",
@@ -6313,7 +6313,7 @@
   },
   {
     "institute": "General Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 220,
     "courses": 20,
     "fee": "1",
@@ -6325,7 +6325,7 @@
   },
   {
     "institute": "Rainbow Childrens Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 66,
     "courses": 2,
     "fee": "-",
@@ -6349,7 +6349,7 @@
   },
   {
     "institute": "N S Memorial Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 40,
     "courses": 6,
     "fee": "-",
@@ -6373,7 +6373,7 @@
   },
   {
     "institute": "Associated Hospital Government Medical College",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 125,
     "courses": 15,
     "fee": "-",
@@ -6421,7 +6421,7 @@
   },
   {
     "institute": "Princess Durru Shehvar Children`s and General Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 35,
     "courses": 6,
     "fee": "125,000",
@@ -6481,7 +6481,7 @@
   },
   {
     "institute": "Bhagwan Mahavir Cancer Hospital and Research Centre",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 37,
     "courses": 5,
     "fee": "1",
@@ -6505,7 +6505,7 @@
   },
   {
     "institute": "South Eastern Railway Divisional Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 5,
     "courses": 1,
     "fee": "-",
@@ -6529,7 +6529,7 @@
   },
   {
     "institute": "Tirath Ram Shah Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 15,
     "courses": 3,
     "fee": "-",
@@ -6541,7 +6541,7 @@
   },
   {
     "institute": "Bokaro General Hospital",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 79,
     "courses": 7,
     "fee": "-",
@@ -6625,7 +6625,7 @@
   },
   {
     "institute": "Chinmaya Mission Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 41,
     "courses": 6,
     "fee": "-",
@@ -6685,7 +6685,7 @@
   },
   {
     "institute": "QRG Medicare",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 29,
     "courses": 6,
     "fee": "-",
@@ -6697,7 +6697,7 @@
   },
   {
     "institute": "NEOTIA GETWEL HEALTHCARE CENTRE",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 43,
     "courses": 6,
     "fee": "-",
@@ -6709,7 +6709,7 @@
   },
   {
     "institute": "EMS Memorial Co-operative Hospital and Research Centre",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 45,
     "courses": 9,
     "fee": "-",
@@ -6733,7 +6733,7 @@
   },
   {
     "institute": "Vijaya Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 64,
     "courses": 8,
     "fee": "-",
@@ -6841,7 +6841,7 @@
   },
   {
     "institute": "EMS Memorial Co- operative Hospital and Research Centre",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 7,
     "courses": 6,
     "fee": "-",
@@ -6913,7 +6913,7 @@
   },
   {
     "institute": "Kauvery Hospital Medical Services Pvt Ltd",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 24,
     "courses": 4,
     "fee": "-",
@@ -6925,7 +6925,7 @@
   },
   {
     "institute": "Muthoot Health Care",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 32,
     "courses": 5,
     "fee": "-",
@@ -6937,7 +6937,7 @@
   },
   {
     "institute": "HCG Cancer Centre",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 10,
     "courses": 1,
     "fee": "-",
@@ -6961,7 +6961,7 @@
   },
   {
     "institute": "Durgabai Deshmukh Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 41,
     "courses": 8,
     "fee": "-",
@@ -6997,7 +6997,7 @@
   },
   {
     "institute": "St. James Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 22,
     "courses": 4,
     "fee": "-",
@@ -7009,7 +7009,7 @@
   },
   {
     "institute": "Bombay Hospital and Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 9,
     "courses": 3,
     "fee": "-",
@@ -7057,7 +7057,7 @@
   },
   {
     "institute": "VIKASH MULTI SPECIALITY HOSPITAL",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 53,
     "courses": 8,
     "fee": "-",
@@ -7201,7 +7201,7 @@
   },
   {
     "institute": "MMI Narayana Multispecialty Hospital",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 30,
     "courses": 5,
     "fee": "-",
@@ -7237,7 +7237,7 @@
   },
   {
     "institute": "South Eastern Railways Central Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 32,
     "courses": 8,
     "fee": "-",
@@ -7285,7 +7285,7 @@
   },
   {
     "institute": "Narayana Hrudayalaya Hospital (Formerly Sparsh Hospital)",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 13,
     "courses": 3,
     "fee": "-",
@@ -7309,7 +7309,7 @@
   },
   {
     "institute": "JLNM Hospital",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 68,
     "courses": 12,
     "fee": "-",
@@ -7333,7 +7333,7 @@
   },
   {
     "institute": "BHEL Kasturba Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 7,
     "courses": 1,
     "fee": "120,000",
@@ -7357,7 +7357,7 @@
   },
   {
     "institute": "Rangadore Memorial Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 36,
     "courses": 6,
     "fee": "-",
@@ -7393,7 +7393,7 @@
   },
   {
     "institute": "Datta Meghe Medical College Wanadongri",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 236,
     "courses": 15,
     "fee": "-",
@@ -7417,7 +7417,7 @@
   },
   {
     "institute": "Mahavir Hospital and Research Centre",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 7,
     "courses": 1,
     "fee": "125,000",
@@ -7501,7 +7501,7 @@
   },
   {
     "institute": "Autonomous State Medical College and Allied Pandit Ram Prasad Bismil Memorial Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 36,
     "courses": 7,
     "fee": "-",
@@ -7585,7 +7585,7 @@
   },
   {
     "institute": "Surya Children`s Medicare",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 21,
     "courses": 3,
     "fee": "-",
@@ -7645,7 +7645,7 @@
   },
   {
     "institute": "St. Theresa`s Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 21,
     "courses": 5,
     "fee": "-",
@@ -7681,7 +7681,7 @@
   },
   {
     "institute": "Tej Bahadur Sapru Hospital",
-    "state": "Others",
+    "state": "Goa",
     "totalSeats": 10,
     "courses": 4,
     "fee": "-",
@@ -7753,7 +7753,7 @@
   },
   {
     "institute": "NSC Government Medical College",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 42,
     "courses": 7,
     "fee": "1",
@@ -7765,7 +7765,7 @@
   },
   {
     "institute": "Sagar Hospital -",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 19,
     "courses": 2,
     "fee": "-",
@@ -7813,7 +7813,7 @@
   },
   {
     "institute": "District Hospital Chikkaballapur",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 18,
     "courses": 4,
     "fee": "-",
@@ -7861,7 +7861,7 @@
   },
   {
     "institute": "Siddh Multi Specialty Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 21,
     "courses": 2,
     "fee": "-",
@@ -7885,7 +7885,7 @@
   },
   {
     "institute": "Madhukar Rainbow Childrens Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 16,
     "courses": 2,
     "fee": "-",
@@ -7897,7 +7897,7 @@
   },
   {
     "institute": "DR D Y PATIL MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 535,
     "courses": 23,
     "fee": "-",
@@ -7957,7 +7957,7 @@
   },
   {
     "institute": "Dharwad Institute of Mental Health and Neurosciences (DIMHANS)",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 12,
     "courses": 1,
     "fee": "2",
@@ -7981,7 +7981,7 @@
   },
   {
     "institute": "Sacred Heart Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 26,
     "courses": 3,
     "fee": "-",
@@ -8041,7 +8041,7 @@
   },
   {
     "institute": "Medicare Multispeciality Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 16,
     "courses": 3,
     "fee": "-",
@@ -8065,7 +8065,7 @@
   },
   {
     "institute": "Civil Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 65,
     "courses": 11,
     "fee": "-",
@@ -8137,7 +8137,7 @@
   },
   {
     "institute": "Shree Narayana Hospital",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 16,
     "courses": 3,
     "fee": "-",
@@ -8197,7 +8197,7 @@
   },
   {
     "institute": "C.S.I. Kalyani General Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 43,
     "courses": 4,
     "fee": "-",
@@ -8293,7 +8293,7 @@
   },
   {
     "institute": "Balrampur Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 42,
     "courses": 10,
     "fee": "-",
@@ -8365,7 +8365,7 @@
   },
   {
     "institute": "K S Hegde Medical Academy",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 352,
     "courses": 21,
     "fee": "-",
@@ -8461,7 +8461,7 @@
   },
   {
     "institute": "BIG Apollo Spectra Hospitals",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 14,
     "courses": 2,
     "fee": "-",
@@ -8485,7 +8485,7 @@
   },
   {
     "institute": "Dr. Bidaris Ashwini Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 10,
     "courses": 1,
     "fee": "-",
@@ -8521,7 +8521,7 @@
   },
   {
     "institute": "Maharishi Vashistha Autonomous State Medical College and Opec Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 11,
     "courses": 4,
     "fee": "-",
@@ -8569,7 +8569,7 @@
   },
   {
     "institute": "Jagjivan Ram Railway Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 41,
     "courses": 9,
     "fee": "-",
@@ -8629,7 +8629,7 @@
   },
   {
     "institute": "Shri Dada Dev Matri Avum Shishu Chikitsalaya",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 11,
     "courses": 4,
     "fee": "-",
@@ -8665,7 +8665,7 @@
   },
   {
     "institute": "SBKS Medical College and Research Centre",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 498,
     "courses": 19,
     "fee": "-",
@@ -8713,7 +8713,7 @@
   },
   {
     "institute": "Yenepoya Specialty Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 16,
     "courses": 3,
     "fee": "-",
@@ -8773,7 +8773,7 @@
   },
   {
     "institute": "The Fatima Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -8785,7 +8785,7 @@
   },
   {
     "institute": "Cauvery Heart and Multispeciality Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 22,
     "courses": 4,
     "fee": "-",
@@ -8833,7 +8833,7 @@
   },
   {
     "institute": "K C General Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 44,
     "courses": 12,
     "fee": "-",
@@ -8989,7 +8989,7 @@
   },
   {
     "institute": "Sahyadri Narayana Multispecialty Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 39,
     "courses": 5,
     "fee": "-",
@@ -9013,7 +9013,7 @@
   },
   {
     "institute": "Tagore Hospital and Heart Care Center Pvt. Ltd.",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 14,
     "courses": 2,
     "fee": "-",
@@ -9025,7 +9025,7 @@
   },
   {
     "institute": "CITY HOSPITAL",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 7,
     "courses": 1,
     "fee": "-",
@@ -9049,7 +9049,7 @@
   },
   {
     "institute": "MGM Eye Institute",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 5,
     "courses": 2,
     "fee": "-",
@@ -9073,7 +9073,7 @@
   },
   {
     "institute": "Muslim Maternity and Childrens Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -9085,7 +9085,7 @@
   },
   {
     "institute": "Santosh Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -9145,7 +9145,7 @@
   },
   {
     "institute": "Amar Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 23,
     "courses": 3,
     "fee": "-",
@@ -9157,7 +9157,7 @@
   },
   {
     "institute": "Lala Harbhagwan Das Memorial and Dr Prem Hospital",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 38,
     "courses": 6,
     "fee": "-",
@@ -9169,7 +9169,7 @@
   },
   {
     "institute": "KMC Specialty Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 56,
     "courses": 11,
     "fee": "125,000",
@@ -9181,7 +9181,7 @@
   },
   {
     "institute": "Popular Medicare",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 27,
     "courses": 4,
     "fee": "-",
@@ -9217,7 +9217,7 @@
   },
   {
     "institute": "NEMCARE Hospital",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 26,
     "courses": 4,
     "fee": "-",
@@ -9289,7 +9289,7 @@
   },
   {
     "institute": "Down Town Hospital",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 36,
     "courses": 7,
     "fee": "-",
@@ -9313,7 +9313,7 @@
   },
   {
     "institute": "V Y Institute of Medical Science",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 27,
     "courses": 6,
     "fee": "-",
@@ -9349,7 +9349,7 @@
   },
   {
     "institute": "Jamnabai General Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 7,
     "courses": 2,
     "fee": "-",
@@ -9373,7 +9373,7 @@
   },
   {
     "institute": "Sri Krishna Medical College and Hospital",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 36,
     "courses": 5,
     "fee": "42,200",
@@ -9445,7 +9445,7 @@
   },
   {
     "institute": "Government Hospital",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 54,
     "courses": 8,
     "fee": "-",
@@ -9469,7 +9469,7 @@
   },
   {
     "institute": "ESIC Dental College and Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 20,
     "courses": 8,
     "fee": "-",
@@ -9481,7 +9481,7 @@
   },
   {
     "institute": "Imambara District Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 31,
     "courses": 10,
     "fee": "-",
@@ -9565,7 +9565,7 @@
   },
   {
     "institute": "Hayat Hospital",
-    "state": "Others",
+    "state": "Assam",
     "totalSeats": 23,
     "courses": 4,
     "fee": "-",
@@ -9601,7 +9601,7 @@
   },
   {
     "institute": "Dr. Radhakrishnan Govt. Medical College",
-    "state": "Others",
+    "state": "Himachal Pradesh",
     "totalSeats": 18,
     "courses": 4,
     "fee": "-",
@@ -9721,7 +9721,7 @@
   },
   {
     "institute": "Pravara Rural Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 277,
     "courses": 17,
     "fee": "-",
@@ -9817,7 +9817,7 @@
   },
   {
     "institute": "Ankura Hospital for Women and Children",
-    "state": "Maharashtra",
+    "state": "Telangana",
     "totalSeats": 26,
     "courses": 2,
     "fee": "-",
@@ -9841,7 +9841,7 @@
   },
   {
     "institute": "Tirumala Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 30,
     "courses": 6,
     "fee": "-",
@@ -9925,7 +9925,7 @@
   },
   {
     "institute": "Asansol District Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 29,
     "courses": 7,
     "fee": "125,000",
@@ -9961,7 +9961,7 @@
   },
   {
     "institute": "South Central Railways Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 17,
     "courses": 5,
     "fee": "-",
@@ -10033,7 +10033,7 @@
   },
   {
     "institute": "Life line Super Specialty Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 54,
     "courses": 5,
     "fee": "-",
@@ -10093,7 +10093,7 @@
   },
   {
     "institute": "FAKIR MOHAN MEDICAL COLLEGE AND HOSPITAL",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 14,
     "courses": 3,
     "fee": "125,000",
@@ -10105,7 +10105,7 @@
   },
   {
     "institute": "Aster Aadhar Hospital",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 17,
     "courses": 4,
     "fee": "125,000",
@@ -10165,7 +10165,7 @@
   },
   {
     "institute": "Nice Hospital For Women",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -10177,7 +10177,7 @@
   },
   {
     "institute": "Nazareth Hospital",
-    "state": "Others",
+    "state": "Meghalaya",
     "totalSeats": 37,
     "courses": 5,
     "fee": "-",
@@ -10309,7 +10309,7 @@
   },
   {
     "institute": "Gautam Hospital",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 26,
     "courses": 4,
     "fee": "1",
@@ -10333,7 +10333,7 @@
   },
   {
     "institute": "GURUKRIPA HOSPITALS",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 18,
     "courses": 4,
     "fee": "-",
@@ -10393,7 +10393,7 @@
   },
   {
     "institute": "Sudha Hospitals",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -10489,7 +10489,7 @@
   },
   {
     "institute": "Care Hospital of Medical Sciences (CIMS Hospital)",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 5,
     "courses": 2,
     "fee": "-",
@@ -10525,7 +10525,7 @@
   },
   {
     "institute": "M.M. Institute of Medical Sciences and Research",
-    "state": "Others",
+    "state": "Haryana",
     "totalSeats": 354,
     "courses": 20,
     "fee": "-",
@@ -10549,7 +10549,7 @@
   },
   {
     "institute": "Indian Spinal Injuries Centre",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 12,
     "courses": 2,
     "fee": "-",
@@ -10657,7 +10657,7 @@
   },
   {
     "institute": "Purulia Government Medical College and Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 24,
     "courses": 6,
     "fee": "1",
@@ -10669,7 +10669,7 @@
   },
   {
     "institute": "Sehgal Neo Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 15,
     "courses": 2,
     "fee": "1",
@@ -10729,7 +10729,7 @@
   },
   {
     "institute": "Sant Parmanand Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -10741,7 +10741,7 @@
   },
   {
     "institute": "Rural Development Trust Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 46,
     "courses": 9,
     "fee": "-",
@@ -10933,7 +10933,7 @@
   },
   {
     "institute": "Indiana hospital and Heart Institute",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 21,
     "courses": 2,
     "fee": "-",
@@ -10969,7 +10969,7 @@
   },
   {
     "institute": "Ashwini Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 12,
     "courses": 2,
     "fee": "-",
@@ -10981,7 +10981,7 @@
   },
   {
     "institute": "St. Isabels Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -11005,7 +11005,7 @@
   },
   {
     "institute": "Centre for Sight",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 9,
     "courses": 1,
     "fee": "-",
@@ -11041,7 +11041,7 @@
   },
   {
     "institute": "Sadar Hospital",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 48,
     "courses": 5,
     "fee": "-",
@@ -11269,7 +11269,7 @@
   },
   {
     "institute": "Krishna Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 14,
     "courses": 2,
     "fee": "-",
@@ -11293,7 +11293,7 @@
   },
   {
     "institute": "National Institute Of Ophthalmology",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -11353,7 +11353,7 @@
   },
   {
     "institute": "D. Y. Patil Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 249,
     "courses": 12,
     "fee": "-",
@@ -11401,7 +11401,7 @@
   },
   {
     "institute": "Sri Sathya Sai General Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 6,
     "courses": 1,
     "fee": "-",
@@ -11461,7 +11461,7 @@
   },
   {
     "institute": "AMRITA SCHOOL OF MEDICINE",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 332,
     "courses": 26,
     "fee": "-",
@@ -11485,7 +11485,7 @@
   },
   {
     "institute": "SHRI. B. M. PATIL MEDICAL COLLEGE HOSPITAL AND RESEARCH CENTRE",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 417,
     "courses": 23,
     "fee": "-",
@@ -11545,7 +11545,7 @@
   },
   {
     "institute": "Womens Center by Motherhood",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 37,
     "courses": 3,
     "fee": "-",
@@ -11557,7 +11557,7 @@
   },
   {
     "institute": "Government Headquarters Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 13,
     "courses": 2,
     "fee": "125,000",
@@ -11701,7 +11701,7 @@
   },
   {
     "institute": "KVR Hospital",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 10,
     "courses": 3,
     "fee": "-",
@@ -11833,7 +11833,7 @@
   },
   {
     "institute": "Venkatapadma Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 15,
     "courses": 2,
     "fee": "-",
@@ -11929,7 +11929,7 @@
   },
   {
     "institute": "FUTELA HOSPITAL",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -12001,7 +12001,7 @@
   },
   {
     "institute": "Bhima Bhoi Medical College and Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 29,
     "courses": 6,
     "fee": "125,000",
@@ -12013,7 +12013,7 @@
   },
   {
     "institute": "Government Medical College Kanth Bagh Baramulla",
-    "state": "Others",
+    "state": "Jammu and Kashmir",
     "totalSeats": 9,
     "courses": 3,
     "fee": "-",
@@ -12097,7 +12097,7 @@
   },
   {
     "institute": "Goverment District Hospital Bundi",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 33,
     "courses": 4,
     "fee": "-",
@@ -12121,7 +12121,7 @@
   },
   {
     "institute": "Sankara Nethralaya",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 15,
     "courses": 2,
     "fee": "-",
@@ -12145,7 +12145,7 @@
   },
   {
     "institute": "Kasturba Medical College Hospital (KMC Hospital)",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 11,
     "courses": 1,
     "fee": "-",
@@ -12169,7 +12169,7 @@
   },
   {
     "institute": "Divisional Railway Hospital",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 14,
     "courses": 3,
     "fee": "-",
@@ -12193,7 +12193,7 @@
   },
   {
     "institute": "HOSMAT Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 10,
     "courses": 2,
     "fee": "-",
@@ -12241,7 +12241,7 @@
   },
   {
     "institute": "Porwal Hospital",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 18,
     "courses": 3,
     "fee": "-",
@@ -12265,7 +12265,7 @@
   },
   {
     "institute": "Sandhya Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 4,
     "courses": 1,
     "fee": "125,000",
@@ -12313,7 +12313,7 @@
   },
   {
     "institute": "Sarakshi Netralaya",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -12385,7 +12385,7 @@
   },
   {
     "institute": "Saroj Gupta Cancer Centre Welfare Home and Research Institute",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 6,
     "courses": 1,
     "fee": "-",
@@ -12469,7 +12469,7 @@
   },
   {
     "institute": "Tejasvini Hospital and SSIOT",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 16,
     "courses": 2,
     "fee": "-",
@@ -12553,7 +12553,7 @@
   },
   {
     "institute": "Ganga Medical Centre and Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 70,
     "courses": 3,
     "fee": "-",
@@ -12601,7 +12601,7 @@
   },
   {
     "institute": "Almadeena Institute of Medical Science",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 31,
     "courses": 5,
     "fee": "-",
@@ -12649,7 +12649,7 @@
   },
   {
     "institute": "Trustwell Hospitals Pvt. Ltd",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 19,
     "courses": 3,
     "fee": "-",
@@ -12721,7 +12721,7 @@
   },
   {
     "institute": "Jan Swasthya Sahyog",
-    "state": "Others",
+    "state": "Chhattisgarh",
     "totalSeats": 14,
     "courses": 2,
     "fee": "-",
@@ -12841,7 +12841,7 @@
   },
   {
     "institute": "KD Hospital",
-    "state": "Others",
+    "state": "Gujarat",
     "totalSeats": 11,
     "courses": 2,
     "fee": "-",
@@ -12937,7 +12937,7 @@
   },
   {
     "institute": "Suraj Eye Institute",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 7,
     "courses": 1,
     "fee": "-",
@@ -12949,7 +12949,7 @@
   },
   {
     "institute": "Ashwini Trauma Centre",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 9,
     "courses": 2,
     "fee": "-",
@@ -12985,7 +12985,7 @@
   },
   {
     "institute": "North District Hospital -",
-    "state": "Others",
+    "state": "Goa",
     "totalSeats": 16,
     "courses": 2,
     "fee": "-",
@@ -13201,7 +13201,7 @@
   },
   {
     "institute": "Mahathma Eye Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 5,
     "courses": 2,
     "fee": "-",
@@ -13249,7 +13249,7 @@
   },
   {
     "institute": "Jai Prakash District Government Hospital",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 17,
     "courses": 3,
     "fee": "-",
@@ -13285,7 +13285,7 @@
   },
   {
     "institute": "Sri Sathya Sai Institute of Higher Medical Sciences",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 34,
     "courses": 4,
     "fee": "-",
@@ -13405,7 +13405,7 @@
   },
   {
     "institute": "SHANTI MEMORIAL HOSPITAL PVT LTD",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -13453,7 +13453,7 @@
   },
   {
     "institute": "Balaji Institute of Surgery",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 20,
     "courses": 2,
     "fee": "-",
@@ -13465,7 +13465,7 @@
   },
   {
     "institute": "Ranchi Institute of Nuero - Psychiatry and Allied Sciences",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -13489,7 +13489,7 @@
   },
   {
     "institute": "Surya Mother and Child Care Jaipur Pvt Ltd.",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 17,
     "courses": 2,
     "fee": "-",
@@ -13525,7 +13525,7 @@
   },
   {
     "institute": "Arasan Eye Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 14,
     "courses": 1,
     "fee": "-",
@@ -13537,7 +13537,7 @@
   },
   {
     "institute": "Veer Chandra Singh Garhwali Govt. Institute of Medical Science & Research",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 40,
     "courses": 8,
     "fee": "-",
@@ -13597,7 +13597,7 @@
   },
   {
     "institute": "Ratan Jyoti Netralaya Opthalmic Institute and Research Centre",
-    "state": "Others",
+    "state": "Madhya Pradesh",
     "totalSeats": 6,
     "courses": 1,
     "fee": "-",
@@ -13633,7 +13633,7 @@
   },
   {
     "institute": "Lotus Hospitals and Research Centre",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -13753,7 +13753,7 @@
   },
   {
     "institute": "Government Medical College & Attached Hospital Bharatpur",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 33,
     "courses": 6,
     "fee": "-",
@@ -13765,7 +13765,7 @@
   },
   {
     "institute": "Yenepoya Medical College",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 309,
     "courses": 23,
     "fee": "-",
@@ -13861,7 +13861,7 @@
   },
   {
     "institute": "Zoi Hospital",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 7,
     "courses": 2,
     "fee": "-",
@@ -13897,7 +13897,7 @@
   },
   {
     "institute": "Government DB General Medical Hosptal",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 38,
     "courses": 7,
     "fee": "125,000",
@@ -13921,7 +13921,7 @@
   },
   {
     "institute": "Saveetha Medical College Nd Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 433,
     "courses": 22,
     "fee": "-",
@@ -13969,7 +13969,7 @@
   },
   {
     "institute": "Shri Balaji Institute of Neuro Sciences and Trauma",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -14017,7 +14017,7 @@
   },
   {
     "institute": "GITAM Institute of Medical Sciences & Research",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 145,
     "courses": 14,
     "fee": "-",
@@ -14053,7 +14053,7 @@
   },
   {
     "institute": "SRI DEVARAJ URS MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 451,
     "courses": 20,
     "fee": "-",
@@ -14065,7 +14065,7 @@
   },
   {
     "institute": "SHREE HOSPITALS",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 7,
     "courses": 2,
     "fee": "1",
@@ -14125,7 +14125,7 @@
   },
   {
     "institute": "M. N. Eye Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 13,
     "courses": 1,
     "fee": "-",
@@ -14377,7 +14377,7 @@
   },
   {
     "institute": "Sri Gokulam Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 7,
     "courses": 1,
     "fee": "-",
@@ -14401,7 +14401,7 @@
   },
   {
     "institute": "Preethi Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 43,
     "courses": 5,
     "fee": "-",
@@ -14629,7 +14629,7 @@
   },
   {
     "institute": "Chandannagar Sub Division Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 7,
     "courses": 2,
     "fee": "-",
@@ -14677,7 +14677,7 @@
   },
   {
     "institute": "HCG Panda Cancer Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 7,
     "courses": 1,
     "fee": "-",
@@ -14689,7 +14689,7 @@
   },
   {
     "institute": "Global Hospital Institute of Ophthalmology",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 6,
     "courses": 1,
     "fee": "-",
@@ -14773,7 +14773,7 @@
   },
   {
     "institute": "Capital Hospital",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 30,
     "courses": 7,
     "fee": "125,000",
@@ -14797,7 +14797,7 @@
   },
   {
     "institute": "Goutami Eye Institute",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 6,
     "courses": 2,
     "fee": "-",
@@ -14821,7 +14821,7 @@
   },
   {
     "institute": "Vivekanandha Medical Care Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 8,
     "courses": 1,
     "fee": "-",
@@ -14965,7 +14965,7 @@
   },
   {
     "institute": "Sir C V Raman General Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 11,
     "courses": 3,
     "fee": "-",
@@ -15217,7 +15217,7 @@
   },
   {
     "institute": "VINAYAKA MISSIONS MEDICAL COLLEGE AND HOSPITAL",
-    "state": "Others",
+    "state": "Puducherry",
     "totalSeats": 225,
     "courses": 17,
     "fee": "-",
@@ -15493,7 +15493,7 @@
   },
   {
     "institute": "Anup Institute of Orthopaedics and Rehabilitation",
-    "state": "Others",
+    "state": "Bihar",
     "totalSeats": 7,
     "courses": 2,
     "fee": "-",
@@ -15649,7 +15649,7 @@
   },
   {
     "institute": "Devadoss Multi Speciality Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 12,
     "courses": 2,
     "fee": "-",
@@ -15685,7 +15685,7 @@
   },
   {
     "institute": "Siliguri Greater Lions Eye Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 8,
     "courses": 1,
     "fee": "-",
@@ -15733,7 +15733,7 @@
   },
   {
     "institute": "Govt. BDK hospital",
-    "state": "Others",
+    "state": "Rajasthan",
     "totalSeats": 48,
     "courses": 6,
     "fee": "125,000",
@@ -15913,7 +15913,7 @@
   },
   {
     "institute": "St. Josephs General Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 24,
     "courses": 3,
     "fee": "-",
@@ -16081,7 +16081,7 @@
   },
   {
     "institute": "ROURKELA GOVT HOSPITAL",
-    "state": "Others",
+    "state": "Odisha",
     "totalSeats": 6,
     "courses": 3,
     "fee": "1",
@@ -16285,7 +16285,7 @@
   },
   {
     "institute": "Queen`s NRI Hospital",
-    "state": "Others",
+    "state": "Andhra Pradesh",
     "totalSeats": 18,
     "courses": 3,
     "fee": "-",
@@ -16321,7 +16321,7 @@
   },
   {
     "institute": "NH Brahamananda Narayana",
-    "state": "Others",
+    "state": "Jharkhand",
     "totalSeats": 9,
     "courses": 2,
     "fee": "-",
@@ -16345,7 +16345,7 @@
   },
   {
     "institute": "Vinayaka Missions Kirupananda Variyar Medical College and Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 320,
     "courses": 21,
     "fee": "-",
@@ -16489,7 +16489,7 @@
   },
   {
     "institute": "THE MEDICITY HOSPITAL",
-    "state": "Others",
+    "state": "Uttarakhand",
     "totalSeats": 15,
     "courses": 3,
     "fee": "125,000",
@@ -16717,7 +16717,7 @@
   },
   {
     "institute": "Krishnakumar Orthopedic Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 8,
     "courses": 2,
     "fee": "-",
@@ -16777,7 +16777,7 @@
   },
   {
     "institute": "Combined Distric Hospital",
-    "state": "Others",
+    "state": "Kerala",
     "totalSeats": 13,
     "courses": 1,
     "fee": "-",
@@ -16897,7 +16897,7 @@
   },
   {
     "institute": "BHAARATH MEDICAL COLLEGE AND HOSPITAL",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 64,
     "courses": 13,
     "fee": "-",
@@ -16909,7 +16909,7 @@
   },
   {
     "institute": "Sub Divisional Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 4,
     "courses": 1,
     "fee": "-",
@@ -16933,7 +16933,7 @@
   },
   {
     "institute": "Lord Mahavir Civil Hospital",
-    "state": "Others",
+    "state": "Punjab",
     "totalSeats": 24,
     "courses": 4,
     "fee": "-",
@@ -17293,7 +17293,7 @@
   },
   {
     "institute": "Malla Reddy Institute of Medical Sciences",
-    "state": "Others",
+    "state": "Telangana",
     "totalSeats": 448,
     "courses": 16,
     "fee": "-",
@@ -17497,7 +17497,7 @@
   },
   {
     "institute": "A.C.S. Medical College and Hospital",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 244,
     "courses": 21,
     "fee": "-",
@@ -17533,7 +17533,7 @@
   },
   {
     "institute": "Habra State General Hospital",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 10,
     "courses": 3,
     "fee": "-",
@@ -17581,7 +17581,7 @@
   },
   {
     "institute": "Dr. Panjabrao Alias Bhausaheb Deshmukh Memorial Medical College",
-    "state": "Others",
+    "state": "Maharashtra",
     "totalSeats": 7,
     "courses": 1,
     "fee": "125,000",
@@ -17593,7 +17593,7 @@
   },
   {
     "institute": "Aralaguppe Mallegowda District Hospital",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 7,
     "courses": 2,
     "fee": "-",
@@ -17929,7 +17929,7 @@
   },
   {
     "institute": "SREE BALAJI MEDICAL COLLEGE AND HOSPITAL",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 421,
     "courses": 19,
     "fee": "-",
@@ -17953,7 +17953,7 @@
   },
   {
     "institute": "SRI SIDDHARTHA MEDICAL COLLEGE",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 362,
     "courses": 18,
     "fee": "-",
@@ -17977,7 +17977,7 @@
   },
   {
     "institute": "AARUPADAI VEEDU MEDICAL COLLEGE AND HOSPITAL",
-    "state": "Others",
+    "state": "Puducherry",
     "totalSeats": 285,
     "courses": 19,
     "fee": "-",
@@ -18025,7 +18025,7 @@
   },
   {
     "institute": "Meenakshi Medical College Hospital and Research Institute",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 263,
     "courses": 19,
     "fee": "-",
@@ -18241,7 +18241,7 @@
   },
   {
     "institute": "BOLPUR SUB DIVISION HOSPITAL",
-    "state": "Others",
+    "state": "West Bengal",
     "totalSeats": 11,
     "courses": 3,
     "fee": "20,000",
@@ -18517,7 +18517,7 @@
   },
   {
     "institute": "Shri Sathya Sai Medical College and Research Institute",
-    "state": "Others",
+    "state": "Tamil Nadu",
     "totalSeats": 321,
     "courses": 16,
     "fee": "-",
@@ -18733,7 +18733,7 @@
   },
   {
     "institute": "Northern Railway Central Hospital",
-    "state": "Others",
+    "state": "Delhi",
     "totalSeats": 5,
     "courses": 1,
     "fee": "-",
@@ -18913,7 +18913,7 @@
   },
   {
     "institute": "Lakhimpur Medical College",
-    "state": "Others",
+    "state": "Uttar Pradesh",
     "totalSeats": 6,
     "courses": 2,
     "fee": "33",
@@ -18997,7 +18997,7 @@
   },
   {
     "institute": "CHIKKAMAGALURU INSTITUTE OF MEDICAL SCIENCE",
-    "state": "Others",
+    "state": "Karnataka",
     "totalSeats": 4,
     "courses": 3,
     "fee": "-",
