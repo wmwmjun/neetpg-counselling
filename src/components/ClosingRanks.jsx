@@ -20,10 +20,32 @@ function closingRankOf(item, round) {
     return ranks && ranks.length > 0 ? ranks[ranks.length - 1] : null
 }
 
-const ROUNDS = ['2025_R1', '2025_R2', '2025_R3', '2025_R4']
-const ROUND_LABELS = { '2025_R1': '2025 R1', '2025_R2': '2025 R2', '2025_R3': '2025 R3', '2025_R4': '2025 R4' }
+// All possible rounds per year (including future rounds not yet imported)
+const YEAR_ROUNDS = {
+    '2025': ['2025_R1', '2025_R2', '2025_R3', '2025_R4'],
+    '2024': ['2024_R1', '2024_R2', '2024_R3', '2024_R4', '2024_R5'],
+    '2023': ['2023_R1', '2023_R2', '2023_R3', '2023_R4', '2023_R5'],
+}
+
+// Short labels shown in table column headers
+const ROUND_SHORT = {
+    '2025_R1': 'R1', '2025_R2': 'R2', '2025_R3': 'R3', '2025_R4': 'Stray',
+    '2024_R1': 'R1', '2024_R2': 'R2', '2024_R3': 'R3', '2024_R4': 'Stray', '2024_R5': 'Spec.',
+    '2023_R1': 'R1', '2023_R2': 'R2', '2023_R3': 'R3', '2023_R4': 'Stray', '2023_R5': 'Spec.',
+}
+
+// Full labels used in detail modal
+const ROUND_FULL = {
+    '2025_R1': '2025 Round 1', '2025_R2': '2025 Round 2',
+    '2025_R3': '2025 Round 3 (Mop-up)', '2025_R4': '2025 Stray Vacancy',
+    '2024_R1': '2024 Round 1', '2024_R2': '2024 Round 2',
+    '2024_R3': '2024 Round 3 (Mop-up)', '2024_R4': '2024 Stray Vacancy', '2024_R5': '2024 Special Stray',
+    '2023_R1': '2023 Round 1', '2023_R2': '2023 Round 2',
+    '2023_R3': '2023 Round 3 (Mop-up)', '2023_R4': '2023 Stray Vacancy', '2023_R5': '2023 Special Stray',
+}
 
 export default function ClosingRanks() {
+    const [selectedYear, setSelectedYear] = useState('2025')
     const [filters, setFilters] = useState({
         rankFrom: '', rankTo: '',
         feeFrom: '', feeTo: '',
@@ -37,6 +59,22 @@ export default function ClosingRanks() {
     const [selectedDetail, setSelectedDetail] = useState(null)
     const [currentPage, setCurrentPage] = useState(1)
     const itemsPerPage = 50
+
+    // Rounds that actually have data for the currently selected year
+    const visibleRounds = useMemo(() => {
+        const candidates = YEAR_ROUNDS[selectedYear] || []
+        return candidates.filter(r => mockClosingRanks.some(x => x.ranks?.[r]?.length > 0))
+    }, [selectedYear])
+
+    // Seat count per year (for tab badges)
+    const yearCounts = useMemo(() => {
+        const counts = {}
+        for (const yr of Object.keys(YEAR_ROUNDS)) {
+            const rounds = YEAR_ROUNDS[yr]
+            counts[yr] = mockClosingRanks.filter(x => rounds.some(r => x.ranks?.[r]?.length > 0)).length
+        }
+        return counts
+    }, [])
 
     // Dynamically build filter options from data
     const filterOptions = useMemo(() => {
@@ -61,8 +99,12 @@ export default function ClosingRanks() {
     // --- Filtering ---
     const filteredData = useMemo(() => {
         return mockClosingRanks.filter(item => {
-            // Closing rank: use last available rank across all rounds
-            const allRanks = ROUNDS.flatMap(r => item.ranks?.[r] || [])
+            // Only show entries that have data in the selected year
+            const hasYearData = visibleRounds.some(r => item.ranks?.[r]?.length > 0)
+            if (!hasYearData) return false
+
+            // Closing rank: use last rank across selected year's rounds
+            const allRanks = visibleRounds.flatMap(r => item.ranks?.[r] || [])
             const lastRank = allRanks.length > 0 ? allRanks[allRanks.length - 1] : 0
             if (filters.rankFrom && lastRank < parseInt(filters.rankFrom)) return false
             if (filters.rankTo && lastRank > parseInt(filters.rankTo)) return false
@@ -93,7 +135,7 @@ export default function ClosingRanks() {
 
             return true
         })
-    }, [filters])
+    }, [filters, visibleRounds])
 
     // --- Sorting ---
     const sortedData = useMemo(() => {
@@ -107,7 +149,7 @@ export default function ClosingRanks() {
             } else if (field === 'bondYears') {
                 av = a.bondYears === '-' ? -1 : Number(a.bondYears)
                 bv = b.bondYears === '-' ? -1 : Number(b.bondYears)
-            } else if (ROUNDS.includes(field)) {
+            } else if (visibleRounds.includes(field)) {
                 // Sort by closing rank of that round; null (no data) sorts to end
                 av = closingRankOf(a, field) ?? (dir === 'asc' ? Infinity : -1)
                 bv = closingRankOf(b, field) ?? (dir === 'asc' ? Infinity : -1)
@@ -120,6 +162,10 @@ export default function ClosingRanks() {
     }, [filteredData, sortConfig])
 
     useEffect(() => { setCurrentPage(1) }, [filters, sortConfig])
+    useEffect(() => {
+        setCurrentPage(1)
+        setSortConfig({ field: null, dir: 'asc' })
+    }, [selectedYear])
 
     const paginatedData = useMemo(() => {
         const start = (currentPage - 1) * itemsPerPage
@@ -170,14 +216,38 @@ export default function ClosingRanks() {
         )
     }
 
-    const hasR4 = mockClosingRanks.some(x => x.ranks?.['2025_R4']?.length > 0)
-
     return (
         <>
             <div className="discovery-container">
                 <div className="discovery-header">
                     <div className="breadcrumb">Discover / <strong>Closing Ranks</strong></div>
                     <button className="help-btn"><HelpCircle size={16} /> Help</button>
+                </div>
+
+                {/* Year tabs */}
+                <div className="year-tabs">
+                    {Object.keys(YEAR_ROUNDS).sort().reverse().map(yr => {
+                        const count = yearCounts[yr]
+                        const hasData = count > 0
+                        return (
+                            <button
+                                key={yr}
+                                className={`year-tab ${selectedYear === yr ? 'active' : ''} ${!hasData ? 'empty' : ''}`}
+                                onClick={() => setSelectedYear(yr)}
+                            >
+                                {yr}
+                                {hasData
+                                    ? <span className="year-tab-count">{count.toLocaleString()}</span>
+                                    : <span className="year-tab-no-data">データなし</span>
+                                }
+                            </button>
+                        )
+                    })}
+                    <span className="year-tabs-hint">
+                        {yearCounts['2024'] === 0 || yearCounts['2023'] === 0
+                            ? '　2024・2023年のデータを追加: npm run update-historical'
+                            : ''}
+                    </span>
                 </div>
 
                 <div className="filter-panel glass-panel">
@@ -324,20 +394,11 @@ export default function ClosingRanks() {
                                 <th style={thStyle('bondYears')} onClick={() => handleSort('bondYears')}>
                                     Bond Yrs <SortIcon field="bondYears" />
                                 </th>
-                                <th style={thStyle('2025_R1')} onClick={() => handleSort('2025_R1')}>
-                                    2025 R1 <SortIcon field="2025_R1" />
-                                </th>
-                                <th style={thStyle('2025_R2')} onClick={() => handleSort('2025_R2')}>
-                                    2025 R2 <SortIcon field="2025_R2" />
-                                </th>
-                                <th style={thStyle('2025_R3')} onClick={() => handleSort('2025_R3')}>
-                                    2025 R3 <SortIcon field="2025_R3" />
-                                </th>
-                                {hasR4 && (
-                                    <th style={thStyle('2025_R4')} onClick={() => handleSort('2025_R4')}>
-                                        2025 R4 <SortIcon field="2025_R4" />
+                                {visibleRounds.map(r => (
+                                    <th key={r} style={thStyle(r)} onClick={() => handleSort(r)}>
+                                        {ROUND_SHORT[r] ?? r} <SortIcon field={r} />
                                     </th>
-                                )}
+                                ))}
                             </tr>
                         </thead>
                         <tbody>
@@ -352,10 +413,9 @@ export default function ClosingRanks() {
                                     <td>{item.stipend}</td>
                                     <td>{item.bondPenalty}</td>
                                     <td>{item.bondYears}</td>
-                                    <td className="rank-highlight">{renderRankCell(item, '2025_R1')}</td>
-                                    <td className="rank-highlight">{renderRankCell(item, '2025_R2')}</td>
-                                    <td className="rank-highlight">{renderRankCell(item, '2025_R3')}</td>
-                                    {hasR4 && <td className="rank-highlight">{renderRankCell(item, '2025_R4')}</td>}
+                                    {visibleRounds.map(r => (
+                                        <td key={r} className="rank-highlight">{renderRankCell(item, r)}</td>
+                                    ))}
                                 </tr>
                             ))}
                         </tbody>
@@ -398,7 +458,7 @@ export default function ClosingRanks() {
                                 <div className="detail-info">
                                     <p><strong>Institute</strong><span>{selectedDetail.item.institute}</span></p>
                                     <p><strong>Course</strong><span>{selectedDetail.item.course}</span></p>
-                                    <p><strong>Round</strong><span>{ROUND_LABELS[selectedDetail.round] ?? selectedDetail.round}</span></p>
+                                    <p><strong>Round</strong><span>{ROUND_FULL[selectedDetail.round] ?? selectedDetail.round}</span></p>
                                     <p><strong>Total Allotments</strong><span>{selectedDetail.ranks.length}</span></p>
                                 </div>
                                 <table className="allotment-list-table">

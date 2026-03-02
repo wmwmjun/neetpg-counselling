@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-r4": "python3 add_round4.py"
+    "update-r4": "python3 add_round4.py",
+    "update-historical": "python3 add_historical.py"
   },
   "dependencies": {
     "framer-motion": "^12.34.3",
