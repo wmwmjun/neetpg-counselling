@@ -65,6 +65,8 @@ export default function ClosingRanks() {
         quota: 'Select...', category: 'Select...',
         state: 'Select...', course: 'Select...',
     })
+    const [instituteSearch, setInstituteSearch] = useState('')
+    const [showSuggestions, setShowSuggestions] = useState(false)
     const [sortConfig, setSortConfig] = useState({ field: null, dir: 'asc' })
     const [selectedDetail, setSelectedDetail] = useState(null)
     const [currentPage, setCurrentPage] = useState(1)
@@ -106,6 +108,22 @@ export default function ClosingRanks() {
         }
     }, [])
 
+    // Institute autocomplete suggestions
+    const instituteSuggestions = useMemo(() => {
+        const q = instituteSearch.trim().toLowerCase()
+        if (!q) return []
+        const seen = new Set()
+        const results = []
+        for (const item of mockClosingRanks) {
+            if (item.institute && item.institute.toLowerCase().includes(q) && !seen.has(item.institute)) {
+                seen.add(item.institute)
+                results.push(item.institute)
+                if (results.length >= 10) break
+            }
+        }
+        return results
+    }, [instituteSearch])
+
     // --- Filtering ---
     const filteredData = useMemo(() => {
         return mockClosingRanks.filter(item => {
@@ -143,9 +161,15 @@ export default function ClosingRanks() {
             if (filters.state !== 'Select...' && item.state !== filters.state) return false
             if (filters.course !== 'Select...' && item.course !== filters.course) return false
 
+            // Institute search (case-insensitive partial match)
+            if (instituteSearch.trim()) {
+                const q = instituteSearch.trim().toLowerCase()
+                if (!item.institute.toLowerCase().includes(q)) return false
+            }
+
             return true
         })
-    }, [filters, visibleRounds])
+    }, [filters, visibleRounds, instituteSearch])
 
     // --- Sorting ---
     const sortedData = useMemo(() => {
@@ -171,7 +195,7 @@ export default function ClosingRanks() {
         })
     }, [filteredData, sortConfig])
 
-    useEffect(() => { setCurrentPage(1) }, [filters, sortConfig])
+    useEffect(() => { setCurrentPage(1) }, [filters, sortConfig, instituteSearch])
     useEffect(() => {
         setCurrentPage(1)
         setSortConfig({ field: null, dir: 'asc' })
@@ -194,12 +218,15 @@ export default function ClosingRanks() {
         )
     }
 
-    const clearFilters = () => setFilters({
-        rankFrom: '', rankTo: '', feeFrom: '', feeTo: '',
-        stipendFrom: '', stipendTo: '', bondPenaltyFrom: '', bondPenaltyTo: '',
-        bondYears: 'Select...', quota: 'Select...', category: 'Select...',
-        state: 'Select...', course: 'Select...',
-    })
+    const clearFilters = () => {
+        setFilters({
+            rankFrom: '', rankTo: '', feeFrom: '', feeTo: '',
+            stipendFrom: '', stipendTo: '', bondPenaltyFrom: '', bondPenaltyTo: '',
+            bondYears: 'Select...', quota: 'Select...', category: 'Select...',
+            state: 'Select...', course: 'Select...',
+        })
+        setInstituteSearch('')
+    }
 
     const SortIcon = ({ field }) => {
         if (sortConfig.field !== field) return <ChevronsUpDown size={12} style={{ opacity: 0.35, marginLeft: 3 }} />
@@ -353,6 +380,45 @@ export default function ClosingRanks() {
                             <button className="clear-filter" onClick={clearFilters}>
                                 <Download size={16} /> Clear Filters
                             </button>
+                        </div>
+
+                        <div className="filter-group full-width">
+                            <label>Institute</label>
+                            <div style={{ position: 'relative' }}>
+                                <input
+                                    type="text"
+                                    placeholder="Type to search institute..."
+                                    value={instituteSearch}
+                                    onChange={e => { setInstituteSearch(e.target.value); setShowSuggestions(true) }}
+                                    onFocus={() => setShowSuggestions(true)}
+                                    onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+                                    style={{ width: '100%', boxSizing: 'border-box' }}
+                                />
+                                {showSuggestions && instituteSuggestions.length > 0 && (
+                                    <ul style={{
+                                        position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 100,
+                                        background: 'var(--bg-card, #1e293b)', border: '1px solid var(--border, #334155)',
+                                        borderRadius: '0.375rem', marginTop: 2, padding: 0,
+                                        listStyle: 'none', maxHeight: '220px', overflowY: 'auto',
+                                        boxShadow: '0 4px 16px rgba(0,0,0,0.4)',
+                                    }}>
+                                        {instituteSuggestions.map(name => (
+                                            <li
+                                                key={name}
+                                                onMouseDown={() => { setInstituteSearch(name); setShowSuggestions(false) }}
+                                                style={{
+                                                    padding: '0.45rem 0.75rem', cursor: 'pointer',
+                                                    fontSize: '0.8rem', borderBottom: '1px solid var(--border, #334155)',
+                                                }}
+                                                onMouseEnter={e => e.currentTarget.style.background = 'var(--bg-hover, #334155)'}
+                                                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                                            >
+                                                {name}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
                         </div>
 
                         <div className="filter-group full-width">

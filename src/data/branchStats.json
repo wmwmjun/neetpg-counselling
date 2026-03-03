@@ -83,7 +83,7 @@
   {
     "course": "MD Pharmacology",
     "type": "Para-Clinical",
-    "seats": 3316,
+    "seats": 3314,
     "institutes": 202,
     "openingRank": 102,
     "closingRank": 226551,
@@ -92,20 +92,20 @@
   {
     "course": "DNB Radio Diagnosis",
     "type": "Clinical",
-    "seats": 2333,
+    "seats": 2329,
     "institutes": 202,
     "openingRank": 104,
     "closingRank": 95762,
-    "medianRank": 2979
+    "medianRank": 2988
   },
   {
     "course": "DNB General Medicine",
     "type": "Clinical",
-    "seats": 6062,
+    "seats": 6054,
     "institutes": 477,
     "openingRank": 139,
     "closingRank": 220841,
-    "medianRank": 7029
+    "medianRank": 7032
   },
   {
     "course": "MS ENT",
@@ -119,11 +119,11 @@
   {
     "course": "DNB Ophthalmology",
     "type": "Clinical",
-    "seats": 2137,
+    "seats": 2136,
     "institutes": 154,
     "openingRank": 247,
     "closingRank": 164703,
-    "medianRank": 19018
+    "medianRank": 19021
   },
   {
     "course": "MS Ophthalmology",
@@ -200,11 +200,11 @@
   {
     "course": "DNB Neuro Surgery (6 years)",
     "type": "Clinical",
-    "seats": 405,
+    "seats": 400,
     "institutes": 37,
     "openingRank": 1084,
     "closingRank": 32351,
-    "medianRank": 15285
+    "medianRank": 15291
   },
   {
     "course": "MD Emergency Medicine",
@@ -245,20 +245,20 @@
   {
     "course": "M.D. (ANAESTHESIOLOG Y)",
     "type": "Clinical",
-    "seats": 2049,
+    "seats": 2025,
     "institutes": 209,
     "openingRank": 1558,
     "closingRank": 126383,
-    "medianRank": 26437
+    "medianRank": 26840
   },
   {
     "course": "MD Pathology",
     "type": "Para-Clinical",
-    "seats": 7482,
+    "seats": 7435,
     "institutes": 244,
     "openingRank": 1703,
     "closingRank": 222613,
-    "medianRank": 44666
+    "medianRank": 44815
   },
   {
     "course": "DNB General Surgery",
@@ -281,11 +281,11 @@
   {
     "course": "DNB Paediatrics",
     "type": "Clinical",
-    "seats": 3092,
+    "seats": 3088,
     "institutes": 286,
     "openingRank": 1923,
     "closingRank": 182998,
-    "medianRank": 11522
+    "medianRank": 11525
   },
   {
     "course": "DNB Respiratory Diseases",
@@ -308,11 +308,11 @@
   {
     "course": "DNB Emergency Medicine",
     "type": "Clinical",
-    "seats": 1576,
+    "seats": 1574,
     "institutes": 134,
     "openingRank": 2529,
     "closingRank": 129190,
-    "medianRank": 18402
+    "medianRank": 18406
   },
   {
     "course": "DNB Family Medicine",
@@ -389,7 +389,7 @@
   {
     "course": "DNB Orthopedics Surgery",
     "type": "Clinical",
-    "seats": 3346,
+    "seats": 3344,
     "institutes": 291,
     "openingRank": 4355,
     "closingRank": 95558,
@@ -407,7 +407,7 @@
   {
     "course": "DNB Obstetrics & Gynaecology",
     "type": "Clinical",
-    "seats": 2172,
+    "seats": 2166,
     "institutes": 243,
     "openingRank": 4435,
     "closingRank": 80001,
@@ -425,11 +425,11 @@
   {
     "course": "MD Anatomy",
     "type": "Pre-Clinical",
-    "seats": 2550,
+    "seats": 2549,
     "institutes": 199,
     "openingRank": 5133,
     "closingRank": 230049,
-    "medianRank": 110038
+    "medianRank": 109950
   },
   {
     "course": "MD Palliative Medicine",
@@ -470,11 +470,11 @@
   {
     "course": "Diploma in Child Health-NBE",
     "type": "Clinical",
-    "seats": 3010,
+    "seats": 3000,
     "institutes": 291,
     "openingRank": 5984,
     "closingRank": 187781,
-    "medianRank": 27484
+    "medianRank": 27474
   },
   {
     "course": "MD Tropical Medicine",
@@ -488,20 +488,20 @@
   {
     "course": "DNB Radio Therapy",
     "type": "Clinical",
-    "seats": 817,
+    "seats": 816,
     "institutes": 72,
     "openingRank": 6189,
     "closingRank": 40165,
-    "medianRank": 20359
+    "medianRank": 20385
   },
   {
     "course": "(NBEMS) ANAESTHESIOLOG Y",
     "type": "Clinical",
-    "seats": 544,
+    "seats": 512,
     "institutes": 224,
     "openingRank": 6543,
     "closingRank": 77067,
-    "medianRank": 23205
+    "medianRank": 23287
   },
   {
     "course": "Diploma in Child Health",
@@ -524,11 +524,11 @@
   {
     "course": "Diploma in Obstetrics & Gynaecology-NBE",
     "type": "Clinical",
-    "seats": 3247,
+    "seats": 3225,
     "institutes": 285,
     "openingRank": 7803,
     "closingRank": 169847,
-    "medianRank": 26882
+    "medianRank": 26828
   },
   {
     "course": "MD Microbiology",
@@ -569,7 +569,7 @@
   {
     "course": "Diploma in Family Medicine-NBE",
     "type": "Clinical",
-    "seats": 1442,
+    "seats": 1441,
     "institutes": 91,
     "openingRank": 8722,
     "closingRank": 197208,
@@ -623,11 +623,11 @@
   {
     "course": "Diploma in Ophthalmology-NBE",
     "type": "Clinical",
-    "seats": 1494,
+    "seats": 1486,
     "institutes": 143,
     "openingRank": 11626,
     "closingRank": 200668,
-    "medianRank": 43126
+    "medianRank": 43097
   },
   {
     "course": "DNB Geriatric Medicine",
@@ -713,7 +713,7 @@
   {
     "course": "Diploma in Oto-Rhino-Laryngology-NBE",
     "type": "Clinical",
-    "seats": 740,
+    "seats": 736,
     "institutes": 81,
     "openingRank": 16950,
     "closingRank": 197654,
@@ -794,11 +794,11 @@
   {
     "course": "(NBEMS-DIPLOMA) ANAESTHESIOLOG Y",
     "type": "Clinical",
-    "seats": 448,
+    "seats": 433,
     "institutes": 204,
     "openingRank": 22034,
     "closingRank": 124838,
-    "medianRank": 42181
+    "medianRank": 41944
   },
   {
     "course": "Diploma in Oto-Rhino-Laryngology",
