@@ -290,13 +290,13 @@ def build_rank_lookup(rows):
 def main():
     # ── Phase 1: Parallel extraction of all PDFs ──────────────────────────
     print("Extracting Round 1 (parallel)...")
-    r1_raw = extract_round("round1_2025.pdf", _process_r1_page, 2, "R1")
+    r1_raw = extract_round("round1_2025.pdf", _process_r1_page, 1, "R1")
     print(f"  R1 raw rows: {len(r1_raw)}")
 
     rank_to_r1 = build_rank_lookup(r1_raw)
 
     print("Extracting Round 2 (parallel)...")
-    r2_raw = extract_round("round2_2025.pdf", _process_r2_page, 5, "R2")
+    r2_raw = extract_round("round2_2025.pdf", _process_r2_page, 1, "R2")
     print(f"  R2 raw rows: {len(r2_raw)}")
 
     r2_rows = resolve_lookups(r2_raw, rank_to_r1)
@@ -307,7 +307,7 @@ def main():
     rank_to_r2_or_r1 = {**rank_to_r1, **rank_to_r2}  # R2 overwrites R1
 
     print("Extracting Round 3 (parallel)...")
-    r3_raw = extract_round("round3_2025.pdf", _process_r3_page, 5, "R3")
+    r3_raw = extract_round("round3_2025.pdf", _process_r3_page, 3, "R3")
     print(f"  R3 raw rows: {len(r3_raw)}")
 
     r3_rows = resolve_lookups(r3_raw, rank_to_r2_or_r1)
