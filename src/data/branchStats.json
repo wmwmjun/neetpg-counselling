@@ -2,47 +2,56 @@
   {
     "course": "MD General Medicine",
     "type": "Clinical",
-    "seats": 13342,
+    "seats": 13386,
     "institutes": 245,
-    "openingRank": 16,
+    "openingRank": 1,
     "closingRank": 228379,
-    "medianRank": 6133
+    "medianRank": 6051
   },
   {
     "course": "MD Radio Diagnosis",
     "type": "Clinical",
-    "seats": 6254,
+    "seats": 6290,
     "institutes": 183,
-    "openingRank": 17,
+    "openingRank": 4,
     "closingRank": 229201,
-    "medianRank": 6681
+    "medianRank": 6528
   },
   {
-    "course": "MS General Surgery",
+    "course": "DNB General Medicine",
     "type": "Clinical",
-    "seats": 12129,
-    "institutes": 249,
-    "openingRank": 22,
-    "closingRank": 227639,
-    "medianRank": 14865
+    "seats": 6055,
+    "institutes": 477,
+    "openingRank": 10,
+    "closingRank": 220841,
+    "medianRank": 7029
   },
   {
     "course": "MS Obstetrics & Gynaecology",
     "type": "Clinical",
-    "seats": 10946,
+    "seats": 10945,
     "institutes": 238,
-    "openingRank": 24,
+    "openingRank": 12,
     "closingRank": 227983,
-    "medianRank": 10725
+    "medianRank": 10723
   },
   {
     "course": "MD Dermatology, Venereology & Leprosy",
     "type": "Clinical",
-    "seats": 2695,
+    "seats": 2698,
     "institutes": 180,
-    "openingRank": 29,
+    "openingRank": 20,
     "closingRank": 209076,
-    "medianRank": 9364
+    "medianRank": 9332
+  },
+  {
+    "course": "MS General Surgery",
+    "type": "Clinical",
+    "seats": 12131,
+    "institutes": 249,
+    "openingRank": 22,
+    "closingRank": 227639,
+    "medianRank": 14860
   },
   {
     "course": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(S KIN and VENEREAL DISEASES)/(VENER EOLOGY)",
@@ -56,38 +65,56 @@
   {
     "course": "MD Nuclear Medicine",
     "type": "Clinical",
-    "seats": 82,
+    "seats": 84,
     "institutes": 6,
     "openingRank": 32,
     "closingRank": 117053,
-    "medianRank": 1549
+    "medianRank": 1447
   },
   {
     "course": "MD Paediatrics",
     "type": "Clinical",
-    "seats": 9265,
+    "seats": 9263,
     "institutes": 239,
     "openingRank": 36,
     "closingRank": 224563,
-    "medianRank": 10422
+    "medianRank": 10398
+  },
+  {
+    "course": "DNB Ophthalmology",
+    "type": "Clinical",
+    "seats": 2137,
+    "institutes": 154,
+    "openingRank": 43,
+    "closingRank": 164703,
+    "medianRank": 19018
   },
   {
     "course": "MS Orthopaedics",
     "type": "Clinical",
-    "seats": 7453,
+    "seats": 7455,
     "institutes": 235,
     "openingRank": 54,
     "closingRank": 229954,
-    "medianRank": 20432
+    "medianRank": 20419
+  },
+  {
+    "course": "MS Ophthalmology",
+    "type": "Clinical",
+    "seats": 5393,
+    "institutes": 225,
+    "openingRank": 56,
+    "closingRank": 215665,
+    "medianRank": 21894
   },
   {
     "course": "MD Pharmacology",
     "type": "Para-Clinical",
-    "seats": 3314,
+    "seats": 3310,
     "institutes": 202,
     "openingRank": 102,
     "closingRank": 226551,
-    "medianRank": 69805
+    "medianRank": 69741
   },
   {
     "course": "DNB Radio Diagnosis",
@@ -99,40 +126,13 @@
     "medianRank": 2988
   },
   {
-    "course": "DNB General Medicine",
-    "type": "Clinical",
-    "seats": 6054,
-    "institutes": 477,
-    "openingRank": 139,
-    "closingRank": 220841,
-    "medianRank": 7032
-  },
-  {
     "course": "MS ENT",
     "type": "Clinical",
-    "seats": 4374,
+    "seats": 4371,
     "institutes": 227,
     "openingRank": 141,
     "closingRank": 215349,
-    "medianRank": 26788
-  },
-  {
-    "course": "DNB Ophthalmology",
-    "type": "Clinical",
-    "seats": 2136,
-    "institutes": 154,
-    "openingRank": 247,
-    "closingRank": 164703,
-    "medianRank": 19021
-  },
-  {
-    "course": "MS Ophthalmology",
-    "type": "Clinical",
-    "seats": 5392,
-    "institutes": 225,
-    "openingRank": 411,
-    "closingRank": 215665,
-    "medianRank": 21909
+    "medianRank": 26855
   },
   {
     "course": "DNB Dermatology & Venereology",
@@ -146,11 +146,11 @@
   {
     "course": "MD Anaesthesiology",
     "type": "Clinical",
-    "seats": 10708,
+    "seats": 10703,
     "institutes": 254,
     "openingRank": 535,
     "closingRank": 223863,
-    "medianRank": 25051
+    "medianRank": 25047
   },
   {
     "course": "MD Psychiatry",
@@ -254,11 +254,11 @@
   {
     "course": "MD Pathology",
     "type": "Para-Clinical",
-    "seats": 7435,
+    "seats": 7433,
     "institutes": 244,
     "openingRank": 1703,
     "closingRank": 222613,
-    "medianRank": 44815
+    "medianRank": 44830
   },
   {
     "course": "DNB General Surgery",
@@ -344,11 +344,11 @@
   {
     "course": "MD Social & Preventive Medicine",
     "type": "Pre-Clinical",
-    "seats": 4618,
+    "seats": 4615,
     "institutes": 220,
     "openingRank": 4019,
     "closingRank": 213017,
-    "medianRank": 57230
+    "medianRank": 57226
   },
   {
     "course": "Diploma in Radio-Diagnosis",
@@ -425,11 +425,11 @@
   {
     "course": "MD Anatomy",
     "type": "Pre-Clinical",
-    "seats": 2549,
+    "seats": 2543,
     "institutes": 199,
     "openingRank": 5133,
     "closingRank": 230049,
-    "medianRank": 109950
+    "medianRank": 109849
   },
   {
     "course": "MD Palliative Medicine",
@@ -542,7 +542,7 @@
   {
     "course": "MD Physiology",
     "type": "Pre-Clinical",
-    "seats": 2758,
+    "seats": 2757,
     "institutes": 194,
     "openingRank": 7996,
     "closingRank": 230087,
@@ -578,7 +578,7 @@
   {
     "course": "MD Forensic Medicine",
     "type": "Para-Clinical",
-    "seats": 2241,
+    "seats": 2240,
     "institutes": 173,
     "openingRank": 8946,
     "closingRank": 212156,
@@ -695,7 +695,7 @@
   {
     "course": "MD Bio-Chemistry",
     "type": "Clinical",
-    "seats": 2671,
+    "seats": 2669,
     "institutes": 207,
     "openingRank": 15506,
     "closingRank": 230074,
@@ -776,7 +776,7 @@
   {
     "course": "Diploma in Anaesthesia-NBE",
     "type": "Clinical",
-    "seats": 2551,
+    "seats": 2549,
     "institutes": 272,
     "openingRank": 20837,
     "closingRank": 188737,
