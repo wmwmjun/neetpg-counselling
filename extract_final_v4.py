@@ -112,12 +112,12 @@ def _process_r1_page(args):
 
 def _process_r2_page(args):
     """
-    Round 2 (12 cols):
+    Round 2 — visually 12 cols on all pages:
       Rank(0) | PrevQuota(1) | PrevInst(2) | PrevCourse(3) | Status(4) |
       NewQuota(5) | NewInst(6) | NewCourse(7) | AllottedCat(8) | CandidateCat(9) | ChoiceNo(10) | Remarks(11)
 
-    For Fresh/Upgraded: allotted_cat from col 8, candidate_cat from col 9.
-    For No-Upgradation/Reported/etc: mark needs_lookup=True so main process resolves from R1.
+    NOTE: pdfplumber inserts a spurious blank col[6] on page 1 only (13-col artifact).
+    We strip it so all rows normalise to 12 cols before processing.
     """
     pdf_path, page_num = args
     rows = []
@@ -128,6 +128,9 @@ def _process_r2_page(args):
                 return rows
             for rec in _merge_rows(table):
                 try:
+                    # Normalise 13-col pdfplumber artifact (blank col[6] on page 1)
+                    if len(rec) == 13 and not clean_text(rec[6]):
+                        rec = rec[:6] + rec[7:]
                     if len(rec) < 12:
                         continue
                     rank_str = clean_text(rec[0])
@@ -150,17 +153,16 @@ def _process_r2_page(args):
                             "needs_lookup":  False,
                         })
                     elif any(x in remarks for x in ["no upgradation", "reported", "did not opt",
-                                                     "not allotted", "available"]):
+                                                     "not allotted", "available", "fill up"]):
                         inst = clean_text(rec[2])
                         if not inst or inst == "-":
                             continue
-                        # Mark for lookup — will be resolved from R1 data in main process
                         rows.append({
                             "rank":          rank,
                             "quota":         clean_text(rec[1]),
                             "inst":          inst,
                             "course":        clean_text(rec[3]),
-                            "allotted_cat":  None,   # to be filled from R1
+                            "allotted_cat":  None,
                             "candidate_cat": None,
                             "needs_lookup":  True,
                         })
@@ -212,7 +214,7 @@ def _process_r3_page(args):
                             "needs_lookup":  False,
                         })
                     elif any(x in remarks for x in ["no upgradation", "reported", "did not opt",
-                                                     "not allotted", "available"]):
+                                                     "not allotted", "available", "fill up"]):
                         # Use most recent institute: R2 if present, else R1
                         r2_inst = clean_text(rec[6])
                         if r2_inst and r2_inst != "-":
