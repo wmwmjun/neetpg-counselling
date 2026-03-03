@@ -2,61 +2,61 @@
   {
     "course": "MD General Medicine",
     "type": "Clinical",
-    "seats": 14380,
+    "seats": 13342,
     "institutes": 245,
     "openingRank": 16,
     "closingRank": 228379,
-    "medianRank": 5514
+    "medianRank": 6133
   },
   {
     "course": "MD Radio Diagnosis",
     "type": "Clinical",
-    "seats": 6534,
+    "seats": 6254,
     "institutes": 183,
     "openingRank": 17,
     "closingRank": 229201,
-    "medianRank": 6111
+    "medianRank": 6681
   },
   {
     "course": "MS General Surgery",
     "type": "Clinical",
-    "seats": 13179,
+    "seats": 12129,
     "institutes": 249,
     "openingRank": 22,
     "closingRank": 227639,
-    "medianRank": 14045
+    "medianRank": 14865
   },
   {
     "course": "MS Obstetrics & Gynaecology",
     "type": "Clinical",
-    "seats": 11795,
+    "seats": 10946,
     "institutes": 238,
     "openingRank": 24,
     "closingRank": 227983,
-    "medianRank": 10189
+    "medianRank": 10725
   },
   {
     "course": "MD Dermatology, Venereology & Leprosy",
     "type": "Clinical",
-    "seats": 2614,
+    "seats": 2695,
     "institutes": 180,
     "openingRank": 29,
     "closingRank": 209076,
-    "medianRank": 8998
+    "medianRank": 9364
   },
   {
     "course": "M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(S KIN and VENEREAL DISEASES)/(VENER EOLOGY)",
     "type": "Clinical",
-    "seats": 947,
-    "institutes": 158,
+    "seats": 647,
+    "institutes": 146,
     "openingRank": 29,
     "closingRank": 129445,
-    "medianRank": 5956
+    "medianRank": 9055
   },
   {
     "course": "MD Nuclear Medicine",
     "type": "Clinical",
-    "seats": 87,
+    "seats": 82,
     "institutes": 6,
     "openingRank": 32,
     "closingRank": 117053,
@@ -65,4349 +65,659 @@
   {
     "course": "MD Paediatrics",
     "type": "Clinical",
-    "seats": 10212,
+    "seats": 9265,
     "institutes": 239,
     "openingRank": 36,
     "closingRank": 224563,
-    "medianRank": 9299
+    "medianRank": 10422
   },
   {
     "course": "MS Orthopaedics",
     "type": "Clinical",
-    "seats": 8135,
+    "seats": 7453,
     "institutes": 235,
     "openingRank": 54,
     "closingRank": 229954,
-    "medianRank": 18371
+    "medianRank": 20432
   },
   {
     "course": "MD Pharmacology",
     "type": "Para-Clinical",
-    "seats": 3512,
+    "seats": 3316,
     "institutes": 202,
     "openingRank": 102,
     "closingRank": 226551,
-    "medianRank": 68632
+    "medianRank": 69805
   },
   {
     "course": "DNB Radio Diagnosis",
     "type": "Clinical",
-    "seats": 2625,
-    "institutes": 204,
+    "seats": 2333,
+    "institutes": 202,
     "openingRank": 104,
     "closingRank": 95762,
-    "medianRank": 2930
+    "medianRank": 2979
   },
   {
     "course": "DNB General Medicine",
     "type": "Clinical",
-    "seats": 6961,
-    "institutes": 479,
+    "seats": 6062,
+    "institutes": 477,
     "openingRank": 139,
     "closingRank": 220841,
-    "medianRank": 6916
+    "medianRank": 7029
   },
   {
     "course": "MS ENT",
     "type": "Clinical",
-    "seats": 4757,
+    "seats": 4374,
     "institutes": 227,
     "openingRank": 141,
     "closingRank": 215349,
-    "medianRank": 25548
-  },
-  {
-    "course": "4",
-    "type": "Clinical",
-    "seats": 194,
-    "institutes": 5,
-    "openingRank": 175,
-    "closingRank": 30895,
-    "medianRank": 20627
-  },
-  {
-    "course": "1",
-    "type": "Clinical",
-    "seats": 302,
-    "institutes": 7,
-    "openingRank": 181,
-    "closingRank": 30997,
-    "medianRank": 21722
-  },
-  {
-    "course": "2",
-    "type": "Clinical",
-    "seats": 219,
-    "institutes": 7,
-    "openingRank": 185,
-    "closingRank": 31444,
-    "medianRank": 20054
+    "medianRank": 26788
   },
   {
     "course": "DNB Ophthalmology",
     "type": "Clinical",
-    "seats": 2408,
+    "seats": 2137,
     "institutes": 154,
     "openingRank": 247,
     "closingRank": 164703,
-    "medianRank": 18315
-  },
-  {
-    "course": "6",
-    "type": "Clinical",
-    "seats": 180,
-    "institutes": 6,
-    "openingRank": 248,
-    "closingRank": 31401,
-    "medianRank": 18699
-  },
-  {
-    "course": "3",
-    "type": "Clinical",
-    "seats": 205,
-    "institutes": 7,
-    "openingRank": 290,
-    "closingRank": 31429,
-    "medianRank": 21270
-  },
-  {
-    "course": "10",
-    "type": "Clinical",
-    "seats": 152,
-    "institutes": 6,
-    "openingRank": 325,
-    "closingRank": 31148,
-    "medianRank": 21296
+    "medianRank": 19018
   },
   {
     "course": "MS Ophthalmology",
     "type": "Clinical",
-    "seats": 5921,
+    "seats": 5392,
     "institutes": 225,
     "openingRank": 411,
     "closingRank": 215665,
-    "medianRank": 20993
-  },
-  {
-    "course": "9",
-    "type": "Clinical",
-    "seats": 160,
-    "institutes": 6,
-    "openingRank": 419,
-    "closingRank": 31226,
-    "medianRank": 18872
-  },
-  {
-    "course": "15",
-    "type": "Clinical",
-    "seats": 116,
-    "institutes": 5,
-    "openingRank": 430,
-    "closingRank": 30305,
-    "medianRank": 20009
-  },
-  {
-    "course": "12",
-    "type": "Clinical",
-    "seats": 152,
-    "institutes": 5,
-    "openingRank": 473,
-    "closingRank": 30406,
-    "medianRank": 18672
+    "medianRank": 21909
   },
   {
     "course": "DNB Dermatology & Venereology",
     "type": "Clinical",
-    "seats": 162,
-    "institutes": 36,
+    "seats": 164,
+    "institutes": 34,
     "openingRank": 506,
     "closingRank": 149016,
     "medianRank": 4440
   },
   {
-    "course": "11",
-    "type": "Clinical",
-    "seats": 163,
-    "institutes": 5,
-    "openingRank": 523,
-    "closingRank": 30906,
-    "medianRank": 19085
-  },
-  {
     "course": "MD Anaesthesiology",
     "type": "Clinical",
-    "seats": 10498,
+    "seats": 10708,
     "institutes": 254,
     "openingRank": 535,
     "closingRank": 223863,
-    "medianRank": 24851
-  },
-  {
-    "course": "8",
-    "type": "Clinical",
-    "seats": 152,
-    "institutes": 5,
-    "openingRank": 545,
-    "closingRank": 30830,
-    "medianRank": 20439
+    "medianRank": 25051
   },
   {
     "course": "MD Psychiatry",
     "type": "Clinical",
-    "seats": 3753,
+    "seats": 3508,
     "institutes": 177,
     "openingRank": 618,
     "closingRank": 229318,
-    "medianRank": 21176
+    "medianRank": 21860
   },
   {
     "course": "DNB Nuclear Medicine",
     "type": "Clinical",
-    "seats": 166,
+    "seats": 161,
     "institutes": 26,
     "openingRank": 649,
     "closingRank": 26350,
-    "medianRank": 3190
-  },
-  {
-    "course": "37",
-    "type": "Clinical",
-    "seats": 69,
-    "institutes": 5,
-    "openingRank": 686,
-    "closingRank": 30986,
-    "medianRank": 13784
-  },
-  {
-    "course": "5",
-    "type": "Clinical",
-    "seats": 164,
-    "institutes": 5,
-    "openingRank": 776,
-    "closingRank": 31038,
-    "medianRank": 20275
+    "medianRank": 3267
   },
   {
     "course": "Diploma in Radio-Diagnosis-NBE",
     "type": "Clinical",
-    "seats": 1494,
-    "institutes": 142,
+    "seats": 1355,
+    "institutes": 141,
     "openingRank": 815,
     "closingRank": 155407,
-    "medianRank": 10537
+    "medianRank": 10838
   },
   {
     "course": "DNB Plastic Surgery (6 years)",
     "type": "Clinical",
-    "seats": 132,
+    "seats": 131,
     "institutes": 15,
     "openingRank": 851,
     "closingRank": 28526,
-    "medianRank": 13310
-  },
-  {
-    "course": "16",
-    "type": "Clinical",
-    "seats": 98,
-    "institutes": 5,
-    "openingRank": 899,
-    "closingRank": 31286,
-    "medianRank": 17452
-  },
-  {
-    "course": "13",
-    "type": "Clinical",
-    "seats": 143,
-    "institutes": 5,
-    "openingRank": 925,
-    "closingRank": 30915,
-    "medianRank": 16954
-  },
-  {
-    "course": "43",
-    "type": "Clinical",
-    "seats": 68,
-    "institutes": 4,
-    "openingRank": 949,
-    "closingRank": 31260,
-    "medianRank": 18118
+    "medianRank": 13755
   },
   {
     "course": "MD Radiation Oncology",
     "type": "Clinical",
-    "seats": 1537,
+    "seats": 1415,
     "institutes": 84,
     "openingRank": 962,
     "closingRank": 218472,
-    "medianRank": 17432
-  },
-  {
-    "course": "28",
-    "type": "Clinical",
-    "seats": 86,
-    "institutes": 5,
-    "openingRank": 975,
-    "closingRank": 30873,
-    "medianRank": 19316
-  },
-  {
-    "course": "7",
-    "type": "Clinical",
-    "seats": 184,
-    "institutes": 6,
-    "openingRank": 1001,
-    "closingRank": 31292,
-    "medianRank": 20141
-  },
-  {
-    "course": "21",
-    "type": "Clinical",
-    "seats": 92,
-    "institutes": 5,
-    "openingRank": 1057,
-    "closingRank": 28252,
-    "medianRank": 16023
-  },
-  {
-    "course": "14",
-    "type": "Clinical",
-    "seats": 144,
-    "institutes": 5,
-    "openingRank": 1077,
-    "closingRank": 31372,
-    "medianRank": 18684
+    "medianRank": 17533
   },
   {
     "course": "DNB Neuro Surgery (6 years)",
     "type": "Clinical",
-    "seats": 430,
+    "seats": 405,
     "institutes": 37,
     "openingRank": 1084,
     "closingRank": 32351,
-    "medianRank": 15071
-  },
-  {
-    "course": "35",
-    "type": "Clinical",
-    "seats": 67,
-    "institutes": 5,
-    "openingRank": 1103,
-    "closingRank": 30046,
-    "medianRank": 17557
-  },
-  {
-    "course": "17",
-    "type": "Clinical",
-    "seats": 127,
-    "institutes": 5,
-    "openingRank": 1135,
-    "closingRank": 31191,
-    "medianRank": 16866
+    "medianRank": 15285
   },
   {
     "course": "MD Emergency Medicine",
     "type": "Clinical",
-    "seats": 1363,
+    "seats": 1251,
     "institutes": 89,
     "openingRank": 1170,
     "closingRank": 207465,
-    "medianRank": 33210
+    "medianRank": 35947
   },
   {
     "course": "MD Tuberculosis & Respiratory Diseases",
     "type": "Clinical",
-    "seats": 2929,
+    "seats": 2636,
     "institutes": 148,
     "openingRank": 1199,
     "closingRank": 227054,
-    "medianRank": 15237
-  },
-  {
-    "course": "33",
-    "type": "Clinical",
-    "seats": 51,
-    "institutes": 5,
-    "openingRank": 1282,
-    "closingRank": 30857,
-    "medianRank": 19223
+    "medianRank": 16981
   },
   {
     "course": "MD Physical Medicine & Rehabilitation",
     "type": "Clinical",
-    "seats": 321,
+    "seats": 294,
     "institutes": 22,
     "openingRank": 1314,
     "closingRank": 223689,
-    "medianRank": 23708
-  },
-  {
-    "course": "19",
-    "type": "Clinical",
-    "seats": 107,
-    "institutes": 5,
-    "openingRank": 1368,
-    "closingRank": 31436,
-    "medianRank": 15863
+    "medianRank": 25079
   },
   {
     "course": "MS Traumatology and Surgery",
     "type": "Clinical",
-    "seats": 29,
+    "seats": 26,
     "institutes": 2,
     "openingRank": 1389,
     "closingRank": 52862,
     "medianRank": 14408
   },
   {
-    "course": "36",
-    "type": "Clinical",
-    "seats": 73,
-    "institutes": 5,
-    "openingRank": 1393,
-    "closingRank": 31445,
-    "medianRank": 16357
-  },
-  {
-    "course": "54",
-    "type": "Clinical",
-    "seats": 43,
-    "institutes": 5,
-    "openingRank": 1463,
-    "closingRank": 31452,
-    "medianRank": 12636
-  },
-  {
-    "course": "46",
-    "type": "Clinical",
-    "seats": 66,
-    "institutes": 5,
-    "openingRank": 1511,
-    "closingRank": 31285,
-    "medianRank": 16233
-  },
-  {
-    "course": "18",
-    "type": "Clinical",
-    "seats": 111,
-    "institutes": 5,
-    "openingRank": 1535,
-    "closingRank": 31421,
-    "medianRank": 17865
-  },
-  {
     "course": "M.D. (ANAESTHESIOLOG Y)",
     "type": "Clinical",
-    "seats": 3586,
-    "institutes": 222,
+    "seats": 2049,
+    "institutes": 209,
     "openingRank": 1558,
     "closingRank": 126383,
-    "medianRank": 20297
-  },
-  {
-    "course": "34",
-    "type": "Clinical",
-    "seats": 62,
-    "institutes": 5,
-    "openingRank": 1569,
-    "closingRank": 31324,
-    "medianRank": 17225
-  },
-  {
-    "course": "Diploma in Dermatology, Venereology and Leprosy",
-    "type": "Clinical",
-    "seats": 35,
-    "institutes": 21,
-    "openingRank": 1578,
-    "closingRank": 51249,
-    "medianRank": 5455
-  },
-  {
-    "course": "24",
-    "type": "Clinical",
-    "seats": 99,
-    "institutes": 5,
-    "openingRank": 1647,
-    "closingRank": 31414,
-    "medianRank": 15313
-  },
-  {
-    "course": "59",
-    "type": "Clinical",
-    "seats": 43,
-    "institutes": 5,
-    "openingRank": 1673,
-    "closingRank": 29954,
-    "medianRank": 18361
-  },
-  {
-    "course": "38",
-    "type": "Clinical",
-    "seats": 62,
-    "institutes": 5,
-    "openingRank": 1678,
-    "closingRank": 29717,
-    "medianRank": 18998
-  },
-  {
-    "course": "48",
-    "type": "Clinical",
-    "seats": 50,
-    "institutes": 5,
-    "openingRank": 1682,
-    "closingRank": 31119,
-    "medianRank": 17153
-  },
-  {
-    "course": "20",
-    "type": "Clinical",
-    "seats": 104,
-    "institutes": 5,
-    "openingRank": 1699,
-    "closingRank": 31343,
-    "medianRank": 18945
+    "medianRank": 26437
   },
   {
     "course": "MD Pathology",
     "type": "Para-Clinical",
-    "seats": 8048,
+    "seats": 7482,
     "institutes": 244,
     "openingRank": 1703,
     "closingRank": 222613,
-    "medianRank": 43049
-  },
-  {
-    "course": "31",
-    "type": "Clinical",
-    "seats": 61,
-    "institutes": 5,
-    "openingRank": 1743,
-    "closingRank": 31350,
-    "medianRank": 13955
-  },
-  {
-    "course": "26",
-    "type": "Clinical",
-    "seats": 80,
-    "institutes": 5,
-    "openingRank": 1753,
-    "closingRank": 31423,
-    "medianRank": 17864
+    "medianRank": 44666
   },
   {
     "course": "DNB General Surgery",
     "type": "Clinical",
-    "seats": 3859,
-    "institutes": 297,
+    "seats": 3426,
+    "institutes": 296,
     "openingRank": 1772,
     "closingRank": 210638,
-    "medianRank": 17480
+    "medianRank": 17779
   },
   {
-    "course": "40",
+    "course": "Diploma in Dermatology, Venereology and Leprosy",
     "type": "Clinical",
-    "seats": 67,
-    "institutes": 5,
-    "openingRank": 1773,
-    "closingRank": 31402,
-    "medianRank": 17011
-  },
-  {
-    "course": "97",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 5,
-    "openingRank": 1796,
-    "closingRank": 29433,
-    "medianRank": 17827
-  },
-  {
-    "course": "76",
-    "type": "Clinical",
-    "seats": 40,
-    "institutes": 5,
-    "openingRank": 1799,
-    "closingRank": 31213,
-    "medianRank": 17278
-  },
-  {
-    "course": "DIP. IN DERM. VENEREOLOGY and LEPROSY/DERMAT OLOGY /VENEREOLOGY and DERMATOLOGY/LE PROSY/VENEREAL DISEASE and LEPROSY",
-    "type": "Clinical",
-    "seats": 9,
+    "seats": 21,
     "institutes": 7,
     "openingRank": 1801,
     "closingRank": 51249,
     "medianRank": 5972
   },
   {
-    "course": "25",
-    "type": "Clinical",
-    "seats": 69,
-    "institutes": 5,
-    "openingRank": 1829,
-    "closingRank": 31396,
-    "medianRank": 20402
-  },
-  {
-    "course": "98",
-    "type": "Clinical",
-    "seats": 31,
-    "institutes": 4,
-    "openingRank": 1833,
-    "closingRank": 25826,
-    "medianRank": 13167
-  },
-  {
-    "course": "60",
-    "type": "Clinical",
-    "seats": 45,
-    "institutes": 5,
-    "openingRank": 1843,
-    "closingRank": 31134,
-    "medianRank": 17230
-  },
-  {
-    "course": "30",
-    "type": "Clinical",
-    "seats": 74,
-    "institutes": 5,
-    "openingRank": 1895,
-    "closingRank": 31431,
-    "medianRank": 16360
-  },
-  {
-    "course": "49",
-    "type": "Clinical",
-    "seats": 71,
-    "institutes": 5,
-    "openingRank": 1900,
-    "closingRank": 30171,
-    "medianRank": 18125
-  },
-  {
-    "course": "39",
-    "type": "Clinical",
-    "seats": 65,
-    "institutes": 5,
-    "openingRank": 1907,
-    "closingRank": 30179,
-    "medianRank": 16622
-  },
-  {
     "course": "DNB Paediatrics",
     "type": "Clinical",
-    "seats": 3577,
+    "seats": 3092,
     "institutes": 286,
     "openingRank": 1923,
     "closingRank": 182998,
-    "medianRank": 11230
-  },
-  {
-    "course": "22",
-    "type": "Clinical",
-    "seats": 102,
-    "institutes": 5,
-    "openingRank": 1945,
-    "closingRank": 31419,
-    "medianRank": 20449
-  },
-  {
-    "course": "65",
-    "type": "Clinical",
-    "seats": 39,
-    "institutes": 5,
-    "openingRank": 1948,
-    "closingRank": 31073,
-    "medianRank": 18081
-  },
-  {
-    "course": "23",
-    "type": "Clinical",
-    "seats": 101,
-    "institutes": 5,
-    "openingRank": 1991,
-    "closingRank": 31266,
-    "medianRank": 15719
-  },
-  {
-    "course": "66",
-    "type": "Clinical",
-    "seats": 47,
-    "institutes": 5,
-    "openingRank": 1999,
-    "closingRank": 31218,
-    "medianRank": 17985
-  },
-  {
-    "course": "85",
-    "type": "Clinical",
-    "seats": 39,
-    "institutes": 5,
-    "openingRank": 1999,
-    "closingRank": 29086,
-    "medianRank": 15634
+    "medianRank": 11522
   },
   {
     "course": "DNB Respiratory Diseases",
     "type": "Clinical",
-    "seats": 837,
+    "seats": 738,
     "institutes": 83,
     "openingRank": 2072,
     "closingRank": 212329,
-    "medianRank": 11170
-  },
-  {
-    "course": "29",
-    "type": "Clinical",
-    "seats": 101,
-    "institutes": 5,
-    "openingRank": 2082,
-    "closingRank": 30708,
-    "medianRank": 18169
-  },
-  {
-    "course": "58",
-    "type": "Clinical",
-    "seats": 47,
-    "institutes": 5,
-    "openingRank": 2125,
-    "closingRank": 30249,
-    "medianRank": 19686
-  },
-  {
-    "course": "83",
-    "type": "Clinical",
-    "seats": 51,
-    "institutes": 4,
-    "openingRank": 2156,
-    "closingRank": 30858,
-    "medianRank": 18408
-  },
-  {
-    "course": "52",
-    "type": "Clinical",
-    "seats": 44,
-    "institutes": 5,
-    "openingRank": 2211,
-    "closingRank": 31309,
-    "medianRank": 18106
-  },
-  {
-    "course": "75",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 5,
-    "openingRank": 2248,
-    "closingRank": 28949,
-    "medianRank": 15689
-  },
-  {
-    "course": "27",
-    "type": "Clinical",
-    "seats": 70,
-    "institutes": 5,
-    "openingRank": 2249,
-    "closingRank": 29868,
-    "medianRank": 17311
-  },
-  {
-    "course": "32",
-    "type": "Clinical",
-    "seats": 78,
-    "institutes": 5,
-    "openingRank": 2325,
-    "closingRank": 31039,
-    "medianRank": 17302
+    "medianRank": 11700
   },
   {
     "course": "MD Geriatrics",
     "type": "Clinical",
-    "seats": 220,
+    "seats": 207,
     "institutes": 18,
     "openingRank": 2365,
     "closingRank": 217569,
-    "medianRank": 31822
-  },
-  {
-    "course": "73",
-    "type": "Clinical",
-    "seats": 44,
-    "institutes": 5,
-    "openingRank": 2393,
-    "closingRank": 30821,
-    "medianRank": 15195
-  },
-  {
-    "course": "56",
-    "type": "Clinical",
-    "seats": 60,
-    "institutes": 5,
-    "openingRank": 2404,
-    "closingRank": 31409,
-    "medianRank": 16098
-  },
-  {
-    "course": "90",
-    "type": "Clinical",
-    "seats": 29,
-    "institutes": 5,
-    "openingRank": 2457,
-    "closingRank": 30510,
-    "medianRank": 19326
-  },
-  {
-    "course": "47",
-    "type": "Clinical",
-    "seats": 70,
-    "institutes": 5,
-    "openingRank": 2482,
-    "closingRank": 30462,
-    "medianRank": 17143
-  },
-  {
-    "course": "80",
-    "type": "Clinical",
-    "seats": 31,
-    "institutes": 5,
-    "openingRank": 2486,
-    "closingRank": 28059,
-    "medianRank": 13283
+    "medianRank": 32705
   },
   {
     "course": "DNB Emergency Medicine",
     "type": "Clinical",
-    "seats": 1762,
+    "seats": 1576,
     "institutes": 134,
     "openingRank": 2529,
     "closingRank": 129190,
-    "medianRank": 17722
-  },
-  {
-    "course": "74",
-    "type": "Clinical",
-    "seats": 40,
-    "institutes": 4,
-    "openingRank": 2550,
-    "closingRank": 31003,
-    "medianRank": 13959
-  },
-  {
-    "course": "87",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 2551,
-    "closingRank": 30334,
-    "medianRank": 19897
-  },
-  {
-    "course": "64",
-    "type": "Clinical",
-    "seats": 39,
-    "institutes": 5,
-    "openingRank": 2562,
-    "closingRank": 30512,
-    "medianRank": 15482
-  },
-  {
-    "course": "78",
-    "type": "Clinical",
-    "seats": 45,
-    "institutes": 5,
-    "openingRank": 2578,
-    "closingRank": 29110,
-    "medianRank": 17679
-  },
-  {
-    "course": "120",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 4,
-    "openingRank": 2623,
-    "closingRank": 30438,
-    "medianRank": 17660
-  },
-  {
-    "course": "116",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 4,
-    "openingRank": 2691,
-    "closingRank": 26427,
-    "medianRank": 11969
-  },
-  {
-    "course": "62",
-    "type": "Clinical",
-    "seats": 52,
-    "institutes": 5,
-    "openingRank": 2711,
-    "closingRank": 30648,
-    "medianRank": 19151
-  },
-  {
-    "course": "41",
-    "type": "Clinical",
-    "seats": 63,
-    "institutes": 5,
-    "openingRank": 2751,
-    "closingRank": 31157,
-    "medianRank": 19026
-  },
-  {
-    "course": "72",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 4,
-    "openingRank": 2824,
-    "closingRank": 30502,
-    "medianRank": 16876
+    "medianRank": 18402
   },
   {
     "course": "DNB Family Medicine",
     "type": "Clinical",
-    "seats": 1033,
+    "seats": 943,
     "institutes": 64,
     "openingRank": 2826,
     "closingRank": 119250,
-    "medianRank": 24799
-  },
-  {
-    "course": "57",
-    "type": "Clinical",
-    "seats": 42,
-    "institutes": 5,
-    "openingRank": 2873,
-    "closingRank": 30382,
-    "medianRank": 17958
+    "medianRank": 25466
   },
   {
     "course": "DNB Cardio Thoracic Surgery (6 years)",
     "type": "Clinical",
-    "seats": 512,
+    "seats": 487,
     "institutes": 40,
     "openingRank": 2875,
     "closingRank": 80627,
-    "medianRank": 20488
-  },
-  {
-    "course": "91",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 5,
-    "openingRank": 2891,
-    "closingRank": 29714,
-    "medianRank": 19750
-  },
-  {
-    "course": "67",
-    "type": "Clinical",
-    "seats": 41,
-    "institutes": 5,
-    "openingRank": 2910,
-    "closingRank": 29612,
-    "medianRank": 17725
-  },
-  {
-    "course": "42",
-    "type": "Clinical",
-    "seats": 54,
-    "institutes": 5,
-    "openingRank": 2921,
-    "closingRank": 30709,
-    "medianRank": 18724
-  },
-  {
-    "course": "109",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 2931,
-    "closingRank": 29701,
-    "medianRank": 17697
-  },
-  {
-    "course": "86",
-    "type": "Clinical",
-    "seats": 30,
-    "institutes": 5,
-    "openingRank": 2965,
-    "closingRank": 30514,
-    "medianRank": 14850
-  },
-  {
-    "course": "131",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 4,
-    "openingRank": 3141,
-    "closingRank": 30826,
-    "medianRank": 13220
-  },
-  {
-    "course": "53",
-    "type": "Clinical",
-    "seats": 50,
-    "institutes": 5,
-    "openingRank": 3155,
-    "closingRank": 30732,
-    "medianRank": 18497
-  },
-  {
-    "course": "44",
-    "type": "Clinical",
-    "seats": 61,
-    "institutes": 5,
-    "openingRank": 3168,
-    "closingRank": 31438,
-    "medianRank": 18193
-  },
-  {
-    "course": "50",
-    "type": "Clinical",
-    "seats": 67,
-    "institutes": 5,
-    "openingRank": 3181,
-    "closingRank": 31322,
-    "medianRank": 15317
-  },
-  {
-    "course": "71",
-    "type": "Clinical",
-    "seats": 46,
-    "institutes": 5,
-    "openingRank": 3192,
-    "closingRank": 31307,
-    "medianRank": 18940
-  },
-  {
-    "course": "45",
-    "type": "Clinical",
-    "seats": 58,
-    "institutes": 5,
-    "openingRank": 3195,
-    "closingRank": 30401,
-    "medianRank": 18182
+    "medianRank": 20797
   },
   {
     "course": "MD Family Medicine",
     "type": "Clinical",
-    "seats": 170,
-    "institutes": 89,
+    "seats": 39,
+    "institutes": 4,
     "openingRank": 3254,
-    "closingRank": 138052,
-    "medianRank": 57314
-  },
-  {
-    "course": "102",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 5,
-    "openingRank": 3271,
-    "closingRank": 22230,
-    "medianRank": 14643
-  },
-  {
-    "course": "69",
-    "type": "Clinical",
-    "seats": 53,
-    "institutes": 5,
-    "openingRank": 3303,
-    "closingRank": 31373,
-    "medianRank": 17303
-  },
-  {
-    "course": "99",
-    "type": "Clinical",
-    "seats": 31,
-    "institutes": 5,
-    "openingRank": 3316,
-    "closingRank": 31158,
-    "medianRank": 19532
-  },
-  {
-    "course": "68",
-    "type": "Clinical",
-    "seats": 45,
-    "institutes": 5,
-    "openingRank": 3334,
-    "closingRank": 31341,
-    "medianRank": 17918
-  },
-  {
-    "course": "174",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 5,
-    "openingRank": 3364,
-    "closingRank": 28221,
-    "medianRank": 21202
-  },
-  {
-    "course": "178",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 3,
-    "openingRank": 3368,
-    "closingRank": 28468,
-    "medianRank": 17757
-  },
-  {
-    "course": "51",
-    "type": "Clinical",
-    "seats": 53,
-    "institutes": 5,
-    "openingRank": 3377,
-    "closingRank": 31141,
-    "medianRank": 16699
-  },
-  {
-    "course": "134",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 4,
-    "openingRank": 3384,
-    "closingRank": 29620,
-    "medianRank": 17022
-  },
-  {
-    "course": "88",
-    "type": "Clinical",
-    "seats": 31,
-    "institutes": 5,
-    "openingRank": 3448,
-    "closingRank": 31234,
-    "medianRank": 17966
-  },
-  {
-    "course": "172",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 3,
-    "openingRank": 3533,
-    "closingRank": 30513,
-    "medianRank": 11036
-  },
-  {
-    "course": "181",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 4,
-    "openingRank": 3565,
-    "closingRank": 29186,
-    "medianRank": 12670
-  },
-  {
-    "course": "61",
-    "type": "Clinical",
-    "seats": 49,
-    "institutes": 5,
-    "openingRank": 3600,
-    "closingRank": 29800,
-    "medianRank": 17338
-  },
-  {
-    "course": "140",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 4,
-    "openingRank": 3608,
-    "closingRank": 30789,
-    "medianRank": 14490
-  },
-  {
-    "course": "63",
-    "type": "Clinical",
-    "seats": 49,
-    "institutes": 5,
-    "openingRank": 3611,
-    "closingRank": 30746,
-    "medianRank": 18918
-  },
-  {
-    "course": "77",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 5,
-    "openingRank": 3639,
-    "closingRank": 28114,
-    "medianRank": 15605
-  },
-  {
-    "course": "151",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 5,
-    "openingRank": 3648,
-    "closingRank": 27917,
-    "medianRank": 19079
-  },
-  {
-    "course": "55",
-    "type": "Clinical",
-    "seats": 46,
-    "institutes": 4,
-    "openingRank": 3655,
-    "closingRank": 31238,
-    "medianRank": 16897
-  },
-  {
-    "course": "169",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 5,
-    "openingRank": 3657,
-    "closingRank": 27652,
-    "medianRank": 16896
-  },
-  {
-    "course": "141",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 3,
-    "openingRank": 3685,
-    "closingRank": 28261,
-    "medianRank": 13942
-  },
-  {
-    "course": "144",
-    "type": "Clinical",
-    "seats": 24,
-    "institutes": 5,
-    "openingRank": 3707,
-    "closingRank": 27617,
-    "medianRank": 16200
-  },
-  {
-    "course": "206",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 3756,
-    "closingRank": 29848,
-    "medianRank": 21533
-  },
-  {
-    "course": "89",
-    "type": "Clinical",
-    "seats": 34,
-    "institutes": 5,
-    "openingRank": 3767,
-    "closingRank": 31282,
-    "medianRank": 21503
-  },
-  {
-    "course": "130",
-    "type": "Clinical",
-    "seats": 24,
-    "institutes": 5,
-    "openingRank": 3809,
-    "closingRank": 29135,
-    "medianRank": 17315
-  },
-  {
-    "course": "195",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 3838,
-    "closingRank": 30267,
-    "medianRank": 14186
-  },
-  {
-    "course": "132",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 3892,
-    "closingRank": 30307,
-    "medianRank": 17490
-  },
-  {
-    "course": "145",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 6,
-    "openingRank": 3898,
-    "closingRank": 28148,
-    "medianRank": 18831
-  },
-  {
-    "course": "104",
-    "type": "Clinical",
-    "seats": 30,
-    "institutes": 5,
-    "openingRank": 3970,
-    "closingRank": 31479,
-    "medianRank": 21970
+    "closingRank": 77371,
+    "medianRank": 47552
   },
   {
     "course": "MD Social & Preventive Medicine",
     "type": "Pre-Clinical",
-    "seats": 4895,
+    "seats": 4618,
     "institutes": 220,
     "openingRank": 4019,
     "closingRank": 213017,
-    "medianRank": 55600
-  },
-  {
-    "course": "82",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 5,
-    "openingRank": 4022,
-    "closingRank": 29282,
-    "medianRank": 17988
+    "medianRank": 57230
   },
   {
     "course": "Diploma in Radio-Diagnosis",
     "type": "Clinical",
-    "seats": 54,
+    "seats": 48,
     "institutes": 6,
     "openingRank": 4024,
     "closingRank": 59759,
-    "medianRank": 6263
-  },
-  {
-    "course": "128",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 4,
-    "openingRank": 4051,
-    "closingRank": 30204,
-    "medianRank": 17554
-  },
-  {
-    "course": "94",
-    "type": "Clinical",
-    "seats": 44,
-    "institutes": 5,
-    "openingRank": 4055,
-    "closingRank": 29075,
-    "medianRank": 16543
-  },
-  {
-    "course": "135",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 5,
-    "openingRank": 4073,
-    "closingRank": 29413,
-    "medianRank": 21358
-  },
-  {
-    "course": "100",
-    "type": "Clinical",
-    "seats": 28,
-    "institutes": 5,
-    "openingRank": 4079,
-    "closingRank": 28065,
-    "medianRank": 16706
-  },
-  {
-    "course": "81",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 4082,
-    "closingRank": 28856,
-    "medianRank": 13563
-  },
-  {
-    "course": "170",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 3,
-    "openingRank": 4092,
-    "closingRank": 31154,
-    "medianRank": 14348
+    "medianRank": 7181
   },
   {
     "course": "MD Immuno Haematology & Blood Transfusion",
     "type": "Clinical",
-    "seats": 691,
+    "seats": 713,
     "institutes": 49,
     "openingRank": 4132,
     "closingRank": 229870,
-    "medianRank": 48159
-  },
-  {
-    "course": "101",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 4,
-    "openingRank": 4132,
-    "closingRank": 29100,
-    "medianRank": 17728
+    "medianRank": 48941
   },
   {
     "course": "DNB Health Administration including Hospital Administration",
     "type": "Clinical",
-    "seats": 44,
+    "seats": 42,
     "institutes": 6,
     "openingRank": 4163,
     "closingRank": 185715,
-    "medianRank": 37679
-  },
-  {
-    "course": "108",
-    "type": "Clinical",
-    "seats": 22,
-    "institutes": 5,
-    "openingRank": 4180,
-    "closingRank": 29941,
-    "medianRank": 14763
-  },
-  {
-    "course": "96",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 4192,
-    "closingRank": 30767,
-    "medianRank": 17566
-  },
-  {
-    "course": "139",
-    "type": "Clinical",
-    "seats": 31,
-    "institutes": 5,
-    "openingRank": 4212,
-    "closingRank": 29872,
-    "medianRank": 19900
-  },
-  {
-    "course": "218",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 4215,
-    "closingRank": 31434,
-    "medianRank": 18825
-  },
-  {
-    "course": "277",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 5,
-    "openingRank": 4222,
-    "closingRank": 28404,
-    "medianRank": 17820
-  },
-  {
-    "course": "107",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 4,
-    "openingRank": 4243,
-    "closingRank": 29739,
-    "medianRank": 14655
-  },
-  {
-    "course": "250",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 4278,
-    "closingRank": 25538,
-    "medianRank": 15260
-  },
-  {
-    "course": "304",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 4292,
-    "closingRank": 30128,
-    "medianRank": 17407
+    "medianRank": 38977
   },
   {
     "course": "DNB Anaesthesiology",
     "type": "Clinical",
-    "seats": 4740,
+    "seats": 4777,
     "institutes": 361,
     "openingRank": 4293,
     "closingRank": 204785,
-    "medianRank": 26790
-  },
-  {
-    "course": "179",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 5,
-    "openingRank": 4297,
-    "closingRank": 31152,
-    "medianRank": 15697
+    "medianRank": 26973
   },
   {
     "course": "DNB Orthopedics Surgery",
     "type": "Clinical",
-    "seats": 3375,
-    "institutes": 297,
+    "seats": 3346,
+    "institutes": 291,
     "openingRank": 4355,
     "closingRank": 95558,
-    "medianRank": 21914
-  },
-  {
-    "course": "Diploma in Orthopaedics",
-    "type": "Clinical",
-    "seats": 349,
-    "institutes": 171,
-    "openingRank": 4355,
-    "closingRank": 109400,
-    "medianRank": 22732
-  },
-  {
-    "course": "111",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 4377,
-    "closingRank": 30606,
-    "medianRank": 16541
+    "medianRank": 22675
   },
   {
     "course": "MD Aviation Medicine/Aerospace Medicine",
     "type": "Clinical",
-    "seats": 10,
+    "seats": 11,
     "institutes": 1,
     "openingRank": 4392,
     "closingRank": 25932,
-    "medianRank": 13020
-  },
-  {
-    "course": "133",
-    "type": "Clinical",
-    "seats": 30,
-    "institutes": 5,
-    "openingRank": 4393,
-    "closingRank": 30610,
-    "medianRank": 20600
+    "medianRank": 10888
   },
   {
     "course": "DNB Obstetrics & Gynaecology",
     "type": "Clinical",
-    "seats": 2462,
+    "seats": 2172,
     "institutes": 243,
     "openingRank": 4435,
     "closingRank": 80001,
-    "medianRank": 13041
-  },
-  {
-    "course": "105",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 4478,
-    "closingRank": 30021,
-    "medianRank": 18961
-  },
-  {
-    "course": "235",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 5,
-    "openingRank": 4495,
-    "closingRank": 31328,
-    "medianRank": 17490
-  },
-  {
-    "course": "117",
-    "type": "Clinical",
-    "seats": 25,
-    "institutes": 4,
-    "openingRank": 4496,
-    "closingRank": 29618,
-    "medianRank": 14415
-  },
-  {
-    "course": "106",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 4,
-    "openingRank": 4516,
-    "closingRank": 30974,
-    "medianRank": 20488
-  },
-  {
-    "course": "280",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 4527,
-    "closingRank": 29546,
-    "medianRank": 20315
-  },
-  {
-    "course": "160",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 4,
-    "openingRank": 4536,
-    "closingRank": 27886,
-    "medianRank": 16548
-  },
-  {
-    "course": "112",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 4541,
-    "closingRank": 30677,
-    "medianRank": 17576
-  },
-  {
-    "course": "159",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 5,
-    "openingRank": 4549,
-    "closingRank": 28124,
-    "medianRank": 17856
-  },
-  {
-    "course": "95",
-    "type": "Clinical",
-    "seats": 29,
-    "institutes": 5,
-    "openingRank": 4625,
-    "closingRank": 30318,
-    "medianRank": 14824
-  },
-  {
-    "course": "125",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 5,
-    "openingRank": 4685,
-    "closingRank": 28530,
-    "medianRank": 18773
-  },
-  {
-    "course": "214",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 4716,
-    "closingRank": 29865,
-    "medianRank": 21195
-  },
-  {
-    "course": "155",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 4,
-    "openingRank": 4732,
-    "closingRank": 31071,
-    "medianRank": 15515
-  },
-  {
-    "course": "177",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 4,
-    "openingRank": 4740,
-    "closingRank": 28684,
-    "medianRank": 14477
-  },
-  {
-    "course": "148",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 5,
-    "openingRank": 4744,
-    "closingRank": 29990,
-    "medianRank": 17575
-  },
-  {
-    "course": "137",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 5,
-    "openingRank": 4781,
-    "closingRank": 31036,
-    "medianRank": 17816
-  },
-  {
-    "course": "70",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 4822,
-    "closingRank": 28923,
-    "medianRank": 15318
-  },
-  {
-    "course": "253",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 4826,
-    "closingRank": 28701,
-    "medianRank": 22105
-  },
-  {
-    "course": "362",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 4826,
-    "closingRank": 25540,
-    "medianRank": 22109
-  },
-  {
-    "course": "92",
-    "type": "Clinical",
-    "seats": 30,
-    "institutes": 5,
-    "openingRank": 4838,
-    "closingRank": 31017,
-    "medianRank": 18587
-  },
-  {
-    "course": "161",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 3,
-    "openingRank": 4875,
-    "closingRank": 30927,
-    "medianRank": 11579
-  },
-  {
-    "course": "123",
-    "type": "Clinical",
-    "seats": 35,
-    "institutes": 5,
-    "openingRank": 4888,
-    "closingRank": 29548,
-    "medianRank": 14766
-  },
-  {
-    "course": "152",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 4,
-    "openingRank": 4915,
-    "closingRank": 30535,
-    "medianRank": 19109
-  },
-  {
-    "course": "191",
-    "type": "Clinical",
-    "seats": 16,
-    "institutes": 5,
-    "openingRank": 4949,
-    "closingRank": 28141,
-    "medianRank": 17967
-  },
-  {
-    "course": "167",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 6,
-    "openingRank": 4968,
-    "closingRank": 30135,
-    "medianRank": 19989
-  },
-  {
-    "course": "146",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 4,
-    "openingRank": 5043,
-    "closingRank": 29211,
-    "medianRank": 18537
-  },
-  {
-    "course": "84",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 5064,
-    "closingRank": 31161,
-    "medianRank": 17579
-  },
-  {
-    "course": "118",
-    "type": "Clinical",
-    "seats": 24,
-    "institutes": 4,
-    "openingRank": 5069,
-    "closingRank": 30940,
-    "medianRank": 13487
+    "medianRank": 13134
   },
   {
     "course": "MD Sports Medicine",
     "type": "Clinical",
-    "seats": 143,
+    "seats": 134,
     "institutes": 8,
     "openingRank": 5086,
     "closingRank": 210832,
-    "medianRank": 58976
-  },
-  {
-    "course": "213",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 5100,
-    "closingRank": 30327,
-    "medianRank": 18710
+    "medianRank": 64297
   },
   {
     "course": "MD Anatomy",
     "type": "Pre-Clinical",
-    "seats": 2644,
+    "seats": 2550,
     "institutes": 199,
     "openingRank": 5133,
     "closingRank": 230049,
-    "medianRank": 107950
-  },
-  {
-    "course": "154",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 4,
-    "openingRank": 5218,
-    "closingRank": 29098,
-    "medianRank": 17750
-  },
-  {
-    "course": "227",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 5250,
-    "closingRank": 27531,
-    "medianRank": 19463
+    "medianRank": 110038
   },
   {
     "course": "MD Palliative Medicine",
     "type": "Clinical",
-    "seats": 74,
+    "seats": 73,
     "institutes": 6,
     "openingRank": 5271,
     "closingRank": 73156,
-    "medianRank": 34811
-  },
-  {
-    "course": "217",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 5,
-    "openingRank": 5271,
-    "closingRank": 28676,
-    "medianRank": 19209
-  },
-  {
-    "course": "147",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 5302,
-    "closingRank": 31206,
-    "medianRank": 16206
-  },
-  {
-    "course": "93",
-    "type": "Clinical",
-    "seats": 25,
-    "institutes": 5,
-    "openingRank": 5302,
-    "closingRank": 30979,
-    "medianRank": 18100
-  },
-  {
-    "course": "324",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 5311,
-    "closingRank": 24054,
-    "medianRank": 21615
-  },
-  {
-    "course": "251",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 5346,
-    "closingRank": 28152,
-    "medianRank": 17515
-  },
-  {
-    "course": "180",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 3,
-    "openingRank": 5363,
-    "closingRank": 29972,
-    "medianRank": 17245
-  },
-  {
-    "course": "269",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 3,
-    "openingRank": 5369,
-    "closingRank": 28702,
-    "medianRank": 17560
-  },
-  {
-    "course": "457",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 5389,
-    "closingRank": 26745,
-    "medianRank": 22703
-  },
-  {
-    "course": "348",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 5425,
-    "closingRank": 23584,
-    "medianRank": 17349
-  },
-  {
-    "course": "127",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 4,
-    "openingRank": 5466,
-    "closingRank": 28406,
-    "medianRank": 16624
+    "medianRank": 37608
   },
   {
     "course": "Diploma in Radiation Medicine",
     "type": "Clinical",
-    "seats": 28,
+    "seats": 27,
     "institutes": 1,
     "openingRank": 5491,
     "closingRank": 73165,
     "medianRank": 23512
   },
   {
-    "course": "274",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 5493,
-    "closingRank": 28578,
-    "medianRank": 18645
-  },
-  {
-    "course": "173",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 5,
-    "openingRank": 5510,
-    "closingRank": 30107,
-    "medianRank": 17705
-  },
-  {
-    "course": "121",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 5,
-    "openingRank": 5582,
-    "closingRank": 28224,
-    "medianRank": 18981
-  },
-  {
     "course": "DNB Psychiatry",
     "type": "Clinical",
-    "seats": 293,
-    "institutes": 39,
+    "seats": 266,
+    "institutes": 38,
     "openingRank": 5598,
     "closingRank": 187840,
-    "medianRank": 17742
+    "medianRank": 17919
   },
   {
     "course": "MD Community Health Administration",
     "type": "Clinical",
-    "seats": 59,
+    "seats": 55,
     "institutes": 1,
     "openingRank": 5598,
     "closingRank": 224153,
-    "medianRank": 53834
-  },
-  {
-    "course": "225",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 5607,
-    "closingRank": 30248,
-    "medianRank": 19712
-  },
-  {
-    "course": "248",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 3,
-    "openingRank": 5611,
-    "closingRank": 29642,
-    "medianRank": 15931
-  },
-  {
-    "course": "103",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 4,
-    "openingRank": 5626,
-    "closingRank": 29255,
-    "medianRank": 16584
-  },
-  {
-    "course": "188",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 5702,
-    "closingRank": 30864,
-    "medianRank": 20215
-  },
-  {
-    "course": "79",
-    "type": "Clinical",
-    "seats": 39,
-    "institutes": 5,
-    "openingRank": 5719,
-    "closingRank": 30647,
-    "medianRank": 15653
-  },
-  {
-    "course": "186",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 5724,
-    "closingRank": 31215,
-    "medianRank": 20750
-  },
-  {
-    "course": "258",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 5725,
-    "closingRank": 28922,
-    "medianRank": 26845
-  },
-  {
-    "course": "247",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 1,
-    "openingRank": 5728,
-    "closingRank": 29938,
-    "medianRank": 15076
-  },
-  {
-    "course": "158",
-    "type": "Clinical",
-    "seats": 16,
-    "institutes": 4,
-    "openingRank": 5786,
-    "closingRank": 31370,
-    "medianRank": 20020
-  },
-  {
-    "course": "124",
-    "type": "Clinical",
-    "seats": 23,
-    "institutes": 4,
-    "openingRank": 5810,
-    "closingRank": 29512,
-    "medianRank": 16860
-  },
-  {
-    "course": "372",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 5863,
-    "closingRank": 27831,
-    "medianRank": 17684
-  },
-  {
-    "course": "254",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 5873,
-    "closingRank": 30272,
-    "medianRank": 17093
-  },
-  {
-    "course": "162",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 5,
-    "openingRank": 5946,
-    "closingRank": 26692,
-    "medianRank": 17587
+    "medianRank": 62043
   },
   {
     "course": "Diploma in Child Health-NBE",
     "type": "Clinical",
-    "seats": 3338,
+    "seats": 3010,
     "institutes": 291,
     "openingRank": 5984,
     "closingRank": 187781,
-    "medianRank": 27102
-  },
-  {
-    "course": "290",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 5996,
-    "closingRank": 23798,
-    "medianRank": 20382
-  },
-  {
-    "course": "276",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 6000,
-    "closingRank": 30963,
-    "medianRank": 21162
-  },
-  {
-    "course": "264",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 6017,
-    "closingRank": 30362,
-    "medianRank": 20100
-  },
-  {
-    "course": "171",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 3,
-    "openingRank": 6028,
-    "closingRank": 29466,
-    "medianRank": 14483
-  },
-  {
-    "course": "296",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 5,
-    "openingRank": 6071,
-    "closingRank": 31000,
-    "medianRank": 22563
-  },
-  {
-    "course": "208",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 6079,
-    "closingRank": 30912,
-    "medianRank": 15139
+    "medianRank": 27484
   },
   {
     "course": "MD Tropical Medicine",
     "type": "Clinical",
-    "seats": 89,
-    "institutes": 30,
+    "seats": 40,
+    "institutes": 2,
     "openingRank": 6106,
     "closingRank": 121771,
-    "medianRank": 28698
-  },
-  {
-    "course": "189",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 6114,
-    "closingRank": 29858,
-    "medianRank": 20529
-  },
-  {
-    "course": "114",
-    "type": "Clinical",
-    "seats": 25,
-    "institutes": 3,
-    "openingRank": 6142,
-    "closingRank": 31412,
-    "medianRank": 20252
-  },
-  {
-    "course": "190",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 6164,
-    "closingRank": 27951,
-    "medianRank": 18154
-  },
-  {
-    "course": "115",
-    "type": "Clinical",
-    "seats": 32,
-    "institutes": 4,
-    "openingRank": 6174,
-    "closingRank": 30629,
-    "medianRank": 16756
+    "medianRank": 14553
   },
   {
     "course": "DNB Radio Therapy",
     "type": "Clinical",
-    "seats": 887,
+    "seats": 817,
     "institutes": 72,
     "openingRank": 6189,
     "closingRank": 40165,
-    "medianRank": 20512
-  },
-  {
-    "course": "119",
-    "type": "Clinical",
-    "seats": 22,
-    "institutes": 4,
-    "openingRank": 6376,
-    "closingRank": 31385,
-    "medianRank": 23554
-  },
-  {
-    "course": "136",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 5,
-    "openingRank": 6395,
-    "closingRank": 31408,
-    "medianRank": 22645
-  },
-  {
-    "course": "220",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 4,
-    "openingRank": 6431,
-    "closingRank": 30823,
-    "medianRank": 15519
-  },
-  {
-    "course": "175",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 3,
-    "openingRank": 6467,
-    "closingRank": 27798,
-    "medianRank": 19885
-  },
-  {
-    "course": "267",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 6479,
-    "closingRank": 28706,
-    "medianRank": 13646
-  },
-  {
-    "course": "243",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 2,
-    "openingRank": 6506,
-    "closingRank": 24646,
-    "medianRank": 14179
-  },
-  {
-    "course": "432",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 6517,
-    "closingRank": 27425,
-    "medianRank": 17767
-  },
-  {
-    "course": "351",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 6529,
-    "closingRank": 29416,
-    "medianRank": 22419
+    "medianRank": 20359
   },
   {
     "course": "(NBEMS) ANAESTHESIOLOG Y",
     "type": "Clinical",
-    "seats": 1186,
-    "institutes": 304,
+    "seats": 544,
+    "institutes": 224,
     "openingRank": 6543,
-    "closingRank": 83861,
-    "medianRank": 23355
-  },
-  {
-    "course": "182",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 5,
-    "openingRank": 6591,
-    "closingRank": 27027,
-    "medianRank": 16058
-  },
-  {
-    "course": "233",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 2,
-    "openingRank": 6613,
-    "closingRank": 24547,
-    "medianRank": 16741
-  },
-  {
-    "course": "482",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 6641,
-    "closingRank": 21207,
-    "medianRank": 9248
-  },
-  {
-    "course": "126",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 4,
-    "openingRank": 6684,
-    "closingRank": 27487,
-    "medianRank": 17961
-  },
-  {
-    "course": "312",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 6686,
-    "closingRank": 30843,
-    "medianRank": 22921
-  },
-  {
-    "course": "142",
-    "type": "Clinical",
-    "seats": 19,
-    "institutes": 4,
-    "openingRank": 6754,
-    "closingRank": 28854,
-    "medianRank": 16914
-  },
-  {
-    "course": "199",
-    "type": "Clinical",
-    "seats": 16,
-    "institutes": 5,
-    "openingRank": 6800,
-    "closingRank": 27267,
-    "medianRank": 25218
-  },
-  {
-    "course": "203",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 6922,
-    "closingRank": 27359,
-    "medianRank": 16826
-  },
-  {
-    "course": "129",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 6943,
-    "closingRank": 31455,
-    "medianRank": 20550
-  },
-  {
-    "course": "359",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 7017,
-    "closingRank": 28200,
-    "medianRank": 22587
-  },
-  {
-    "course": "369",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 5,
-    "openingRank": 7030,
-    "closingRank": 27486,
-    "medianRank": 17598
-  },
-  {
-    "course": "194",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 7053,
-    "closingRank": 30999,
-    "medianRank": 16515
-  },
-  {
-    "course": "256",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 2,
-    "openingRank": 7066,
-    "closingRank": 26989,
-    "medianRank": 15585
-  },
-  {
-    "course": "138",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 5,
-    "openingRank": 7067,
-    "closingRank": 25228,
-    "medianRank": 19605
-  },
-  {
-    "course": "386",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 7094,
-    "closingRank": 24943,
-    "medianRank": 9465
-  },
-  {
-    "course": "113",
-    "type": "Clinical",
-    "seats": 28,
-    "institutes": 5,
-    "openingRank": 7179,
-    "closingRank": 31406,
-    "medianRank": 21898
-  },
-  {
-    "course": "224",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 5,
-    "openingRank": 7240,
-    "closingRank": 30980,
-    "medianRank": 20942
-  },
-  {
-    "course": "239",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 7252,
-    "closingRank": 31220,
-    "medianRank": 18968
-  },
-  {
-    "course": "245",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 7258,
-    "closingRank": 27494,
-    "medianRank": 20441
-  },
-  {
-    "course": "150",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 5,
-    "openingRank": 7316,
-    "closingRank": 30923,
-    "medianRank": 19439
-  },
-  {
-    "course": "240",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 7322,
-    "closingRank": 29102,
-    "medianRank": 16743
+    "closingRank": 77067,
+    "medianRank": 23205
   },
   {
     "course": "Diploma in Child Health",
     "type": "Clinical",
-    "seats": 133,
+    "seats": 121,
     "institutes": 14,
     "openingRank": 7399,
     "closingRank": 95126,
-    "medianRank": 17475
+    "medianRank": 18777
   },
   {
     "course": "DNB Paediatric Surgery (6 years)",
     "type": "Clinical",
-    "seats": 107,
+    "seats": 99,
     "institutes": 11,
     "openingRank": 7449,
     "closingRank": 34877,
-    "medianRank": 17351
-  },
-  {
-    "course": "197",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 7507,
-    "closingRank": 27909,
-    "medianRank": 16613
-  },
-  {
-    "course": "315",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 7522,
-    "closingRank": 24599,
-    "medianRank": 15535
-  },
-  {
-    "course": "219",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 5,
-    "openingRank": 7540,
-    "closingRank": 30419,
-    "medianRank": 17545
-  },
-  {
-    "course": "212",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 7560,
-    "closingRank": 31192,
-    "medianRank": 18134
-  },
-  {
-    "course": "488",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 7582,
-    "closingRank": 25085,
-    "medianRank": 19191
-  },
-  {
-    "course": "166",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 5,
-    "openingRank": 7690,
-    "closingRank": 29317,
-    "medianRank": 18250
-  },
-  {
-    "course": "110",
-    "type": "Clinical",
-    "seats": 27,
-    "institutes": 4,
-    "openingRank": 7739,
-    "closingRank": 28619,
-    "medianRank": 17154
-  },
-  {
-    "course": "384",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 3,
-    "openingRank": 7761,
-    "closingRank": 27333,
-    "medianRank": 17697
-  },
-  {
-    "course": "266",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 3,
-    "openingRank": 7767,
-    "closingRank": 20848,
-    "medianRank": 14899
+    "medianRank": 17377
   },
   {
     "course": "Diploma in Obstetrics & Gynaecology-NBE",
     "type": "Clinical",
-    "seats": 3589,
-    "institutes": 286,
+    "seats": 3247,
+    "institutes": 285,
     "openingRank": 7803,
     "closingRank": 169847,
-    "medianRank": 26576
+    "medianRank": 26882
   },
   {
     "course": "MD Microbiology",
     "type": "Para-Clinical",
-    "seats": 4216,
+    "seats": 4011,
     "institutes": 223,
     "openingRank": 7880,
     "closingRank": 229650,
-    "medianRank": 68848
-  },
-  {
-    "course": "196",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 7893,
-    "closingRank": 31357,
-    "medianRank": 17511
-  },
-  {
-    "course": "328",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 7919,
-    "closingRank": 24738,
-    "medianRank": 19790
-  },
-  {
-    "course": "301",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 7946,
-    "closingRank": 29106,
-    "medianRank": 23557
-  },
-  {
-    "course": "412",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 7950,
-    "closingRank": 31188,
-    "medianRank": 18853
-  },
-  {
-    "course": "122",
-    "type": "Clinical",
-    "seats": 21,
-    "institutes": 5,
-    "openingRank": 7994,
-    "closingRank": 25842,
-    "medianRank": 20745
+    "medianRank": 69765
   },
   {
     "course": "MD Physiology",
     "type": "Pre-Clinical",
-    "seats": 2873,
+    "seats": 2758,
     "institutes": 194,
     "openingRank": 7996,
     "closingRank": 230087,
-    "medianRank": 94376
-  },
-  {
-    "course": "295",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 3,
-    "openingRank": 8003,
-    "closingRank": 27603,
-    "medianRank": 18454
-  },
-  {
-    "course": "349",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 8016,
-    "closingRank": 27165,
-    "medianRank": 15845
-  },
-  {
-    "course": "308",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 8035,
-    "closingRank": 31326,
-    "medianRank": 23451
-  },
-  {
-    "course": "306",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 8087,
-    "closingRank": 31435,
-    "medianRank": 23257
-  },
-  {
-    "course": "168",
-    "type": "Clinical",
-    "seats": 17,
-    "institutes": 3,
-    "openingRank": 8105,
-    "closingRank": 29501,
-    "medianRank": 21932
-  },
-  {
-    "course": "275",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 8123,
-    "closingRank": 23467,
-    "medianRank": 16678
-  },
-  {
-    "course": "201",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 5,
-    "openingRank": 8208,
-    "closingRank": 27734,
-    "medianRank": 15819
+    "medianRank": 95410
   },
   {
     "course": "Diploma in Obstetrics & Gynaecology",
     "type": "Clinical",
-    "seats": 182,
+    "seats": 176,
     "institutes": 9,
     "openingRank": 8210,
     "closingRank": 94989,
-    "medianRank": 20296
-  },
-  {
-    "course": "226",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 5,
-    "openingRank": 8234,
-    "closingRank": 30964,
-    "medianRank": 18327
-  },
-  {
-    "course": "298",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 8252,
-    "closingRank": 27793,
-    "medianRank": 21410
-  },
-  {
-    "course": "343",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 8252,
-    "closingRank": 30574,
-    "medianRank": 18391
-  },
-  {
-    "course": "430",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 8287,
-    "closingRank": 27061,
-    "medianRank": 19482
-  },
-  {
-    "course": "309",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 8296,
-    "closingRank": 19420,
-    "medianRank": 12584
-  },
-  {
-    "course": "156",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 3,
-    "openingRank": 8354,
-    "closingRank": 29755,
-    "medianRank": 19678
-  },
-  {
-    "course": "342",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 8373,
-    "closingRank": 28658,
-    "medianRank": 21603
-  },
-  {
-    "course": "257",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 8375,
-    "closingRank": 27847,
-    "medianRank": 17700
-  },
-  {
-    "course": "185",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 8383,
-    "closingRank": 31411,
-    "medianRank": 16397
-  },
-  {
-    "course": "234",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 8399,
-    "closingRank": 31230,
-    "medianRank": 18556
-  },
-  {
-    "course": "358",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 2,
-    "openingRank": 8458,
-    "closingRank": 28066,
-    "medianRank": 20424
-  },
-  {
-    "course": "149",
-    "type": "Clinical",
-    "seats": 20,
-    "institutes": 4,
-    "openingRank": 8481,
-    "closingRank": 31465,
-    "medianRank": 15163
-  },
-  {
-    "course": "215",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 3,
-    "openingRank": 8481,
-    "closingRank": 27701,
-    "medianRank": 13421
-  },
-  {
-    "course": "337",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 8493,
-    "closingRank": 22616,
-    "medianRank": 21337
+    "medianRank": 20504
   },
   {
     "course": "DNB ENT",
     "type": "Clinical",
-    "seats": 560,
+    "seats": 500,
     "institutes": 71,
     "openingRank": 8505,
     "closingRank": 106610,
-    "medianRank": 21071
-  },
-  {
-    "course": "279",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 5,
-    "openingRank": 8511,
-    "closingRank": 25232,
-    "medianRank": 16770
-  },
-  {
-    "course": "316",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 8524,
-    "closingRank": 21398,
-    "medianRank": 16411
-  },
-  {
-    "course": "297",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 8533,
-    "closingRank": 25586,
-    "medianRank": 24162
-  },
-  {
-    "course": "352",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 8593,
-    "closingRank": 20489,
-    "medianRank": 15416
-  },
-  {
-    "course": "204",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 8626,
-    "closingRank": 23430,
-    "medianRank": 16005
-  },
-  {
-    "course": "387",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 8634,
-    "closingRank": 26935,
-    "medianRank": 22573
-  },
-  {
-    "course": "370",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 8718,
-    "closingRank": 25587,
-    "medianRank": 16810
+    "medianRank": 21670
   },
   {
     "course": "Diploma in Family Medicine-NBE",
     "type": "Clinical",
-    "seats": 1566,
+    "seats": 1442,
     "institutes": 91,
     "openingRank": 8722,
     "closingRank": 197208,
-    "medianRank": 50200
-  },
-  {
-    "course": "278",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 8770,
-    "closingRank": 27724,
-    "medianRank": 19485
-  },
-  {
-    "course": "236",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 8785,
-    "closingRank": 30932,
-    "medianRank": 18899
-  },
-  {
-    "course": "398",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 8790,
-    "closingRank": 31048,
-    "medianRank": 21934
-  },
-  {
-    "course": "260",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 8800,
-    "closingRank": 29576,
-    "medianRank": 20358
-  },
-  {
-    "course": "222",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 8805,
-    "closingRank": 27014,
-    "medianRank": 15299
-  },
-  {
-    "course": "244",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 8865,
-    "closingRank": 27671,
-    "medianRank": 24861
-  },
-  {
-    "course": "373",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 8888,
-    "closingRank": 30032,
-    "medianRank": 18014
-  },
-  {
-    "course": "230",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 8889,
-    "closingRank": 30841,
-    "medianRank": 16462
-  },
-  {
-    "course": "164",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 5,
-    "openingRank": 8905,
-    "closingRank": 26454,
-    "medianRank": 21866
+    "medianRank": 50649
   },
   {
     "course": "MD Forensic Medicine",
     "type": "Para-Clinical",
-    "seats": 2221,
+    "seats": 2241,
     "institutes": 173,
     "openingRank": 8946,
     "closingRank": 212156,
-    "medianRank": 69473
-  },
-  {
-    "course": "249",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 4,
-    "openingRank": 9027,
-    "closingRank": 26259,
-    "medianRank": 19993
-  },
-  {
-    "course": "241",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 9038,
-    "closingRank": 27476,
-    "medianRank": 20371
-  },
-  {
-    "course": "157",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 9049,
-    "closingRank": 24690,
-    "medianRank": 15494
+    "medianRank": 69701
   },
   {
     "course": "DNB Pathology",
     "type": "Para-Clinical",
-    "seats": 1082,
+    "seats": 1022,
     "institutes": 87,
     "openingRank": 9064,
     "closingRank": 177631,
-    "medianRank": 40921
-  },
-  {
-    "course": "429",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 9077,
-    "closingRank": 26209,
-    "medianRank": 21629
-  },
-  {
-    "course": "223",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 5,
-    "openingRank": 9093,
-    "closingRank": 29250,
-    "medianRank": 24777
-  },
-  {
-    "course": "420",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 9096,
-    "closingRank": 28279,
-    "medianRank": 19232
-  },
-  {
-    "course": "356",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 9101,
-    "closingRank": 28120,
-    "medianRank": 20125
-  },
-  {
-    "course": "200",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 9131,
-    "closingRank": 30397,
-    "medianRank": 19017
-  },
-  {
-    "course": "255",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 4,
-    "openingRank": 9184,
-    "closingRank": 28008,
-    "medianRank": 17458
+    "medianRank": 42313
   },
   {
     "course": "Diploma in Tuberculosis & Chest Diseases-NBE",
     "type": "Clinical",
-    "seats": 840,
+    "seats": 745,
     "institutes": 88,
     "openingRank": 9218,
     "closingRank": 147897,
-    "medianRank": 29774
-  },
-  {
-    "course": "273",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 4,
-    "openingRank": 9294,
-    "closingRank": 26299,
-    "medianRank": 17314
-  },
-  {
-    "course": "153",
-    "type": "Clinical",
-    "seats": 18,
-    "institutes": 5,
-    "openingRank": 9306,
-    "closingRank": 29117,
-    "medianRank": 20039
-  },
-  {
-    "course": "202",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 9338,
-    "closingRank": 31011,
-    "medianRank": 20337
+    "medianRank": 30110
   },
   {
     "course": "DNB Physical Medicine & Rehabilitation",
     "type": "Clinical",
-    "seats": 29,
+    "seats": 28,
     "institutes": 4,
     "openingRank": 9426,
     "closingRank": 48810,
     "medianRank": 23175
   },
   {
-    "course": "176",
+    "course": "Diploma in Orthopaedics",
     "type": "Clinical",
-    "seats": 14,
-    "institutes": 5,
-    "openingRank": 9428,
-    "closingRank": 29633,
-    "medianRank": 18091
-  },
-  {
-    "course": "237",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 9470,
-    "closingRank": 31099,
-    "medianRank": 20029
-  },
-  {
-    "course": "165",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 3,
-    "openingRank": 9488,
-    "closingRank": 31486,
-    "medianRank": 21520
-  },
-  {
-    "course": "323",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 5,
-    "openingRank": 9526,
-    "closingRank": 30172,
-    "medianRank": 23301
-  },
-  {
-    "course": "193",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 3,
-    "openingRank": 9551,
-    "closingRank": 31268,
-    "medianRank": 15778
-  },
-  {
-    "course": "187",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 4,
-    "openingRank": 9592,
-    "closingRank": 29236,
-    "medianRank": 14985
-  },
-  {
-    "course": "282",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 9614,
-    "closingRank": 27046,
-    "medianRank": 21140
-  },
-  {
-    "course": "286",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 9669,
-    "closingRank": 24565,
-    "medianRank": 15592
-  },
-  {
-    "course": "314",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 9685,
-    "closingRank": 27746,
-    "medianRank": 20499
-  },
-  {
-    "course": "426",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 9687,
-    "closingRank": 21613,
-    "medianRank": 19262
-  },
-  {
-    "course": "535",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 9729,
-    "closingRank": 25843,
-    "medianRank": 23184
-  },
-  {
-    "course": "261",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 3,
-    "openingRank": 9742,
-    "closingRank": 29725,
-    "medianRank": 20613
-  },
-  {
-    "course": "330",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 9748,
-    "closingRank": 26969,
-    "medianRank": 20395
-  },
-  {
-    "course": "293",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 9753,
-    "closingRank": 17838,
-    "medianRank": 15237
-  },
-  {
-    "course": "211",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 5,
-    "openingRank": 9762,
-    "closingRank": 31082,
-    "medianRank": 23122
-  },
-  {
-    "course": "338",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 9800,
-    "closingRank": 27527,
-    "medianRank": 17525
-  },
-  {
-    "course": "487",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 9883,
-    "closingRank": 27248,
-    "medianRank": 14671
-  },
-  {
-    "course": "380",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 5,
-    "openingRank": 9886,
-    "closingRank": 27880,
-    "medianRank": 25802
-  },
-  {
-    "course": "618",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 10029,
-    "closingRank": 23609,
-    "medianRank": 19957
-  },
-  {
-    "course": "246",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 10047,
-    "closingRank": 30528,
-    "medianRank": 17438
-  },
-  {
-    "course": "447",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 10093,
-    "closingRank": 29319,
-    "medianRank": 18535
-  },
-  {
-    "course": "353",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 5,
-    "openingRank": 10106,
-    "closingRank": 26540,
-    "medianRank": 20722
-  },
-  {
-    "course": "183",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 3,
-    "openingRank": 10142,
-    "closingRank": 30961,
-    "medianRank": 13983
-  },
-  {
-    "course": "600",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 10191,
-    "closingRank": 19917,
-    "medianRank": 15737
-  },
-  {
-    "course": "221",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 3,
-    "openingRank": 10210,
-    "closingRank": 28671,
-    "medianRank": 12346
-  },
-  {
-    "course": "271",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 10267,
-    "closingRank": 25296,
-    "medianRank": 17938
-  },
-  {
-    "course": "329",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 10313,
-    "closingRank": 30758,
-    "medianRank": 29610
-  },
-  {
-    "course": "302",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 10330,
-    "closingRank": 30645,
-    "medianRank": 19507
-  },
-  {
-    "course": "335",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 10346,
-    "closingRank": 27676,
-    "medianRank": 18681
-  },
-  {
-    "course": "326",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 10359,
-    "closingRank": 28744,
-    "medianRank": 22065
-  },
-  {
-    "course": "184",
-    "type": "Clinical",
-    "seats": 12,
-    "institutes": 5,
-    "openingRank": 10382,
-    "closingRank": 28740,
-    "medianRank": 16513
-  },
-  {
-    "course": "294",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 10428,
-    "closingRank": 25140,
-    "medianRank": 15774
-  },
-  {
-    "course": "350",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 10476,
-    "closingRank": 21862,
-    "medianRank": 13612
-  },
-  {
-    "course": "533",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 10571,
-    "closingRank": 28805,
-    "medianRank": 20446
-  },
-  {
-    "course": "289",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 2,
-    "openingRank": 10586,
-    "closingRank": 19022,
-    "medianRank": 15570
-  },
-  {
-    "course": "322",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 10589,
-    "closingRank": 27879,
-    "medianRank": 13704
-  },
-  {
-    "course": "307",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 10590,
-    "closingRank": 21455,
-    "medianRank": 19074
-  },
-  {
-    "course": "389",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 10622,
-    "closingRank": 20487,
-    "medianRank": 14497
-  },
-  {
-    "course": "232",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 10628,
-    "closingRank": 23902,
-    "medianRank": 20661
-  },
-  {
-    "course": "252",
-    "type": "Clinical",
-    "seats": 15,
-    "institutes": 3,
-    "openingRank": 10646,
-    "closingRank": 27685,
-    "medianRank": 18374
-  },
-  {
-    "course": "321",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 10750,
-    "closingRank": 30902,
-    "medianRank": 15587
-  },
-  {
-    "course": "354",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 10755,
-    "closingRank": 30683,
-    "medianRank": 24628
-  },
-  {
-    "course": "143",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 5,
-    "openingRank": 10757,
-    "closingRank": 26068,
-    "medianRank": 22607
-  },
-  {
-    "course": "283",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 10758,
-    "closingRank": 25738,
-    "medianRank": 22354
-  },
-  {
-    "course": "242",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 4,
-    "openingRank": 10793,
-    "closingRank": 26396,
-    "medianRank": 21305
-  },
-  {
-    "course": "210",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 10828,
-    "closingRank": 29500,
-    "medianRank": 20994
-  },
-  {
-    "course": "543",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 10835,
-    "closingRank": 23794,
-    "medianRank": 17020
-  },
-  {
-    "course": "333",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 10854,
-    "closingRank": 19419,
-    "medianRank": 15612
-  },
-  {
-    "course": "583",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 10942,
-    "closingRank": 24972,
-    "medianRank": 24430
-  },
-  {
-    "course": "198",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 5,
-    "openingRank": 10942,
-    "closingRank": 28057,
-    "medianRank": 22260
-  },
-  {
-    "course": "270",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 11072,
-    "closingRank": 31201,
-    "medianRank": 22944
-  },
-  {
-    "course": "479",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 11175,
-    "closingRank": 24314,
-    "medianRank": 18161
-  },
-  {
-    "course": "793",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 11181,
-    "closingRank": 31346,
-    "medianRank": 25252
-  },
-  {
-    "course": "363",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 11201,
-    "closingRank": 30411,
-    "medianRank": 22678
-  },
-  {
-    "course": "345",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 11244,
-    "closingRank": 26960,
-    "medianRank": 17127
-  },
-  {
-    "course": "263",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 11269,
-    "closingRank": 28002,
-    "medianRank": 20824
-  },
-  {
-    "course": "205",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 3,
-    "openingRank": 11362,
-    "closingRank": 31295,
-    "medianRank": 18116
-  },
-  {
-    "course": "300",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 11494,
-    "closingRank": 27651,
-    "medianRank": 21850
+    "seats": 78,
+    "institutes": 6,
+    "openingRank": 10134,
+    "closingRank": 109400,
+    "medianRank": 25747
   },
   {
     "course": "Diploma in Ophthalmology-NBE",
     "type": "Clinical",
-    "seats": 1614,
+    "seats": 1494,
     "institutes": 143,
     "openingRank": 11626,
     "closingRank": 200668,
-    "medianRank": 42616
-  },
-  {
-    "course": "299",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 11674,
-    "closingRank": 30913,
-    "medianRank": 27267
-  },
-  {
-    "course": "265",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 11798,
-    "closingRank": 31296,
-    "medianRank": 22760
-  },
-  {
-    "course": "284",
-    "type": "Clinical",
-    "seats": 10,
-    "institutes": 4,
-    "openingRank": 11869,
-    "closingRank": 31081,
-    "medianRank": 17472
-  },
-  {
-    "course": "383",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 11892,
-    "closingRank": 31337,
-    "medianRank": 17424
+    "medianRank": 43126
   },
   {
     "course": "DNB Geriatric Medicine",
     "type": "Clinical",
-    "seats": 21,
+    "seats": 20,
     "institutes": 2,
     "openingRank": 12023,
     "closingRank": 24774,
-    "medianRank": 14689
-  },
-  {
-    "course": "489",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 12068,
-    "closingRank": 30871,
-    "medianRank": 24308
-  },
-  {
-    "course": "486",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 12119,
-    "closingRank": 24227,
-    "medianRank": 19052
+    "medianRank": 14698
   },
   {
     "course": "DNB Palliative Medicine",
     "type": "Clinical",
-    "seats": 130,
+    "seats": 118,
     "institutes": 11,
     "openingRank": 12171,
     "closingRank": 63240,
-    "medianRank": 29787
-  },
-  {
-    "course": "331",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 12179,
-    "closingRank": 25627,
-    "medianRank": 14555
-  },
-  {
-    "course": "406",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 12327,
-    "closingRank": 23006,
-    "medianRank": 19654
-  },
-  {
-    "course": "483",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 12365,
-    "closingRank": 22796,
-    "medianRank": 16945
-  },
-  {
-    "course": "408",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 12423,
-    "closingRank": 29671,
-    "medianRank": 21194
-  },
-  {
-    "course": "435",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 12535,
-    "closingRank": 22027,
-    "medianRank": 13484
-  },
-  {
-    "course": "419",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 12619,
-    "closingRank": 31275,
-    "medianRank": 21222
-  },
-  {
-    "course": "305",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 12651,
-    "closingRank": 21571,
-    "medianRank": 20064
-  },
-  {
-    "course": "229",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 12715,
-    "closingRank": 27010,
-    "medianRank": 17735
-  },
-  {
-    "course": "320",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 12749,
-    "closingRank": 27214,
-    "medianRank": 15337
-  },
-  {
-    "course": "303",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 12766,
-    "closingRank": 19411,
-    "medianRank": 14878
-  },
-  {
-    "course": "471",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 12913,
-    "closingRank": 19734,
-    "medianRank": 16482
-  },
-  {
-    "course": "530",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 13104,
-    "closingRank": 24523,
-    "medianRank": 19160
+    "medianRank": 30210
   },
   {
     "course": "MD Hospital Administration",
     "type": "Clinical",
-    "seats": 118,
+    "seats": 116,
     "institutes": 11,
     "openingRank": 13279,
     "closingRank": 222689,
     "medianRank": 36253
   },
   {
-    "course": "395",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 4,
-    "openingRank": 13286,
-    "closingRank": 30700,
-    "medianRank": 19146
-  },
-  {
-    "course": "679",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 13367,
-    "closingRank": 30483,
-    "medianRank": 27292
-  },
-  {
     "course": "Diploma in Anaesthesia",
     "type": "Clinical",
-    "seats": 188,
+    "seats": 191,
     "institutes": 15,
     "openingRank": 13372,
     "closingRank": 184078,
-    "medianRank": 36709
-  },
-  {
-    "course": "DIPLOMA IN ANAESTHESIOLOG Y",
-    "type": "Clinical",
-    "seats": 58,
-    "institutes": 14,
-    "openingRank": 13372,
-    "closingRank": 111522,
-    "medianRank": 33428
-  },
-  {
-    "course": "364",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 13406,
-    "closingRank": 29896,
-    "medianRank": 25849
-  },
-  {
-    "course": "507",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 13424,
-    "closingRank": 26698,
-    "medianRank": 19529
-  },
-  {
-    "course": "438",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 13569,
-    "closingRank": 24002,
-    "medianRank": 20421
-  },
-  {
-    "course": "397",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 13603,
-    "closingRank": 27685,
-    "medianRank": 16825
-  },
-  {
-    "course": "655",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 13701,
-    "closingRank": 27651,
-    "medianRank": 17460
-  },
-  {
-    "course": "228",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 4,
-    "openingRank": 13803,
-    "closingRank": 27924,
-    "medianRank": 21402
-  },
-  {
-    "course": "209",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 5,
-    "openingRank": 13809,
-    "closingRank": 30714,
-    "medianRank": 24257
-  },
-  {
-    "course": "344",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 2,
-    "openingRank": 13821,
-    "closingRank": 30412,
-    "medianRank": 20200
-  },
-  {
-    "course": "292",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 13833,
-    "closingRank": 28788,
-    "medianRank": 20521
-  },
-  {
-    "course": "207",
-    "type": "Clinical",
-    "seats": 14,
-    "institutes": 3,
-    "openingRank": 13906,
-    "closingRank": 30525,
-    "medianRank": 17155
+    "medianRank": 36712
   },
   {
     "course": "Diploma in Diabetology",
     "type": "Clinical",
-    "seats": 11,
+    "seats": 10,
     "institutes": 2,
     "openingRank": 13907,
     "closingRank": 44803,
     "medianRank": 14945
   },
   {
-    "course": "584",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 13939,
-    "closingRank": 24516,
-    "medianRank": 20131
-  },
-  {
-    "course": "451",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 14082,
-    "closingRank": 25382,
-    "medianRank": 21053
-  },
-  {
-    "course": "437",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 14100,
-    "closingRank": 24785,
-    "medianRank": 23491
-  },
-  {
-    "course": "381",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 14102,
-    "closingRank": 29561,
-    "medianRank": 25556
-  },
-  {
-    "course": "698",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 14117,
-    "closingRank": 30782,
-    "medianRank": 25385
-  },
-  {
-    "course": "433",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 14270,
-    "closingRank": 30844,
-    "medianRank": 20794
-  },
-  {
-    "course": "341",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 14363,
-    "closingRank": 25701,
-    "medianRank": 21423
-  },
-  {
-    "course": "394",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 1,
-    "openingRank": 14413,
-    "closingRank": 25263,
-    "medianRank": 19450
-  },
-  {
-    "course": "512",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 14470,
-    "closingRank": 31183,
-    "medianRank": 22692
-  },
-  {
-    "course": "231",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 14481,
-    "closingRank": 27353,
-    "medianRank": 22481
-  },
-  {
-    "course": "317",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 14491,
-    "closingRank": 26254,
-    "medianRank": 15848
-  },
-  {
-    "course": "339",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 14494,
-    "closingRank": 19739,
-    "medianRank": 16385
-  },
-  {
-    "course": "291",
-    "type": "Clinical",
-    "seats": 11,
-    "institutes": 4,
-    "openingRank": 14536,
-    "closingRank": 29032,
-    "medianRank": 21969
-  },
-  {
-    "course": "617",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 14605,
-    "closingRank": 26751,
-    "medianRank": 22817
-  },
-  {
     "course": "MCh Neurosurgery (6 years)",
     "type": "Clinical",
-    "seats": 16,
+    "seats": 13,
     "institutes": 2,
     "openingRank": 14751,
     "closingRank": 117743,
-    "medianRank": 19949
-  },
-  {
-    "course": "336",
-    "type": "Clinical",
-    "seats": 7,
-    "institutes": 3,
-    "openingRank": 14791,
-    "closingRank": 28990,
-    "medianRank": 17771
-  },
-  {
-    "course": "163",
-    "type": "Clinical",
-    "seats": 13,
-    "institutes": 4,
-    "openingRank": 14872,
-    "closingRank": 31193,
-    "medianRank": 20562
-  },
-  {
-    "course": "262",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 15069,
-    "closingRank": 26183,
-    "medianRank": 19280
-  },
-  {
-    "course": "360",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 15216,
-    "closingRank": 30885,
-    "medianRank": 25603
-  },
-  {
-    "course": "DNB Immuno Hematology & Transfusion Medicine",
-    "type": "Clinical",
-    "seats": 199,
-    "institutes": 20,
-    "openingRank": 15235,
-    "closingRank": 159348,
-    "medianRank": 38060
+    "medianRank": 21282
   },
   {
     "course": "Diploma in Immuno-Haematology and Blood Transfusion",
     "type": "Clinical",
-    "seats": 9,
+    "seats": 10,
     "institutes": 1,
     "openingRank": 15235,
     "closingRank": 145078,
     "medianRank": 60833
   },
   {
-    "course": "455",
-    "type": "Clinical",
-    "seats": 8,
-    "institutes": 3,
-    "openingRank": 15313,
-    "closingRank": 27885,
-    "medianRank": 22319
-  },
-  {
-    "course": "365",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 15361,
-    "closingRank": 26931,
-    "medianRank": 24652
-  },
-  {
-    "course": "510",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 15433,
-    "closingRank": 24602,
-    "medianRank": 20370
-  },
-  {
-    "course": "281",
-    "type": "Clinical",
-    "seats": 9,
-    "institutes": 3,
-    "openingRank": 15467,
-    "closingRank": 28177,
-    "medianRank": 24280
-  },
-  {
     "course": "MD Bio-Chemistry",
     "type": "Clinical",
-    "seats": 2784,
+    "seats": 2671,
     "institutes": 207,
     "openingRank": 15506,
     "closingRank": 230074,
-    "medianRank": 85034
-  },
-  {
-    "course": "518",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 15506,
-    "closingRank": 30776,
-    "medianRank": 25754
-  },
-  {
-    "course": "536",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 15683,
-    "closingRank": 25573,
-    "medianRank": 20204
-  },
-  {
-    "course": "526",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 15797,
-    "closingRank": 19043,
-    "medianRank": 17501
+    "medianRank": 85666
   },
   {
     "course": "Diploma in Tuberculosis & Chest Diseases",
     "type": "Clinical",
-    "seats": 34,
+    "seats": 33,
     "institutes": 4,
     "openingRank": 15822,
     "closingRank": 43348,
     "medianRank": 21092
   },
   {
-    "course": "475",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 15996,
-    "closingRank": 27674,
-    "medianRank": 24486
-  },
-  {
-    "course": "405",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 16096,
-    "closingRank": 30694,
-    "medianRank": 26799
-  },
-  {
-    "course": "573",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 2,
-    "openingRank": 16121,
-    "closingRank": 23680,
-    "medianRank": 20952
-  },
-  {
-    "course": "608",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 16612,
-    "closingRank": 26537,
-    "medianRank": 22472
-  },
-  {
-    "course": "737",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 16621,
-    "closingRank": 28735,
-    "medianRank": 26823
-  },
-  {
-    "course": "400",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 16753,
-    "closingRank": 21793,
-    "medianRank": 19456
-  },
-  {
     "course": "Diploma in Oto-Rhino-Laryngology-NBE",
     "type": "Clinical",
-    "seats": 807,
+    "seats": 740,
     "institutes": 81,
     "openingRank": 16950,
     "closingRank": 197654,
-    "medianRank": 41409
-  },
-  {
-    "course": "520",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 16968,
-    "closingRank": 26937,
-    "medianRank": 22020
+    "medianRank": 41647
   },
   {
     "course": "Diploma in Radio Therapy",
@@ -4416,93 +726,30 @@
     "institutes": 1,
     "openingRank": 17504,
     "closingRank": 43906,
-    "medianRank": 30684
-  },
-  {
-    "course": "1307",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 17777,
-    "closingRank": 23342,
-    "medianRank": 20143
-  },
-  {
-    "course": "428",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 17992,
-    "closingRank": 26321,
-    "medianRank": 20801
-  },
-  {
-    "course": "787",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 18107,
-    "closingRank": 27213,
-    "medianRank": 24553
-  },
-  {
-    "course": "469",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 18638,
-    "closingRank": 24433,
-    "medianRank": 21117
-  },
-  {
-    "course": "385",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 3,
-    "openingRank": 19001,
-    "closingRank": 28694,
-    "medianRank": 20865
+    "medianRank": 31707
   },
   {
     "course": "Diploma in Ophthalmology",
     "type": "Clinical",
-    "seats": 212,
+    "seats": 213,
     "institutes": 11,
     "openingRank": 19006,
     "closingRank": 150769,
-    "medianRank": 49355
+    "medianRank": 49680
   },
   {
     "course": "DIPLOMA IN OPHTHALMOLOGY/ DOMS",
     "type": "Clinical",
-    "seats": 73,
-    "institutes": 10,
+    "seats": 55,
+    "institutes": 9,
     "openingRank": 19006,
     "closingRank": 100420,
-    "medianRank": 40046
-  },
-  {
-    "course": "366",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 4,
-    "openingRank": 19082,
-    "closingRank": 29089,
-    "medianRank": 24748
-  },
-  {
-    "course": "613",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 19425,
-    "closingRank": 29158,
-    "medianRank": 26406
+    "medianRank": 40710
   },
   {
     "course": "Diploma in Sports Medicine",
     "type": "Clinical",
-    "seats": 28,
+    "seats": 27,
     "institutes": 1,
     "openingRank": 19535,
     "closingRank": 68529,
@@ -4511,110 +758,83 @@
   {
     "course": "Diploma in Psychological Medicine",
     "type": "Clinical",
-    "seats": 18,
+    "seats": 19,
     "institutes": 3,
     "openingRank": 19547,
     "closingRank": 54342,
     "medianRank": 32083
   },
   {
-    "course": "714",
-    "type": "Clinical",
-    "seats": 6,
-    "institutes": 4,
-    "openingRank": 19892,
-    "closingRank": 29998,
-    "medianRank": 27674
-  },
-  {
     "course": "Master of Public Health (Epidemiology)",
     "type": "Clinical",
-    "seats": 28,
+    "seats": 24,
     "institutes": 1,
     "openingRank": 19940,
     "closingRank": 92159,
-    "medianRank": 41253
+    "medianRank": 41463
   },
   {
     "course": "Diploma in Anaesthesia-NBE",
     "type": "Clinical",
-    "seats": 2513,
+    "seats": 2551,
     "institutes": 272,
     "openingRank": 20837,
     "closingRank": 188737,
-    "medianRank": 43014
-  },
-  {
-    "course": "(NBEMS-DIPLOMA) ANAESTHESIOLOG Y",
-    "type": "Clinical",
-    "seats": 803,
-    "institutes": 227,
-    "openingRank": 21010,
-    "closingRank": 124838,
-    "medianRank": 41952
+    "medianRank": 43151
   },
   {
     "course": "Diploma in Public Health",
     "type": "Clinical",
-    "seats": 45,
+    "seats": 43,
     "institutes": 4,
     "openingRank": 21205,
     "closingRank": 213984,
-    "medianRank": 81468
+    "medianRank": 87960
   },
   {
-    "course": "421",
+    "course": "(NBEMS-DIPLOMA) ANAESTHESIOLOG Y",
     "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 21555,
-    "closingRank": 29713,
-    "medianRank": 23417
-  },
-  {
-    "course": "285",
-    "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 22153,
-    "closingRank": 31016,
-    "medianRank": 25197
+    "seats": 448,
+    "institutes": 204,
+    "openingRank": 22034,
+    "closingRank": 124838,
+    "medianRank": 42181
   },
   {
     "course": "Diploma in Oto-Rhino-Laryngology",
     "type": "Clinical",
-    "seats": 41,
+    "seats": 38,
     "institutes": 5,
     "openingRank": 22989,
     "closingRank": 78401,
     "medianRank": 34307
   },
   {
-    "course": "503",
+    "course": "DNB Immuno Hematology & Transfusion Medicine",
     "type": "Clinical",
-    "seats": 5,
-    "institutes": 3,
-    "openingRank": 23134,
-    "closingRank": 28250,
-    "medianRank": 23718
+    "seats": 190,
+    "institutes": 19,
+    "openingRank": 24155,
+    "closingRank": 159348,
+    "medianRank": 39180
   },
   {
     "course": "DNB Microbiology",
     "type": "Para-Clinical",
-    "seats": 296,
+    "seats": 281,
     "institutes": 25,
     "openingRank": 24322,
     "closingRank": 212176,
-    "medianRank": 73018
+    "medianRank": 74412
   },
   {
-    "course": "560",
+    "course": "DIPLOMA IN ANAESTHESIOLOG Y",
     "type": "Clinical",
-    "seats": 5,
-    "institutes": 2,
-    "openingRank": 24428,
-    "closingRank": 31136,
-    "medianRank": 27937
+    "seats": 37,
+    "institutes": 14,
+    "openingRank": 24695,
+    "closingRank": 111522,
+    "medianRank": 33878
   },
   {
     "course": "Diploma in Emergency Medicine-NBE",
@@ -4646,34 +866,34 @@
   {
     "course": "Diploma in Clinical Pathology",
     "type": "Para-Clinical",
-    "seats": 47,
+    "seats": 44,
     "institutes": 3,
     "openingRank": 32912,
     "closingRank": 198438,
-    "medianRank": 67878
+    "medianRank": 75695
   },
   {
     "course": "DNB Forensic Medicine",
     "type": "Para-Clinical",
-    "seats": 39,
+    "seats": 36,
     "institutes": 4,
     "openingRank": 33552,
     "closingRank": 169684,
-    "medianRank": 63776
+    "medianRank": 65762
   },
   {
     "course": "DNB Social & Preventive Medicine",
     "type": "Pre-Clinical",
-    "seats": 97,
+    "seats": 96,
     "institutes": 7,
     "openingRank": 33752,
     "closingRank": 168767,
-    "medianRank": 65531
+    "medianRank": 74222
   },
   {
     "course": "DNB Biochemistry",
     "type": "Pre-Clinical",
-    "seats": 129,
+    "seats": 136,
     "institutes": 15,
     "openingRank": 36911,
     "closingRank": 220253,
@@ -4682,7 +902,7 @@
   {
     "course": "Diploma in Health Administration",
     "type": "Clinical",
-    "seats": 30,
+    "seats": 28,
     "institutes": 1,
     "openingRank": 37002,
     "closingRank": 197020,
@@ -4718,16 +938,16 @@
   {
     "course": "DNB Pharmacology",
     "type": "Para-Clinical",
-    "seats": 48,
+    "seats": 45,
     "institutes": 5,
     "openingRank": 58788,
     "closingRank": 205607,
-    "medianRank": 94718
+    "medianRank": 99017
   },
   {
     "course": "DNB Physiology",
     "type": "Pre-Clinical",
-    "seats": 56,
+    "seats": 55,
     "institutes": 6,
     "openingRank": 61461,
     "closingRank": 208568,

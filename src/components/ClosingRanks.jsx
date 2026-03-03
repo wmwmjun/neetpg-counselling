@@ -14,10 +14,20 @@ function parseVal(str) {
     return isNaN(n) ? 0 : n
 }
 
+// Extract plain rank integer from entry (supports both [rank, candidateCat] and plain rank)
+function rankVal(entry) {
+    return Array.isArray(entry) ? entry[0] : entry
+}
+
+// Extract candidate category from entry (supports both [rank, candidateCat] and plain rank)
+function candidateCatVal(entry, fallback) {
+    return Array.isArray(entry) ? entry[1] : fallback
+}
+
 // Get the closing rank (last element) of a round, or null if no data
 function closingRankOf(item, round) {
     const ranks = item.ranks?.[round]
-    return ranks && ranks.length > 0 ? ranks[ranks.length - 1] : null
+    return ranks && ranks.length > 0 ? rankVal(ranks[ranks.length - 1]) : null
 }
 
 // All possible rounds per year (including future rounds not yet imported)
@@ -104,7 +114,7 @@ export default function ClosingRanks() {
             if (!hasYearData) return false
 
             // Closing rank: use last rank across selected year's rounds
-            const allRanks = visibleRounds.flatMap(r => item.ranks?.[r] || [])
+            const allRanks = visibleRounds.flatMap(r => (item.ranks?.[r] || []).map(rankVal))
             const lastRank = allRanks.length > 0 ? allRanks[allRanks.length - 1] : 0
             if (filters.rankFrom && lastRank < parseInt(filters.rankFrom)) return false
             if (filters.rankTo && lastRank > parseInt(filters.rankTo)) return false
@@ -151,8 +161,8 @@ export default function ClosingRanks() {
                 bv = b.bondYears === '-' ? -1 : Number(b.bondYears)
             } else if (visibleRounds.includes(field)) {
                 // Sort by closing rank of that round; null (no data) sorts to end
-                av = closingRankOf(a, field) ?? (dir === 'asc' ? Infinity : -1)
-                bv = closingRankOf(b, field) ?? (dir === 'asc' ? Infinity : -1)
+                av = closingRankOf(a, field) ?? (dir === 'asc' ? Infinity : -Infinity)
+                bv = closingRankOf(b, field) ?? (dir === 'asc' ? Infinity : -Infinity)
             } else {
                 av = String(a[field] ?? ''); bv = String(b[field] ?? '')
                 return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av)
@@ -207,10 +217,11 @@ export default function ClosingRanks() {
     const renderRankCell = (item, round) => {
         const ranks = item.ranks?.[round]
         if (!ranks || ranks.length === 0) return <span style={{ color: 'var(--text-muted)' }}>-</span>
+        const closingRank = rankVal(ranks[ranks.length - 1])
         return (
             <div className="rank-cell-content" style={{ cursor: 'pointer' }}
                 onClick={() => setSelectedDetail({ item, round, ranks })}>
-                <span className="closing-rank">{ranks[ranks.length - 1]}</span>
+                <span className="closing-rank">{closingRank}</span>
                 <span className="seat-count">({ranks.length})</span>
             </div>
         )
@@ -469,22 +480,31 @@ export default function ClosingRanks() {
                                             <th>Institute</th>
                                             <th>Course</th>
                                             <th>Quota</th>
-                                            <th>Category</th>
+                                            <th>Allotted Cat.</th>
+                                            <th title="Candidate's own category (may differ from allotted seat category)">Candidate Cat. ⓘ</th>
                                             <th>AI Rank</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {selectedDetail.ranks.map((rank, index) => (
-                                            <tr key={index}>
-                                                <td>{index + 1}</td>
-                                                <td>{selectedDetail.item.state}</td>
-                                                <td>{selectedDetail.item.institute}</td>
-                                                <td>{selectedDetail.item.course}</td>
-                                                <td>{selectedDetail.item.quota}</td>
-                                                <td>{selectedDetail.item.category}</td>
-                                                <td className="rank-highlight">{rank}</td>
-                                            </tr>
-                                        ))}
+                                        {selectedDetail.ranks.map((entry, index) => {
+                                            const rank = rankVal(entry)
+                                            const ccat = candidateCatVal(entry, selectedDetail.item.category)
+                                            const isSameCat = ccat === selectedDetail.item.category
+                                            return (
+                                                <tr key={index}>
+                                                    <td>{index + 1}</td>
+                                                    <td>{selectedDetail.item.state}</td>
+                                                    <td>{selectedDetail.item.institute}</td>
+                                                    <td>{selectedDetail.item.course}</td>
+                                                    <td>{selectedDetail.item.quota}</td>
+                                                    <td>{selectedDetail.item.category}</td>
+                                                    <td style={{ color: isSameCat ? 'inherit' : 'var(--accent-blue, #60a5fa)', fontStyle: isSameCat ? 'normal' : 'italic' }}>
+                                                        {ccat}
+                                                    </td>
+                                                    <td className="rank-highlight">{rank}</td>
+                                                </tr>
+                                            )
+                                        })}
                                     </tbody>
                                 </table>
                             </div>

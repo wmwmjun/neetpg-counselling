@@ -378,12 +378,28 @@ def main():
             quota_unchanged[raw_quota] += 1
         record['quota'] = norm_quota
 
-        # --- category ---
+        # --- category (allotted category) ---
         norm_cat = CATEGORY_MAP.get(raw_cat)
         if norm_cat is None:
             cat_unchanged[raw_cat] += 1
             norm_cat = raw_cat
         record['category'] = norm_cat
+
+        # --- candidate category per rank: [[rank, candidateCat], ...] ---
+        for rnd, rank_entries in record.get('ranks', {}).items():
+            if not rank_entries:
+                continue
+            # Support both old format [int] and new format [[int, str]]
+            normalized = []
+            for entry in rank_entries:
+                if isinstance(entry, list) and len(entry) == 2:
+                    rk, ccat = entry[0], entry[1]
+                    norm_ccat = CATEGORY_MAP.get(ccat, ccat)
+                    normalized.append([rk, norm_ccat])
+                else:
+                    # Old integer format — candidateCategory unknown, use allotted
+                    normalized.append([int(entry), norm_cat])
+            record['ranks'][rnd] = normalized
 
     # 保存
     with open(output_path, 'w') as f:
