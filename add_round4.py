@@ -174,8 +174,8 @@ def parse_page(page):
         try:
             ncols = len(rec)
 
-            # --- Layout A: Simple (R1 形式) 8 列 ---
-            # SNo(0), Rank(1), Quota(2), Inst(3), Course(4), AllottedCat(5), Cat(6), Remarks(7)
+            # --- Layout A: Simple (R1 / Stray Vacancy 形式) 8 列 ---
+            # SNo(0), Rank(1), Quota(2), Inst(3), Course(4), AllottedCat(5), CandidateCat(6), Remarks(7)
             if ncols >= 7:
                 rank_str = clean_text(rec[1])
                 if rank_str.isdigit():
@@ -183,35 +183,51 @@ def parse_page(page):
                     quota = clean_text(rec[2])
                     inst  = clean_text(rec[3])
                     course = clean_text(rec[4])
-                    cat   = clean_text(rec[6]) if ncols > 6 else clean_text(rec[5])
+                    # Col 5 = Allotted Category (seat category), Col 6 = Candidate Category
+                    allotted_cat  = clean_text(rec[5])
+                    candidate_cat = clean_text(rec[6]) if ncols > 6 else allotted_cat
                     if inst and inst not in ("-", ""):
                         rows.append({"rank": rank, "quota": quota,
-                                     "inst": inst, "course": course, "cat": cat})
+                                     "inst": inst, "course": course,
+                                     "cat": allotted_cat, "candidate_cat": candidate_cat})
                         continue
 
-            # --- Layout B: Complex (R3 形式) 10+ 列 ---
+            # --- Layout B: Complex (R2 形式 12列 / R3 形式 16列) ---
             if ncols >= 10:
                 rank_str = clean_text(rec[0])
                 if rank_str.isdigit():
                     rank    = int(rank_str)
                     remarks = clean_text(rec[-1]).lower()
                     if "fresh allotted" in remarks or "upgraded" in remarks:
-                        quota  = clean_text(rec[9])  if ncols > 9  else clean_text(rec[5])
-                        inst   = clean_text(rec[10]) if ncols > 10 else clean_text(rec[6])
-                        course = clean_text(rec[11]) if ncols > 11 else clean_text(rec[7])
-                        cat    = clean_text(rec[12]) if ncols > 12 else clean_text(rec[8])
+                        if ncols >= 16:
+                            # R3 format (16 cols): NewQuota(9), NewInst(10), NewCourse(11), AllottedCat(12), CandidateCat(13)
+                            quota  = clean_text(rec[9])
+                            inst   = clean_text(rec[10])
+                            course = clean_text(rec[11])
+                            allotted_cat  = clean_text(rec[12])
+                            candidate_cat = clean_text(rec[13]) if ncols > 13 else allotted_cat
+                        else:
+                            # R2 format (12 cols): NewQuota(5), NewInst(6), NewCourse(7), AllottedCat(8), CandidateCat(9)
+                            quota  = clean_text(rec[5])
+                            inst   = clean_text(rec[6])
+                            course = clean_text(rec[7])
+                            allotted_cat  = clean_text(rec[8])
+                            candidate_cat = clean_text(rec[9]) if ncols > 9 else allotted_cat
                     elif any(k in remarks for k in [
                             "no upgradation", "reported", "did not opt", "not allotted"]):
                         quota  = clean_text(rec[1])
                         inst   = clean_text(rec[2])
                         course = clean_text(rec[3])
-                        cat    = clean_text(rec[8]) if ncols > 8 else ""
+                        # Category blank in PDF — keep as "-", will be resolved by lookup
+                        allotted_cat  = "-"
+                        candidate_cat = "-"
                     else:
                         continue
 
                     if inst and inst not in ("-", ""):
                         rows.append({"rank": rank, "quota": quota,
-                                     "inst": inst, "course": course, "cat": cat})
+                                     "inst": inst, "course": course,
+                                     "cat": allotted_cat, "candidate_cat": candidate_cat})
 
         except Exception:
             continue
@@ -240,7 +256,7 @@ def extract_r4():
 def merge_into_json(all_rows):
     """抽出した行を正規化して closingRanks.json にマージする。"""
 
-    # (inst_name, course, quota, cat, state) → [ranks]
+    # (inst_name, course, quota, allotted_cat, state) → [[rank, candidate_cat], ...]
     r4_map = defaultdict(list)
     for row in all_rows:
         inst = row["inst"]
@@ -250,13 +266,14 @@ def merge_into_json(all_rows):
         # 正規化
         norm_course = COURSE_MAP.get(row["course"], row["course"])
         norm_quota  = normalize_quota(row["quota"], norm_course)
-        norm_cat    = CATEGORY_MAP.get(row["cat"], row["cat"])
+        norm_cat    = CATEGORY_MAP.get(row["cat"], row["cat"])  # allotted category
+        norm_ccat   = CATEGORY_MAP.get(row.get("candidate_cat", row["cat"]), row.get("candidate_cat", row["cat"]))
 
         key = (inst_name, norm_course, norm_quota, norm_cat, state)
-        r4_map[key].append(row["rank"])
+        r4_map[key].append([row["rank"], norm_ccat])
 
     for key in r4_map:
-        r4_map[key].sort()
+        r4_map[key].sort(key=lambda x: x[0])
 
     print(f"  Unique (inst, course, quota, cat) groups: {len(r4_map)}")
 

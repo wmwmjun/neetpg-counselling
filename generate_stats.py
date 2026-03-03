@@ -24,6 +24,17 @@ def get_type(course):
     return 'Clinical'
 
 
+def extract_ranks(rank_entries):
+    """Extract plain rank integers from [[rank, candidateCat], ...] or [rank, ...] format."""
+    ranks = []
+    for entry in rank_entries:
+        if isinstance(entry, list):
+            ranks.append(entry[0])
+        else:
+            ranks.append(int(entry))
+    return ranks
+
+
 # --- Branch Stats ---
 course_stats = defaultdict(lambda: {'seats': 0, 'ranks': [], 'institutes': set()})
 
@@ -31,7 +42,7 @@ for item in data:
     course = item.get('course', '')
     if not course:
         continue
-    all_ranks = [r for rnd in ROUNDS for r in item.get('ranks', {}).get(rnd, [])]
+    all_ranks = [r for rnd in ROUNDS for r in extract_ranks(item.get('ranks', {}).get(rnd, []))]
     if all_ranks:
         course_stats[course]['seats'] += len(all_ranks)
         course_stats[course]['ranks'].extend(all_ranks)
@@ -68,7 +79,7 @@ for item in data:
     inst = item.get('institute', '')
     if not inst:
         continue
-    all_ranks = [r for rnd in ROUNDS for r in item.get('ranks', {}).get(rnd, [])]
+    all_ranks = [r for rnd in ROUNDS for r in extract_ranks(item.get('ranks', {}).get(rnd, []))]
     if all_ranks:
         inst_stats[inst]['totalSeats'] += len(all_ranks)
         inst_stats[inst]['courses'].add(item.get('course', ''))
